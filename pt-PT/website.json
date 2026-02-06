@@ -1,1 +1,24 @@
-{}
+{
+  "loading": "Loading...",
+  "maintenance": {
+    "title": "Under Maintenance",
+    "description": "We're improving the BoxMine experience. We'll be back soon with new features."
+  },
+  "client": {
+    "dashboard": {
+      "welcome": "Welcome back to BoxMine",
+      "coins": "Account Coins",
+      "servers": "Active Servers",
+      "invoices": "Pending Invoices"
+    }
+  },
+  "titles": {
+    "dashboard": "Dashboard"
+  },
+  "global": {
+    "contact": "Contact us",
+    "help": "Need urgent help?",
+    "view_all": "View All",
+    "databases": "Databases"
+  }
+}
