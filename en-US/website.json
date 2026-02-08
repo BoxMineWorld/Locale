@@ -13,12 +13,21 @@
     }
   },
   "titles": {
-    "dashboard": "Dashboard"
+    "dashboard": "Dashboard",
+    "databases": "Databases",
+    "general": "GENERAL",
+    "servers": "Servers",
+    "credits": "Credits",
+    "afk": "Afk",
+    "features": "Features",
+    "limits": "Limits",
+    "documentation": "Documentation"
   },
   "global": {
     "contact": "Contact us",
     "help": "Need urgent help?",
     "view_all": "View All",
-    "databases": "Databases"
+    "logout": "Logout",
+    "loading": "Loading..."
   }
 }
