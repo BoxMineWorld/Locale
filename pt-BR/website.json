@@ -10,6 +10,504 @@
       "coins": "Account Coins",
       "servers": "Active Servers",
       "invoices": "Pending Invoices"
+    },
+    "features": {
+      "subtitle": "Track our roadmap and submit feature requests",
+      "tabs": {
+        "roadmap": "Roadmap",
+        "requests": "Feature Requests"
+      },
+      "create": "Create Request",
+      "roadmap": {
+        "planned": "Planned",
+        "inProgress": "In Progress",
+        "completed": "Completed",
+        "empty": "No items yet"
+      },
+      "requests": {
+        "title": "All Feature Requests",
+        "sortVotes": "Most Voted",
+        "sortNewest": "Newest"
+      },
+      "card": {
+        "votes": "Votes",
+        "comments": "Comments"
+      }
+    },
+    "afk": {
+      "title": "AFK Coin",
+      "subtitle": "You are generating coins!",
+      "alreadyFarmingTitle": "⚠️ You are already farming in another tab or window!",
+      "alreadyFarmingText": "Close the other tab to start farming here.",
+      "sessionCoins": "Session Coins Earned",
+      "nextCoinProgress": "Next Coin Progress",
+      "nextCoinText": "Next coin in",
+      "stats": {
+        "coinsPerHour": "Coins per Hour",
+        "todaysEarnings": "Today's Earnings",
+        "totalBalance": "Total Balance",
+        "timeActive": "Time Active"
+      },
+      "howItWorks": {
+        "title": "How it Works",
+        "points": [
+          "Keep this page open and active to generate coins automatically",
+          "You earn coins at the configured interval while the page is active",
+          "Your session coins are added to your balance when you disconnect",
+          "Use coins to maintain your free server or upgrade to paid plans",
+          "This helps us pay for your free server through ad revenue!"
+        ]
+      }
+    },
+    "credits": {
+      "balance": "Current Balance",
+      "buyBtn": "Buy More",
+      "transactions": {
+        "title": "Transaction History",
+        "show": "Show:",
+        "columns": {
+          "date": "Date",
+          "type": "Type",
+          "description": "Description",
+          "amount": "Amount",
+          "newBalance": "New Balance"
+        },
+        "loading": "Loading transactions...",
+        "failed": "Failed to load transactions",
+        "empty": "No transactions found",
+        "credit": "Credit",
+        "debit": "Debit"
+      },
+      "pagination": {
+        "total": "total",
+        "page": "Page",
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "buy": {
+        "title": "Select an Amount",
+        "back": "Back to Credits",
+        "package": {
+          "boxcoins": "Boxcoins",
+          "dollars": "Dollars",
+          "select": "Select"
+        },
+        "invoices": {
+          "title": "Invoices",
+          "receipt": "Need a receipt?",
+          "show": "Show:",
+          "tabs": {
+            "paid": "Paid",
+            "pending": "Pending",
+            "expired": "Expired",
+            "refunded": "Refunded"
+          },
+          "empty": "No {status} invoices",
+          "loading": "Loading invoices...",
+          "failed": "Failed to load invoices",
+          "payNow": "Pay Now"
+        },
+        "dialog": {
+          "confirmTitle": "Confirm Purchase",
+          "details": "You are about to purchase",
+          "for": "for",
+          "cancel": "Cancel",
+          "processing": "Processing..."
+        }
+      }
+    },
+    "limits": {
+      "description": "Purchase additional capacity for your servers, databases, and proxies.",
+      "coins": "Your Coins",
+      "current": "Current:",
+      "servers": "Servers",
+      "databases": "Databases",
+      "proxies": "Proxies",
+      "buy": {
+        "slot": "slot",
+        "slots": "slots",
+        "coins": "coins"
+      },
+      "empty": {
+        "servers": "No server limits available",
+        "databases": "No database limits available",
+        "proxies": "No proxy limits available"
+      },
+      "dialog": {
+        "confirmTitle": "Confirm Purchase",
+        "cancel": "Cancel",
+        "purchase": "Purchase",
+        "processing": "Processing..."
+      }
+    },
+    "apiKeys": {
+      "title": "API Keys",
+      "subtitle": "Manage keys and permissions for API access",
+      "newKey": "New API Key",
+      "noKeys": "No API keys created yet",
+      "created": "Created",
+      "lastUsed": "Last used",
+      "never": "Never",
+      "permissions": "Permissions",
+      "fullAccess": "Full Access",
+      "scopes": "scopes",
+      "createdTitle": "API Key Created",
+      "createTitle": "Create API Key",
+      "warning": "Make sure to copy your API key now. You won't be able to see it again!",
+      "done": "Done",
+      "form": {
+        "nameLabel": "Name",
+        "namePlaceholder": "e.g. CI/CD Pipeline",
+        "permissionsLabel": "Permissions",
+        "cancel": "Cancel",
+        "create": "Create"
+      },
+      "messages": {
+        "createSuccess": "API Key created successfully",
+        "createFailed": "Failed to create API Key",
+        "deleteConfirm": "Are you sure you want to delete this API Key?",
+        "deleteSuccess": "API Key deleted",
+        "deleteFailed": "Failed to delete API Key"
+      }
+    },
+    "servers": {
+      "count": "You have",
+      "countOf": "of",
+      "countServers": "servers",
+      "createBtn": "Create New Server",
+      "showAll": "Show all servers",
+      "empty": "No servers found.",
+      "createFirst": "Create your first server!",
+      "stats": {
+        "cpu": "CPU",
+        "memory": "Memory",
+        "disk": "Disk",
+        "node": "Node",
+        "unlimited": "Unlimited"
+      },
+      "goToBtn": "Go to Server",
+      "create": {
+        "title": "Create Server",
+        "back": "Back",
+        "form": {
+          "name": {
+            "label": "Server Name",
+            "placeholder": "My Server"
+          },
+          "product": {
+            "label": "Product",
+            "placeholder": "Select product..."
+          },
+          "productDetails": {
+            "title": "Product Details",
+            "noDescription": "No description"
+          },
+          "plan": {
+            "label": "Plan",
+            "placeholder": "Select plan..."
+          },
+          "planResources": {
+            "title": "Plan Resources",
+            "ram": "RAM (MB)",
+            "cpu": "CPU (%)",
+            "disk": "Disk (MB)"
+          },
+          "ports": {
+            "title": "Additional Ports (Paid)",
+            "selected": "Selected:",
+            "noPorts": "No paid ports available for this node.",
+            "extraCost": "Extra Cost:",
+            "coins": "coins"
+          },
+          "node": {
+            "label": "Node",
+            "selectFirst": "Select a product first",
+            "none": "No nodes available"
+          },
+          "egg": {
+            "label": "Egg",
+            "placeholder": "Select egg...",
+            "none": "No eggs available"
+          },
+          "actions": {
+            "cancel": "Cancel",
+            "submit": "Create Server",
+            "submitting": "Creating..."
+          }
+        },
+        "messages": {
+          "fillAll": "Please fill all fields",
+          "limitReached": "You can only select up to {max} extra ports.",
+          "created": "Server created!",
+          "failed": "Failed to create server"
+        }
+      },
+      "console": {
+        "title": "Server Console",
+        "stats": {
+          "status": "Status"
+        },
+        "power": {
+          "title": "Power Control",
+          "start": "Start",
+          "restart": "Restart",
+          "stop": "Stop",
+          "kill": "Kill"
+        },
+        "terminal": {
+          "title": "Console",
+          "connecting": "Connecting to server...",
+          "connected": "Connected to server.",
+          "lost": "[Console] Connection lost",
+          "inputPlaceholder": "Enter command...",
+          "send": "Send"
+        },
+        "status": {
+          "offline": "Offline",
+          "starting": "Starting",
+          "stopping": "Stopping",
+          "restarting": "Restarting",
+          "running": "Running"
+        },
+        "messages": {
+          "unlimited": "Unlimited",
+          "cpuLimit": "{value}% limit",
+          "memDiskLimit": "of {value} MB",
+          "actionInitiated": "Server {action} initiated",
+          "failedCommand": "[Error] Failed to send command: {error}"
+        }
+      },
+      "files": {
+        "title": "Files",
+        "toolbar": {
+          "selectAll": "Select All",
+          "upload": "Upload",
+          "download": "Download",
+          "zip": "Tar",
+          "unzip": "Unzip",
+          "delete": "Delete",
+          "new": "New",
+          "newFile": "New File",
+          "newFolder": "New Folder",
+          "rename": "Rename",
+          "move": "Move"
+        },
+        "browser": {
+          "title": "File Browser",
+          "loading": "Loading files...",
+          "empty": "Empty directory",
+          "failed": "Failed to load files"
+        },
+        "editor": {
+          "title": "File Editor",
+          "save": "Save",
+          "placeholder": "File content will appear here..."
+        },
+        "uploadModal": {
+          "title": "Upload File",
+          "dropzone": "Drop files here or click to browse",
+          "uploading": "Uploading...",
+          "cancel": "Cancel",
+          "selected": "{count} file(s) selected"
+        },
+        "messages": {
+          "loadFailed": "Failed to load files",
+          "deleteConfirmSingle": "Delete this {type}? This cannot be undone.",
+          "deleteConfirmMultiple": "Delete {count} item(s)? This cannot be undone.",
+          "deletedSingle": "{type} deleted",
+          "deletedMultiple": "{count} items deleted",
+          "deleteFailed": "Failed to delete",
+          "downloading": "Downloading file...",
+          "downloaded": "File downloaded",
+          "downloadFailed": "Failed to download file",
+          "promptNewName": "New name:",
+          "renamed": "Renamed successfully",
+          "renameFailed": "Failed to rename",
+          "promptMove": "Enter new path/name:",
+          "moved": "File moved",
+          "moveFailed": "Failed to move file",
+          "promptArchiveName": "Archive name:",
+          "defaultArchiveName": "archive.tar",
+          "creatingArchive": "Creating archive...",
+          "archiveCreated": "Archive created",
+          "archiveFailed": "Failed to create archive",
+          "promptExtract": "Extract to:",
+          "extracting": "Extracting archive...",
+          "extracted": "Archive extracted",
+          "extractFailed": "Failed to extract archive",
+          "promptFolderName": "Folder name:",
+          "folderCreated": "Folder created",
+          "folderFailed": "Failed to create folder",
+          "promptFileName": "File name:",
+          "fileCreated": "File created",
+          "fileFailed": "Failed to create file",
+          "uploadFailed": "Failed to upload {name}",
+          "uploaded": "{count} file(s) uploaded",
+          "fileSaved": "File saved",
+          "saveFailed": "Failed to save"
+        }
+      },
+      "network": {
+        "title": "Server Network",
+        "monitor": {
+          "title": "Live Network Monitor",
+          "inbound": "Inbound Traffic",
+          "outbound": "Outbound Traffic",
+          "players": "Players"
+        },
+        "allocations": {
+          "title": "Allocations",
+          "loading": "Loading...",
+          "requestPort": "Request Additional Port",
+          "primary": "Primary",
+          "extra": "Extra",
+          "release": "Release",
+          "confirmRelease": "Are you sure you want to release this port?",
+          "releaseFailed": "Failed to release port",
+          "confirmRequest": "Request additional port? Coins will be deducted.",
+          "requestFailed": "Failed to allocate port"
+        },
+        "limits": {
+          "title": "Network Limits",
+          "maxConnections": "Max Connections",
+          "maxRequests": "Max Requests/s",
+          "maxBandwidth": "Max Bandwidth (MB)",
+          "rateLimitBurst": "Rate Limit Burst",
+          "unlimited": "Unlimited",
+          "save": "Save Changes",
+          "saving": "Saving...",
+          "saved": "Settings saved successfully",
+          "saveFailed": "Failed to save settings",
+          "saveError": "Error saving settings"
+        },
+        "firewall": {
+          "title": "Firewall",
+          "allowedIps": "Allowed IPs (Allow List)",
+          "blockedIps": "Blocked IPs (Block List)",
+          "add": "Add",
+          "save": "Save Firewall Rules",
+          "saved": "Firewall rules saved successfully"
+        }
+      },
+      "settings": {
+        "title": "Settings",
+        "information": {
+          "title": "Server Information",
+          "id": "Server ID",
+          "name": "Server Name",
+          "connection": "Connection Address",
+          "loading": "Loading...",
+          "copy": "Copy",
+          "save": "Save Changes",
+          "saving": "Saving...",
+          "saved": "Server name updated",
+          "saveFailed": "Failed to update",
+          "copied": "Copied to clipboard"
+        },
+        "sftp": {
+          "title": "SFTP Details",
+          "address": "Server Address",
+          "launch": "Launch",
+          "username": "Username",
+          "password": "Password",
+          "show": "Show",
+          "hide": "Hide",
+          "rotate": "Rotate Password",
+          "rotating": "Rotating...",
+          "confirmRotate": "Are you sure? This will disconnect current SFTP sessions.",
+          "rotated": "SFTP Password Rotated",
+          "rotateFailed": "Failed to rotate password"
+        },
+        "details": {
+          "title": "Server Details",
+          "node": "Node",
+          "egg": "Egg",
+          "ram": "RAM",
+          "cpu": "CPU",
+          "disk": "Disk",
+          "status": "Status",
+          "unlimited": "Unlimited"
+        },
+        "maintenance": {
+          "title": "Maintenance",
+          "description": "Reinstalling will re-run the install script and may overwrite files.",
+          "reinstall": "Reinstall Server",
+          "reinstalling": "Reinstalling...",
+          "confirmReinstall": "Are you sure you want to reinstall this server? This may overwrite existing files.",
+          "reinstalled": "Server reinstallation started",
+          "reinstallFailed": "Failed to reinstall"
+        },
+        "danger": {
+          "title": "Danger Zone",
+          "description": "Deleting this server will permanently remove all files and data. This action cannot be undone.",
+          "delete": "Delete Server",
+          "deleting": "Deleting...",
+          "confirmDelete": "Are you sure you want to delete this server? This action cannot be undone!",
+          "deleted": "Server deleted",
+          "deleteFailed": "Failed to delete"
+        }
+      },
+      "startup": {
+        "title": "Startup",
+        "docker": {
+          "title": "Docker Image",
+          "loading": "Loading..."
+        },
+        "variables": {
+          "title": "Variables",
+          "save": "Save Changes",
+          "saving": "Saving...",
+          "loading": "Loading variables...",
+          "empty": "No variables available",
+          "saved": "Startup configuration saved",
+          "saveFailed": "Failed to save"
+        }
+      },
+      "users": {
+        "title": "Server Users",
+        "list": {
+          "title": "Users",
+          "add": "Add User",
+          "loading": "Loading...",
+          "empty": "No users found.",
+          "error": "Error: {message}",
+          "loadFailed": "Failed to load users.",
+          "remove": "Remove",
+          "edit": "Edit"
+        },
+        "addModal": {
+          "title": "Add User",
+          "emailPlaceholder": "Email or User ID",
+          "console": "Console",
+          "power": "Power",
+          "files": "Files",
+          "settings": "Settings",
+          "network": "Network",
+          "users": "Manage Users",
+          "cancel": "Cancel",
+          "add": "Add",
+          "failed": "Failed to add user",
+          "success": "User added"
+        },
+        "editModal": {
+          "title": "Edit Permissions",
+          "console": "Console",
+          "power": "Power",
+          "files": "Files",
+          "settings": "Settings",
+          "network": "Network",
+          "users": "Manage Users",
+          "cancel": "Cancel",
+          "save": "Save",
+          "failed": "Failed to update permissions",
+          "success": "Permissions saved"
+        },
+        "remove": {
+          "confirm": "Are you sure you want to remove this user?",
+          "failed": "Failed to remove user",
+          "success": "User removed"
+        }
+      }
     }
   },
   "titles": {
@@ -21,6 +519,7 @@
     "afk": "Afk",
     "features": "Features",
     "limits": "Limits",
+    "apiKeys": "API Keys",
     "documentation": "Documentation"
   },
   "global": {
