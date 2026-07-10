@@ -5,6 +5,40 @@
     "description": "We're improving the BoxMine experience. We'll be back soon with new features."
   },
   "client": {
+    "auth": {
+      "signIn": {
+        "title": "Welcome",
+        "subtitle": "Sign in to your account",
+        "emailLabel": "Email",
+        "passwordLabel": "Password",
+        "passwordPlaceholder": "Your password",
+        "rememberMe": "Remember me",
+        "forgotPassword": "Forgot your password?",
+        "submit": "Sign In",
+        "orContinueWith": "Or continue with",
+        "noAccount": "Don't have an account?",
+        "signUpHere": "Sign up here",
+        "invalidCredentials": "Invalid credentials"
+      },
+      "signUp": {
+        "title": "Create Account",
+        "subtitle": "Sign up to get started",
+        "usernameLabel": "Username",
+        "usernamePlaceholder": "username",
+        "emailLabel": "Email",
+        "passwordLabel": "Password",
+        "passwordPlaceholder": "Your password",
+        "repeatPasswordLabel": "Repeat Password",
+        "repeatPasswordPlaceholder": "Repeat your password",
+        "submit": "Sign Up",
+        "orContinueWith": "Or continue with",
+        "haveAccount": "Already have an account?",
+        "logInHere": "Log in here",
+        "passwordsNoMatch": "Passwords do not match",
+        "passwordTooShort": "Password must be at least 8 characters",
+        "createFailed": "Could not create account"
+      }
+    },
     "dashboard": {
       "welcome": "Welcome back to BoxMine",
       "coins": "Account Coins",
@@ -32,6 +66,93 @@
       "card": {
         "votes": "Votes",
         "comments": "Comments"
+      },
+      "toolbar": {
+        "linkTitle": "Insert link",
+        "linkPlaceholder": "https://example.com",
+        "imageTitle": "Insert image",
+        "imagePlaceholder": "https://example.com/image.png"
+      },
+      "messages": {
+        "voteFailed": "Failed to update vote",
+        "loadFailed": "Failed to load feature details",
+        "commentFailed": "Failed to post comment",
+        "commentDeleted": "Comment deleted",
+        "commentDeleteFailed": "Failed to delete comment",
+        "fillAllFields": "Please fill in all fields",
+        "captchaRequired": "Please complete the security check",
+        "created": "Feature request created!",
+        "createFailed": "Failed to create request",
+        "updated": "Feature request updated!",
+        "updateFailed": "Failed to update",
+        "statusUpdated": "Status updated",
+        "statusUpdateFailed": "Failed to update status",
+        "postDeleted": "Post deleted",
+        "postDeleteFailed": "Failed to delete post"
+      },
+      "confirm": {
+        "deleteCommentTitle": "Delete comment",
+        "deleteCommentMessage": "Are you sure you want to delete this comment?",
+        "deletePostTitle": "Delete post",
+        "deletePostMessage": "Are you sure you want to delete this post?",
+        "deleteLabel": "Delete"
+      },
+      "table": {
+        "title": "Title",
+        "status": "Status",
+        "author": "Author",
+        "comments": "Comments",
+        "empty": "No feature requests yet",
+        "yourRequest": "Your Request",
+        "unknown": "Unknown"
+      },
+      "pagination": {
+        "previous": "Previous",
+        "next": "Next",
+        "page": "Page {current} of {total}"
+      },
+      "status": {
+        "inReview": "In Review",
+        "planned": "Planned",
+        "inProgress": "In Progress",
+        "completed": "Completed",
+        "rejected": "Rejected"
+      },
+      "createModal": {
+        "title": "Create Feature Request",
+        "subtitle": "Share your idea with the community",
+        "titleLabel": "Title",
+        "titlePlaceholder": "Brief title for your feature request",
+        "descriptionLabel": "Description",
+        "descriptionPlaceholder": "Describe your feature request in detail...",
+        "helpText": "Supports **bold**, *italic*, [links](url), and ![images](url)",
+        "cancel": "Cancel",
+        "submitting": "Submitting...",
+        "submit": "Submit"
+      },
+      "editModal": {
+        "title": "Edit Feature Request",
+        "subtitle": "Update your feature request",
+        "cancel": "Cancel",
+        "saving": "Saving...",
+        "save": "Save Changes"
+      },
+      "detail": {
+        "back": "Back",
+        "defaultTitle": "Feature Details",
+        "activity": "Activity",
+        "internalComment": "Internal comment",
+        "commentPlaceholder": "Write a comment...",
+        "send": "Send",
+        "noComments": "No comments yet",
+        "internal": "Internal",
+        "managePost": "Manage Post",
+        "upvoters": "Upvoters",
+        "board": "Board",
+        "boardValue": "Feature Request",
+        "deletePost": "Delete Post",
+        "date": "Date",
+        "author": "Author"
       }
     },
     "afk": {
@@ -242,6 +363,79 @@
           "failed": "Failed to create server"
         }
       },
+      "activity": {
+        "title": "Activity",
+        "subtitle": "The last 100 actions taken on this server, and by whom.",
+        "loading": "Loading…",
+        "empty": "No activity yet.",
+        "system": "System",
+        "actions": {
+          "fileDelete": "Deleted",
+          "fileWrite": "Edited",
+          "fileRename": "Renamed",
+          "fileUpload": "Uploaded",
+          "fileMove": "Moved",
+          "fileFolder": "Created folder",
+          "backupCreate": "Created backup",
+          "backupDelete": "Deleted backup",
+          "backupRestore": "Restored backup",
+          "scheduleCreate": "Created schedule",
+          "scheduleDelete": "Deleted schedule",
+          "scheduleRun": "Ran schedule",
+          "scheduleTaskAdd": "Added schedule task",
+          "scheduleTaskRemove": "Removed schedule task",
+          "userAdd": "Added collaborator",
+          "userEdit": "Updated collaborator permissions",
+          "userRemove": "Removed collaborator",
+          "powerStart": "Started",
+          "powerStop": "Stopped",
+          "powerRestart": "Restarted",
+          "powerKill": "Killed"
+        }
+      },
+      "backups": {
+        "title": "Backups",
+        "subtitle": "Compressed (.tar.gz) snapshots of your server, stored off-volume.",
+        "newBtn": "New backup",
+        "working": "Working…",
+        "loading": "Loading…",
+        "empty": {
+          "title": "No backups yet.",
+          "subtitle": "Create one to snapshot the current server files."
+        },
+        "pending": "pending",
+        "actions": {
+          "restore": "Restore",
+          "download": "Download",
+          "delete": "Delete"
+        },
+        "createModal": {
+          "title": "New backup",
+          "message": "Give this backup a name, or leave it blank to use a timestamp.",
+          "placeholder": "Backup name (optional)",
+          "confirm": "Create"
+        },
+        "deleteModal": {
+          "title": "Delete backup",
+          "message": "This backup will be permanently deleted. This cannot be undone.",
+          "confirm": "Delete"
+        },
+        "restoreModal": {
+          "title": "Restore backup",
+          "message": "Current server files may be overwritten by this backup's contents.",
+          "confirm": "Restore"
+        },
+        "messages": {
+          "creating": "Creating backup…",
+          "created": "Backup created",
+          "createFailed": "Failed to create backup",
+          "deleted": "Backup deleted",
+          "deleteFailed": "Failed to delete backup",
+          "restored": "Backup restored",
+          "restoreFailed": "Failed to restore backup",
+          "downloadFailed": "Failed to download backup"
+        }
+      },
       "console": {
         "title": "Server Console",
         "stats": {
@@ -345,6 +539,49 @@
           "uploaded": "{count} file(s) uploaded",
           "fileSaved": "File saved",
           "saveFailed": "Failed to save"
+        }
+      },
+      "databases": {
+        "title": "Databases",
+        "subtitle": "MySQL databases provisioned for this server.",
+        "newBtn": "New database",
+        "creating": "Creating…",
+        "loading": "Loading…",
+        "empty": {
+          "title": "No databases yet.",
+          "subtitle": "Create one to get connection details."
+        },
+        "actions": {
+          "changePassword": "Change password",
+          "delete": "Delete",
+          "reveal": "Reveal",
+          "copy": "Copy"
+        },
+        "fields": {
+          "host": "Host",
+          "port": "Port",
+          "database": "Database",
+          "username": "Username",
+          "password": "Password"
+        },
+        "rotateModal": {
+          "title": "Rotate password",
+          "message": "Leave blank to auto-generate a new password.",
+          "placeholder": "New password (optional)"
+        },
+        "deleteModal": {
+          "title": "Delete database",
+          "message": "This database will be permanently deleted. This cannot be undone.",
+          "confirm": "Delete"
+        },
+        "messages": {
+          "created": "Database created",
+          "createFailed": "Failed to create database",
+          "deleted": "Database deleted",
+          "deleteFailed": "Failed to delete database",
+          "passwordUpdated": "Password updated",
+          "passwordUpdateFailed": "Failed to update password",
+          "copied": "Copied to clipboard"
         }
       },
       "network": {
@@ -463,6 +700,55 @@
           "saveFailed": "Failed to save"
         }
       },
+      "schedules": {
+        "newTitle": "New schedule",
+        "newSubtitle": "Automate power actions, commands and backups with cron.",
+        "namePlaceholder": "Name",
+        "cron": {
+          "minute": "min",
+          "hour": "hour",
+          "dayOfMonth": "dom",
+          "month": "mon",
+          "dayOfWeek": "dow"
+        },
+        "creating": "Creating…",
+        "create": "Create schedule",
+        "loading": "Loading…",
+        "empty": "No schedules yet.",
+        "actions": {
+          "runNow": "Run now",
+          "addTask": "Add task",
+          "delete": "Delete",
+          "removeTask": "Remove task"
+        },
+        "deleteModal": {
+          "title": "Delete schedule",
+          "message": "This schedule and its tasks will be permanently deleted.",
+          "confirm": "Delete"
+        },
+        "taskModal": {
+          "title": "Add task",
+          "subtitle": "Tasks in a schedule run in order, top to bottom.",
+          "actionLabel": "Action",
+          "powerStateLabel": "Power state",
+          "commandLabel": "Command",
+          "commandPlaceholder": "say Hello world",
+          "backupLabel": "Backup name (optional)",
+          "backupPlaceholder": "Scheduled backup",
+          "cancel": "Cancel",
+          "addTask": "Add task"
+        },
+        "messages": {
+          "nameRequired": "Enter a schedule name",
+          "created": "Schedule created",
+          "createFailed": "Failed to create schedule",
+          "deleted": "Schedule deleted",
+          "running": "Schedule running",
+          "runFailed": "Failed to run",
+          "taskAdded": "Task added",
+          "taskAddFailed": "Failed to add task"
+        }
+      },
       "users": {
         "title": "Server Users",
         "list": {
@@ -507,6 +793,71 @@
           "failed": "Failed to remove user",
           "success": "User removed"
         }
+      }
+    }
+  },
+  "admin": {
+    "coins": {
+      "title": "Coin rewards",
+      "subtitle": "Configure how many coins users earn for each event.",
+      "denied": "You don't have permission to view these settings.",
+      "loading": "Loading…",
+      "saving": "Saving…",
+      "save": "Save changes",
+      "saved": "Coin rewards saved",
+      "saveFailed": "Failed to save",
+      "fields": {
+        "register": {
+          "label": "Account registration",
+          "hint": "Coins granted when a user signs up"
+        },
+        "verifyGoogle": {
+          "label": "Google verified",
+          "hint": "When a user links/verifies Google"
+        },
+        "syncDiscord": {
+          "label": "Discord synced",
+          "hint": "When a user links their Discord"
+        },
+        "syncGithub": {
+          "label": "GitHub synced",
+          "hint": "When a user links their GitHub"
+        }
+      }
+    },
+    "databaseHosts": {
+      "denied": "You don't have permission to view database hosts.",
+      "addTitle": "Add database host",
+      "addSubtitle": "The admin credentials are used to create per-user databases and users. The password is stored encrypted.",
+      "form": {
+        "namePlaceholder": "Display name",
+        "hostPlaceholder": "Host (e.g. 127.0.0.1)",
+        "portPlaceholder": "Port",
+        "usernamePlaceholder": "Admin username",
+        "passwordPlaceholder": "Admin password",
+        "saving": "Saving…",
+        "add": "Add host"
+      },
+      "loading": "Loading…",
+      "empty": "No database hosts configured yet.",
+      "actions": {
+        "test": "Test connection",
+        "delete": "Delete"
+      },
+      "deleteModal": {
+        "title": "Delete database host",
+        "message": "This database host will be deleted. Databases on it will be orphaned.",
+        "confirm": "Delete"
+      },
+      "messages": {
+        "fieldsRequired": "Name, host and username are required",
+        "added": "Database host added",
+        "addFailed": "Failed to add host",
+        "connectionOk": "Connection OK",
+        "connectionFailed": "Connection failed",
+        "testFailed": "Test failed",
+        "deleted": "Host deleted",
+        "deleteFailed": "Failed to delete"
       }
     }
   },

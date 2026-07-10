@@ -1,532 +1,883 @@
 {
-  "loading": "Loading...",
+  "loading": "A carregar...",
   "maintenance": {
-    "title": "Under Maintenance",
-    "description": "We're improving the BoxMine experience. We'll be back soon with new features."
+    "title": "Em manutenção",
+    "description": "Estamos a melhorar a experiência do BoxMine. Voltaremos em breve com novas funcionalidades."
   },
   "client": {
+    "auth": {
+      "signIn": {
+        "title": "Bem-vindo",
+        "subtitle": "Inicia sessão na tua conta",
+        "emailLabel": "E-mail",
+        "passwordLabel": "Palavra-passe",
+        "passwordPlaceholder": "A tua palavra-passe",
+        "rememberMe": "Lembrar-me",
+        "forgotPassword": "Esqueceste-te da palavra-passe?",
+        "submit": "Iniciar sessão",
+        "orContinueWith": "Ou continua com",
+        "noAccount": "Não tens conta?",
+        "signUpHere": "Regista-te aqui",
+        "invalidCredentials": "Credenciais inválidas"
+      },
+      "signUp": {
+        "title": "Criar conta",
+        "subtitle": "Regista-te para começar",
+        "usernameLabel": "Utilizador",
+        "usernamePlaceholder": "utilizador",
+        "emailLabel": "E-mail",
+        "passwordLabel": "Palavra-passe",
+        "passwordPlaceholder": "A tua palavra-passe",
+        "repeatPasswordLabel": "Repetir palavra-passe",
+        "repeatPasswordPlaceholder": "Repete a tua palavra-passe",
+        "submit": "Registar",
+        "orContinueWith": "Ou continua com",
+        "haveAccount": "Já tens conta?",
+        "logInHere": "Inicia sessão aqui",
+        "passwordsNoMatch": "As palavras-passe não coincidem",
+        "passwordTooShort": "A palavra-passe deve ter pelo menos 8 caracteres",
+        "createFailed": "Não foi possível criar a conta"
+      }
+    },
     "dashboard": {
-      "welcome": "Welcome back to BoxMine",
-      "coins": "Account Coins",
-      "servers": "Active Servers",
-      "invoices": "Pending Invoices"
+      "welcome": "Bem-vindo de volta ao BoxMine",
+      "coins": "Moedas da conta",
+      "servers": "Servidores ativos",
+      "invoices": "Faturas pendentes"
     },
     "features": {
-      "subtitle": "Track our roadmap and submit feature requests",
+      "subtitle": "Acompanha o nosso roteiro e envia pedidos de funcionalidades",
       "tabs": {
-        "roadmap": "Roadmap",
-        "requests": "Feature Requests"
+        "roadmap": "Roteiro",
+        "requests": "Pedidos de funcionalidades"
       },
-      "create": "Create Request",
+      "create": "Criar pedido",
       "roadmap": {
-        "planned": "Planned",
-        "inProgress": "In Progress",
-        "completed": "Completed",
-        "empty": "No items yet"
+        "planned": "Planeado",
+        "inProgress": "Em curso",
+        "completed": "Concluído",
+        "empty": "Ainda não há itens"
       },
       "requests": {
-        "title": "All Feature Requests",
-        "sortVotes": "Most Voted",
-        "sortNewest": "Newest"
+        "title": "Todos os pedidos de funcionalidades",
+        "sortVotes": "Mais votados",
+        "sortNewest": "Mais recentes"
       },
       "card": {
-        "votes": "Votes",
-        "comments": "Comments"
+        "votes": "Votos",
+        "comments": "Comentários"
+      },
+      "toolbar": {
+        "linkTitle": "Inserir hiperligação",
+        "linkPlaceholder": "https://exemplo.com",
+        "imageTitle": "Inserir imagem",
+        "imagePlaceholder": "https://exemplo.com/imagem.png"
+      },
+      "messages": {
+        "voteFailed": "Não foi possível atualizar o voto",
+        "loadFailed": "Não foi possível carregar os detalhes da funcionalidade",
+        "commentFailed": "Não foi possível publicar o comentário",
+        "commentDeleted": "Comentário eliminado",
+        "commentDeleteFailed": "Não foi possível eliminar o comentário",
+        "fillAllFields": "Por favor preenche todos os campos",
+        "captchaRequired": "Por favor completa a verificação de segurança",
+        "created": "Pedido de funcionalidade criado!",
+        "createFailed": "Não foi possível criar o pedido",
+        "updated": "Pedido de funcionalidade atualizado!",
+        "updateFailed": "Não foi possível atualizar",
+        "statusUpdated": "Estado atualizado",
+        "statusUpdateFailed": "Não foi possível atualizar o estado",
+        "postDeleted": "Publicação eliminada",
+        "postDeleteFailed": "Não foi possível eliminar a publicação"
+      },
+      "confirm": {
+        "deleteCommentTitle": "Eliminar comentário",
+        "deleteCommentMessage": "Tens a certeza de que queres eliminar este comentário?",
+        "deletePostTitle": "Eliminar publicação",
+        "deletePostMessage": "Tens a certeza de que queres eliminar esta publicação?",
+        "deleteLabel": "Eliminar"
+      },
+      "table": {
+        "title": "Título",
+        "status": "Estado",
+        "author": "Autor",
+        "comments": "Comentários",
+        "empty": "Ainda não há pedidos de funcionalidades",
+        "yourRequest": "O teu pedido",
+        "unknown": "Desconhecido"
+      },
+      "pagination": {
+        "previous": "Anterior",
+        "next": "Seguinte",
+        "page": "Página {current} de {total}"
+      },
+      "status": {
+        "inReview": "Em revisão",
+        "planned": "Planeado",
+        "inProgress": "Em curso",
+        "completed": "Concluído",
+        "rejected": "Rejeitado"
+      },
+      "createModal": {
+        "title": "Criar pedido de funcionalidade",
+        "subtitle": "Partilha a tua ideia com a comunidade",
+        "titleLabel": "Título",
+        "titlePlaceholder": "Título breve para o teu pedido de funcionalidade",
+        "descriptionLabel": "Descrição",
+        "descriptionPlaceholder": "Descreve o teu pedido de funcionalidade em detalhe...",
+        "helpText": "Suporta **negrito**, *itálico*, [hiperligações](url) e ![imagens](url)",
+        "cancel": "Cancelar",
+        "submitting": "A enviar...",
+        "submit": "Enviar"
+      },
+      "editModal": {
+        "title": "Editar pedido de funcionalidade",
+        "subtitle": "Atualiza o teu pedido de funcionalidade",
+        "cancel": "Cancelar",
+        "saving": "A guardar...",
+        "save": "Guardar alterações"
+      },
+      "detail": {
+        "back": "Voltar",
+        "defaultTitle": "Detalhes da funcionalidade",
+        "activity": "Atividade",
+        "internalComment": "Comentário interno",
+        "commentPlaceholder": "Escreve um comentário...",
+        "send": "Enviar",
+        "noComments": "Ainda não há comentários",
+        "internal": "Interno",
+        "managePost": "Gerir publicação",
+        "upvoters": "Votantes",
+        "board": "Quadro",
+        "boardValue": "Pedido de funcionalidade",
+        "deletePost": "Eliminar publicação",
+        "date": "Data",
+        "author": "Autor"
       }
     },
     "afk": {
-      "title": "AFK Coin",
-      "subtitle": "You are generating coins!",
-      "alreadyFarmingTitle": "⚠️ You are already farming in another tab or window!",
-      "alreadyFarmingText": "Close the other tab to start farming here.",
-      "sessionCoins": "Session Coins Earned",
-      "nextCoinProgress": "Next Coin Progress",
-      "nextCoinText": "Next coin in",
+      "title": "Moeda AFK",
+      "subtitle": "Estás a gerar moedas!",
+      "alreadyFarmingTitle": "⚠️ Já estás a gerar moedas noutro separador ou janela!",
+      "alreadyFarmingText": "Fecha o outro separador para começares a gerar moedas aqui.",
+      "sessionCoins": "Moedas ganhas na sessão",
+      "nextCoinProgress": "Progresso até à próxima moeda",
+      "nextCoinText": "Próxima moeda em",
       "stats": {
-        "coinsPerHour": "Coins per Hour",
-        "todaysEarnings": "Today's Earnings",
-        "totalBalance": "Total Balance",
-        "timeActive": "Time Active"
+        "coinsPerHour": "Moedas por hora",
+        "todaysEarnings": "Ganhos de hoje",
+        "totalBalance": "Saldo total",
+        "timeActive": "Tempo ativo"
       },
       "howItWorks": {
-        "title": "How it Works",
+        "title": "Como funciona",
         "points": [
-          "Keep this page open and active to generate coins automatically",
-          "You earn coins at the configured interval while the page is active",
-          "Your session coins are added to your balance when you disconnect",
-          "Use coins to maintain your free server or upgrade to paid plans",
-          "This helps us pay for your free server through ad revenue!"
+          "Mantém esta página aberta e ativa para gerar moedas automaticamente",
+          "Ganhas moedas no intervalo configurado enquanto a página está ativa",
+          "As moedas da tua sessão são adicionadas ao teu saldo quando te desconectas",
+          "Usa as moedas para manter o teu servidor gratuito ou fazer upgrade para planos pagos",
+          "Isto ajuda-nos a pagar o teu servidor gratuito através de receita de publicidade!"
         ]
       }
     },
     "credits": {
-      "balance": "Current Balance",
-      "buyBtn": "Buy More",
+      "balance": "Saldo atual",
+      "buyBtn": "Comprar mais",
       "transactions": {
-        "title": "Transaction History",
-        "show": "Show:",
+        "title": "Histórico de transações",
+        "show": "Mostrar:",
         "columns": {
-          "date": "Date",
-          "type": "Type",
-          "description": "Description",
-          "amount": "Amount",
-          "newBalance": "New Balance"
+          "date": "Data",
+          "type": "Tipo",
+          "description": "Descrição",
+          "amount": "Montante",
+          "newBalance": "Novo saldo"
         },
-        "loading": "Loading transactions...",
-        "failed": "Failed to load transactions",
-        "empty": "No transactions found",
-        "credit": "Credit",
-        "debit": "Debit"
+        "loading": "A carregar transações...",
+        "failed": "Não foi possível carregar as transações",
+        "empty": "Não foram encontradas transações",
+        "credit": "Crédito",
+        "debit": "Débito"
       },
       "pagination": {
         "total": "total",
-        "page": "Page",
-        "previous": "Previous",
-        "next": "Next"
+        "page": "Página",
+        "previous": "Anterior",
+        "next": "Seguinte"
       },
       "buy": {
-        "title": "Select an Amount",
-        "back": "Back to Credits",
+        "title": "Seleciona um valor",
+        "back": "Voltar a Créditos",
         "package": {
           "boxcoins": "Boxcoins",
-          "dollars": "Dollars",
-          "select": "Select"
+          "dollars": "Dólares",
+          "select": "Selecionar"
         },
         "invoices": {
-          "title": "Invoices",
-          "receipt": "Need a receipt?",
-          "show": "Show:",
+          "title": "Faturas",
+          "receipt": "Precisas de um recibo?",
+          "show": "Mostrar:",
           "tabs": {
-            "paid": "Paid",
-            "pending": "Pending",
-            "expired": "Expired",
-            "refunded": "Refunded"
+            "paid": "Pagas",
+            "pending": "Pendentes",
+            "expired": "Expiradas",
+            "refunded": "Reembolsadas"
           },
-          "empty": "No {status} invoices",
-          "loading": "Loading invoices...",
-          "failed": "Failed to load invoices",
-          "payNow": "Pay Now"
+          "empty": "Não há faturas {status}",
+          "loading": "A carregar faturas...",
+          "failed": "Não foi possível carregar as faturas",
+          "payNow": "Pagar agora"
         },
         "dialog": {
-          "confirmTitle": "Confirm Purchase",
-          "details": "You are about to purchase",
-          "for": "for",
-          "cancel": "Cancel",
-          "processing": "Processing..."
+          "confirmTitle": "Confirmar compra",
+          "details": "Estás prestes a comprar",
+          "for": "por",
+          "cancel": "Cancelar",
+          "processing": "A processar..."
         }
       }
     },
     "limits": {
-      "description": "Purchase additional capacity for your servers, databases, and proxies.",
-      "coins": "Your Coins",
-      "current": "Current:",
-      "servers": "Servers",
-      "databases": "Databases",
+      "description": "Compra capacidade adicional para os teus servidores, bases de dados e proxies.",
+      "coins": "As tuas moedas",
+      "current": "Atual:",
+      "servers": "Servidores",
+      "databases": "Bases de dados",
       "proxies": "Proxies",
       "buy": {
-        "slot": "slot",
-        "slots": "slots",
-        "coins": "coins"
+        "slot": "vaga",
+        "slots": "vagas",
+        "coins": "moedas"
       },
       "empty": {
-        "servers": "No server limits available",
-        "databases": "No database limits available",
-        "proxies": "No proxy limits available"
+        "servers": "Não há limites de servidores disponíveis",
+        "databases": "Não há limites de bases de dados disponíveis",
+        "proxies": "Não há limites de proxies disponíveis"
       },
       "dialog": {
-        "confirmTitle": "Confirm Purchase",
-        "cancel": "Cancel",
-        "purchase": "Purchase",
-        "processing": "Processing..."
+        "confirmTitle": "Confirmar compra",
+        "cancel": "Cancelar",
+        "purchase": "Comprar",
+        "processing": "A processar..."
       }
     },
     "apiKeys": {
-      "title": "API Keys",
-      "subtitle": "Manage keys and permissions for API access",
-      "newKey": "New API Key",
-      "noKeys": "No API keys created yet",
-      "created": "Created",
-      "lastUsed": "Last used",
-      "never": "Never",
-      "permissions": "Permissions",
-      "fullAccess": "Full Access",
-      "scopes": "scopes",
-      "createdTitle": "API Key Created",
-      "createTitle": "Create API Key",
-      "warning": "Make sure to copy your API key now. You won't be able to see it again!",
-      "done": "Done",
+      "title": "Chaves de API",
+      "subtitle": "Gere chaves e permissões para acesso à API",
+      "newKey": "Nova chave de API",
+      "noKeys": "Ainda não foram criadas chaves de API",
+      "created": "Criada",
+      "lastUsed": "Última utilização",
+      "never": "Nunca",
+      "permissions": "Permissões",
+      "fullAccess": "Acesso total",
+      "scopes": "âmbitos",
+      "createdTitle": "Chave de API criada",
+      "createTitle": "Criar chave de API",
+      "warning": "Certifica-te de que copias a tua chave de API agora. Não a voltarás a ver!",
+      "done": "Concluído",
       "form": {
-        "nameLabel": "Name",
-        "namePlaceholder": "e.g. CI/CD Pipeline",
-        "permissionsLabel": "Permissions",
-        "cancel": "Cancel",
-        "create": "Create"
+        "nameLabel": "Nome",
+        "namePlaceholder": "p. ex. Pipeline de CI/CD",
+        "permissionsLabel": "Permissões",
+        "cancel": "Cancelar",
+        "create": "Criar"
       },
       "messages": {
-        "createSuccess": "API Key created successfully",
-        "createFailed": "Failed to create API Key",
-        "deleteConfirm": "Are you sure you want to delete this API Key?",
-        "deleteSuccess": "API Key deleted",
-        "deleteFailed": "Failed to delete API Key"
+        "createSuccess": "Chave de API criada com sucesso",
+        "createFailed": "Não foi possível criar a chave de API",
+        "deleteConfirm": "Tens a certeza de que queres eliminar esta chave de API?",
+        "deleteSuccess": "Chave de API eliminada",
+        "deleteFailed": "Não foi possível eliminar a chave de API"
       }
     },
     "servers": {
-      "count": "You have",
-      "countOf": "of",
-      "countServers": "servers",
-      "createBtn": "Create New Server",
-      "showAll": "Show all servers",
-      "empty": "No servers found.",
-      "createFirst": "Create your first server!",
+      "count": "Tens",
+      "countOf": "de",
+      "countServers": "servidores",
+      "createBtn": "Criar novo servidor",
+      "showAll": "Mostrar todos os servidores",
+      "empty": "Não foram encontrados servidores.",
+      "createFirst": "Cria o teu primeiro servidor!",
       "stats": {
         "cpu": "CPU",
-        "memory": "Memory",
-        "disk": "Disk",
-        "node": "Node",
-        "unlimited": "Unlimited"
+        "memory": "Memória",
+        "disk": "Disco",
+        "node": "Nó",
+        "unlimited": "Ilimitado"
       },
-      "goToBtn": "Go to Server",
+      "goToBtn": "Ir para o servidor",
       "create": {
-        "title": "Create Server",
-        "back": "Back",
+        "title": "Criar servidor",
+        "back": "Voltar",
         "form": {
           "name": {
-            "label": "Server Name",
-            "placeholder": "My Server"
+            "label": "Nome do servidor",
+            "placeholder": "O meu servidor"
           },
           "product": {
-            "label": "Product",
-            "placeholder": "Select product..."
+            "label": "Produto",
+            "placeholder": "Seleciona um produto..."
           },
           "productDetails": {
-            "title": "Product Details",
-            "noDescription": "No description"
+            "title": "Detalhes do produto",
+            "noDescription": "Sem descrição"
           },
           "plan": {
-            "label": "Plan",
-            "placeholder": "Select plan..."
+            "label": "Plano",
+            "placeholder": "Seleciona um plano..."
           },
           "planResources": {
-            "title": "Plan Resources",
+            "title": "Recursos do plano",
             "ram": "RAM (MB)",
             "cpu": "CPU (%)",
-            "disk": "Disk (MB)"
+            "disk": "Disco (MB)"
           },
           "ports": {
-            "title": "Additional Ports (Paid)",
-            "selected": "Selected:",
-            "noPorts": "No paid ports available for this node.",
-            "extraCost": "Extra Cost:",
-            "coins": "coins"
+            "title": "Portas adicionais (pagas)",
+            "selected": "Selecionadas:",
+            "noPorts": "Não há portas pagas disponíveis para este nó.",
+            "extraCost": "Custo extra:",
+            "coins": "moedas"
           },
           "node": {
-            "label": "Node",
-            "selectFirst": "Select a product first",
-            "none": "No nodes available"
+            "label": "Nó",
+            "selectFirst": "Seleciona primeiro um produto",
+            "none": "Não há nós disponíveis"
           },
           "egg": {
             "label": "Egg",
-            "placeholder": "Select egg...",
-            "none": "No eggs available"
+            "placeholder": "Seleciona um egg...",
+            "none": "Não há eggs disponíveis"
           },
           "actions": {
-            "cancel": "Cancel",
-            "submit": "Create Server",
-            "submitting": "Creating..."
+            "cancel": "Cancelar",
+            "submit": "Criar servidor",
+            "submitting": "A criar..."
           }
         },
         "messages": {
-          "fillAll": "Please fill all fields",
-          "limitReached": "You can only select up to {max} extra ports.",
-          "created": "Server created!",
-          "failed": "Failed to create server"
+          "fillAll": "Por favor preenche todos os campos",
+          "limitReached": "Só podes selecionar até {max} portas adicionais.",
+          "created": "Servidor criado!",
+          "failed": "Não foi possível criar o servidor"
+        }
+      },
+      "activity": {
+        "title": "Atividade",
+        "subtitle": "As últimas 100 ações realizadas neste servidor, e por quem.",
+        "loading": "A carregar…",
+        "empty": "Ainda não há atividade.",
+        "system": "Sistema",
+        "actions": {
+          "fileDelete": "Eliminou",
+          "fileWrite": "Editou",
+          "fileRename": "Mudou o nome",
+          "fileUpload": "Carregou",
+          "fileMove": "Moveu",
+          "fileFolder": "Criou pasta",
+          "backupCreate": "Criou cópia de segurança",
+          "backupDelete": "Eliminou cópia de segurança",
+          "backupRestore": "Restaurou cópia de segurança",
+          "scheduleCreate": "Criou agendamento",
+          "scheduleDelete": "Eliminou agendamento",
+          "scheduleRun": "Executou agendamento",
+          "scheduleTaskAdd": "Adicionou tarefa ao agendamento",
+          "scheduleTaskRemove": "Removeu tarefa do agendamento",
+          "userAdd": "Adicionou colaborador",
+          "userEdit": "Atualizou permissões do colaborador",
+          "userRemove": "Removeu colaborador",
+          "powerStart": "Iniciou",
+          "powerStop": "Parou",
+          "powerRestart": "Reiniciou",
+          "powerKill": "Forçou o encerramento"
+        }
+      },
+      "backups": {
+        "title": "Cópias de segurança",
+        "subtitle": "Instantâneos comprimidos (.tar.gz) do teu servidor, guardados fora do volume.",
+        "newBtn": "Nova cópia de segurança",
+        "working": "A processar…",
+        "loading": "A carregar…",
+        "empty": {
+          "title": "Ainda não há cópias de segurança.",
+          "subtitle": "Cria uma para capturar os ficheiros atuais do servidor."
+        },
+        "pending": "pendente",
+        "actions": {
+          "restore": "Restaurar",
+          "download": "Descarregar",
+          "delete": "Eliminar"
+        },
+        "createModal": {
+          "title": "Nova cópia de segurança",
+          "message": "Dá um nome a esta cópia de segurança, ou deixa em branco para usar uma data/hora.",
+          "placeholder": "Nome da cópia (opcional)",
+          "confirm": "Criar"
+        },
+        "deleteModal": {
+          "title": "Eliminar cópia de segurança",
+          "message": "Esta cópia de segurança será eliminada permanentemente. Isto não pode ser revertido.",
+          "confirm": "Eliminar"
+        },
+        "restoreModal": {
+          "title": "Restaurar cópia de segurança",
+          "message": "Os ficheiros atuais do servidor podem ser substituídos pelo conteúdo desta cópia.",
+          "confirm": "Restaurar"
+        },
+        "messages": {
+          "creating": "A criar cópia de segurança…",
+          "created": "Cópia de segurança criada",
+          "createFailed": "Não foi possível criar a cópia de segurança",
+          "deleted": "Cópia de segurança eliminada",
+          "deleteFailed": "Não foi possível eliminar a cópia de segurança",
+          "restored": "Cópia de segurança restaurada",
+          "restoreFailed": "Não foi possível restaurar a cópia de segurança",
+          "downloadFailed": "Não foi possível descarregar a cópia de segurança"
         }
       },
       "console": {
-        "title": "Server Console",
+        "title": "Consola do servidor",
         "stats": {
-          "status": "Status"
+          "status": "Estado"
         },
         "power": {
-          "title": "Power Control",
-          "start": "Start",
-          "restart": "Restart",
-          "stop": "Stop",
-          "kill": "Kill"
+          "title": "Controlo de energia",
+          "start": "Iniciar",
+          "restart": "Reiniciar",
+          "stop": "Parar",
+          "kill": "Forçar encerramento"
         },
         "terminal": {
-          "title": "Console",
-          "connecting": "Connecting to server...",
-          "connected": "Connected to server.",
-          "lost": "[Console] Connection lost",
-          "inputPlaceholder": "Enter command...",
-          "send": "Send"
+          "title": "Consola",
+          "connecting": "A ligar ao servidor...",
+          "connected": "Ligado ao servidor.",
+          "lost": "[Consola] Ligação perdida",
+          "inputPlaceholder": "Introduz um comando...",
+          "send": "Enviar"
         },
         "status": {
           "offline": "Offline",
-          "starting": "Starting",
-          "stopping": "Stopping",
-          "restarting": "Restarting",
-          "running": "Running"
+          "starting": "A iniciar",
+          "stopping": "A parar",
+          "restarting": "A reiniciar",
+          "running": "Em execução"
         },
         "messages": {
-          "unlimited": "Unlimited",
-          "cpuLimit": "{value}% limit",
-          "memDiskLimit": "of {value} MB",
-          "actionInitiated": "Server {action} initiated",
-          "failedCommand": "[Error] Failed to send command: {error}"
+          "unlimited": "Ilimitado",
+          "cpuLimit": "limite de {value}%",
+          "memDiskLimit": "de {value} MB",
+          "actionInitiated": "Ação do servidor {action} iniciada",
+          "failedCommand": "[Erro] Não foi possível enviar o comando: {error}"
         }
       },
       "files": {
-        "title": "Files",
+        "title": "Ficheiros",
         "toolbar": {
-          "selectAll": "Select All",
-          "upload": "Upload",
-          "download": "Download",
-          "zip": "Tar",
-          "unzip": "Unzip",
-          "delete": "Delete",
-          "new": "New",
-          "newFile": "New File",
-          "newFolder": "New Folder",
-          "rename": "Rename",
-          "move": "Move"
+          "selectAll": "Selecionar tudo",
+          "upload": "Carregar",
+          "download": "Descarregar",
+          "zip": "Compactar",
+          "unzip": "Descompactar",
+          "delete": "Eliminar",
+          "new": "Novo",
+          "newFile": "Novo ficheiro",
+          "newFolder": "Nova pasta",
+          "rename": "Mudar o nome",
+          "move": "Mover"
         },
         "browser": {
-          "title": "File Browser",
-          "loading": "Loading files...",
-          "empty": "Empty directory",
-          "failed": "Failed to load files"
+          "title": "Explorador de ficheiros",
+          "loading": "A carregar ficheiros...",
+          "empty": "Diretório vazio",
+          "failed": "Não foi possível carregar os ficheiros"
         },
         "editor": {
-          "title": "File Editor",
-          "save": "Save",
-          "placeholder": "File content will appear here..."
+          "title": "Editor de ficheiros",
+          "save": "Guardar",
+          "placeholder": "O conteúdo do ficheiro aparecerá aqui..."
         },
         "uploadModal": {
-          "title": "Upload File",
-          "dropzone": "Drop files here or click to browse",
-          "uploading": "Uploading...",
-          "cancel": "Cancel",
-          "selected": "{count} file(s) selected"
+          "title": "Carregar ficheiro",
+          "dropzone": "Arrasta ficheiros para aqui ou clica para procurar",
+          "uploading": "A carregar...",
+          "cancel": "Cancelar",
+          "selected": "{count} ficheiro(s) selecionado(s)"
         },
         "messages": {
-          "loadFailed": "Failed to load files",
-          "deleteConfirmSingle": "Delete this {type}? This cannot be undone.",
-          "deleteConfirmMultiple": "Delete {count} item(s)? This cannot be undone.",
-          "deletedSingle": "{type} deleted",
-          "deletedMultiple": "{count} items deleted",
-          "deleteFailed": "Failed to delete",
-          "downloading": "Downloading file...",
-          "downloaded": "File downloaded",
-          "downloadFailed": "Failed to download file",
-          "promptNewName": "New name:",
-          "renamed": "Renamed successfully",
-          "renameFailed": "Failed to rename",
-          "promptMove": "Enter new path/name:",
-          "moved": "File moved",
-          "moveFailed": "Failed to move file",
-          "promptArchiveName": "Archive name:",
-          "defaultArchiveName": "archive.tar",
-          "creatingArchive": "Creating archive...",
-          "archiveCreated": "Archive created",
-          "archiveFailed": "Failed to create archive",
-          "promptExtract": "Extract to:",
-          "extracting": "Extracting archive...",
-          "extracted": "Archive extracted",
-          "extractFailed": "Failed to extract archive",
-          "promptFolderName": "Folder name:",
-          "folderCreated": "Folder created",
-          "folderFailed": "Failed to create folder",
-          "promptFileName": "File name:",
-          "fileCreated": "File created",
-          "fileFailed": "Failed to create file",
-          "uploadFailed": "Failed to upload {name}",
-          "uploaded": "{count} file(s) uploaded",
-          "fileSaved": "File saved",
-          "saveFailed": "Failed to save"
+          "loadFailed": "Não foi possível carregar os ficheiros",
+          "deleteConfirmSingle": "Eliminar este {type}? Isto não pode ser revertido.",
+          "deleteConfirmMultiple": "Eliminar {count} item(ns)? Isto não pode ser revertido.",
+          "deletedSingle": "{type} eliminado",
+          "deletedMultiple": "{count} itens eliminados",
+          "deleteFailed": "Não foi possível eliminar",
+          "downloading": "A descarregar ficheiro...",
+          "downloaded": "Ficheiro descarregado",
+          "downloadFailed": "Não foi possível descarregar o ficheiro",
+          "promptNewName": "Novo nome:",
+          "renamed": "Nome alterado com sucesso",
+          "renameFailed": "Não foi possível mudar o nome",
+          "promptMove": "Introduz o novo caminho/nome:",
+          "moved": "Ficheiro movido",
+          "moveFailed": "Não foi possível mover o ficheiro",
+          "promptArchiveName": "Nome do arquivo comprimido:",
+          "defaultArchiveName": "arquivo.tar",
+          "creatingArchive": "A criar arquivo comprimido...",
+          "archiveCreated": "Arquivo comprimido criado",
+          "archiveFailed": "Não foi possível criar o arquivo comprimido",
+          "promptExtract": "Extrair para:",
+          "extracting": "A extrair arquivo comprimido...",
+          "extracted": "Arquivo comprimido extraído",
+          "extractFailed": "Não foi possível extrair o arquivo comprimido",
+          "promptFolderName": "Nome da pasta:",
+          "folderCreated": "Pasta criada",
+          "folderFailed": "Não foi possível criar a pasta",
+          "promptFileName": "Nome do ficheiro:",
+          "fileCreated": "Ficheiro criado",
+          "fileFailed": "Não foi possível criar o ficheiro",
+          "uploadFailed": "Não foi possível carregar {name}",
+          "uploaded": "{count} ficheiro(s) carregado(s)",
+          "fileSaved": "Ficheiro guardado",
+          "saveFailed": "Não foi possível guardar"
+        }
+      },
+      "databases": {
+        "title": "Bases de dados",
+        "subtitle": "Bases de dados MySQL provisionadas para este servidor.",
+        "newBtn": "Nova base de dados",
+        "creating": "A criar…",
+        "loading": "A carregar…",
+        "empty": {
+          "title": "Ainda não há bases de dados.",
+          "subtitle": "Cria uma para obteres os dados de ligação."
+        },
+        "actions": {
+          "changePassword": "Alterar palavra-passe",
+          "delete": "Eliminar",
+          "reveal": "Mostrar",
+          "copy": "Copiar"
+        },
+        "fields": {
+          "host": "Anfitrião",
+          "port": "Porta",
+          "database": "Base de dados",
+          "username": "Utilizador",
+          "password": "Palavra-passe"
+        },
+        "rotateModal": {
+          "title": "Alterar palavra-passe",
+          "message": "Deixa em branco para gerar uma nova palavra-passe automaticamente.",
+          "placeholder": "Nova palavra-passe (opcional)"
+        },
+        "deleteModal": {
+          "title": "Eliminar base de dados",
+          "message": "Esta base de dados será eliminada permanentemente. Isto não pode ser revertido.",
+          "confirm": "Eliminar"
+        },
+        "messages": {
+          "created": "Base de dados criada",
+          "createFailed": "Não foi possível criar a base de dados",
+          "deleted": "Base de dados eliminada",
+          "deleteFailed": "Não foi possível eliminar a base de dados",
+          "passwordUpdated": "Palavra-passe atualizada",
+          "passwordUpdateFailed": "Não foi possível atualizar a palavra-passe",
+          "copied": "Copiado para a área de transferência"
         }
       },
       "network": {
-        "title": "Server Network",
+        "title": "Rede do servidor",
         "monitor": {
-          "title": "Live Network Monitor",
-          "inbound": "Inbound Traffic",
-          "outbound": "Outbound Traffic",
-          "players": "Players"
+          "title": "Monitor de rede em direto",
+          "inbound": "Tráfego de entrada",
+          "outbound": "Tráfego de saída",
+          "players": "Jogadores"
         },
         "allocations": {
-          "title": "Allocations",
-          "loading": "Loading...",
-          "requestPort": "Request Additional Port",
-          "primary": "Primary",
+          "title": "Alocações",
+          "loading": "A carregar...",
+          "requestPort": "Solicitar porta adicional",
+          "primary": "Principal",
           "extra": "Extra",
-          "release": "Release",
-          "confirmRelease": "Are you sure you want to release this port?",
-          "releaseFailed": "Failed to release port",
-          "confirmRequest": "Request additional port? Coins will be deducted.",
-          "requestFailed": "Failed to allocate port"
+          "release": "Libertar",
+          "confirmRelease": "Tens a certeza de que queres libertar esta porta?",
+          "releaseFailed": "Não foi possível libertar a porta",
+          "confirmRequest": "Solicitar porta adicional? Serão descontadas moedas.",
+          "requestFailed": "Não foi possível alocar a porta"
         },
         "limits": {
-          "title": "Network Limits",
-          "maxConnections": "Max Connections",
-          "maxRequests": "Max Requests/s",
-          "maxBandwidth": "Max Bandwidth (MB)",
-          "rateLimitBurst": "Rate Limit Burst",
-          "unlimited": "Unlimited",
-          "save": "Save Changes",
-          "saving": "Saving...",
-          "saved": "Settings saved successfully",
-          "saveFailed": "Failed to save settings",
-          "saveError": "Error saving settings"
+          "title": "Limites de rede",
+          "maxConnections": "Máximo de ligações",
+          "maxRequests": "Máximo de pedidos/s",
+          "maxBandwidth": "Largura de banda máxima (MB)",
+          "rateLimitBurst": "Rajada de limite de taxa",
+          "unlimited": "Ilimitado",
+          "save": "Guardar alterações",
+          "saving": "A guardar...",
+          "saved": "Definições guardadas com sucesso",
+          "saveFailed": "Não foi possível guardar as definições",
+          "saveError": "Erro ao guardar as definições"
         },
         "firewall": {
           "title": "Firewall",
-          "allowedIps": "Allowed IPs (Allow List)",
-          "blockedIps": "Blocked IPs (Block List)",
-          "add": "Add",
-          "save": "Save Firewall Rules",
-          "saved": "Firewall rules saved successfully"
+          "allowedIps": "IPs permitidos (lista de permissões)",
+          "blockedIps": "IPs bloqueados (lista de bloqueio)",
+          "add": "Adicionar",
+          "save": "Guardar regras da firewall",
+          "saved": "Regras da firewall guardadas com sucesso"
         }
       },
       "settings": {
-        "title": "Settings",
+        "title": "Definições",
         "information": {
-          "title": "Server Information",
-          "id": "Server ID",
-          "name": "Server Name",
-          "connection": "Connection Address",
-          "loading": "Loading...",
-          "copy": "Copy",
-          "save": "Save Changes",
-          "saving": "Saving...",
-          "saved": "Server name updated",
-          "saveFailed": "Failed to update",
-          "copied": "Copied to clipboard"
+          "title": "Informação do servidor",
+          "id": "ID do servidor",
+          "name": "Nome do servidor",
+          "connection": "Endereço de ligação",
+          "loading": "A carregar...",
+          "copy": "Copiar",
+          "save": "Guardar alterações",
+          "saving": "A guardar...",
+          "saved": "Nome do servidor atualizado",
+          "saveFailed": "Não foi possível atualizar",
+          "copied": "Copiado para a área de transferência"
         },
         "sftp": {
-          "title": "SFTP Details",
-          "address": "Server Address",
-          "launch": "Launch",
-          "username": "Username",
-          "password": "Password",
-          "show": "Show",
-          "hide": "Hide",
-          "rotate": "Rotate Password",
-          "rotating": "Rotating...",
-          "confirmRotate": "Are you sure? This will disconnect current SFTP sessions.",
-          "rotated": "SFTP Password Rotated",
-          "rotateFailed": "Failed to rotate password"
+          "title": "Detalhes SFTP",
+          "address": "Endereço do servidor",
+          "launch": "Abrir",
+          "username": "Utilizador",
+          "password": "Palavra-passe",
+          "show": "Mostrar",
+          "hide": "Ocultar",
+          "rotate": "Alterar palavra-passe",
+          "rotating": "A alterar...",
+          "confirmRotate": "Tens a certeza? Isto vai desconectar as sessões SFTP atuais.",
+          "rotated": "Palavra-passe SFTP alterada",
+          "rotateFailed": "Não foi possível alterar a palavra-passe"
         },
         "details": {
-          "title": "Server Details",
-          "node": "Node",
+          "title": "Detalhes do servidor",
+          "node": "Nó",
           "egg": "Egg",
           "ram": "RAM",
           "cpu": "CPU",
-          "disk": "Disk",
-          "status": "Status",
-          "unlimited": "Unlimited"
+          "disk": "Disco",
+          "status": "Estado",
+          "unlimited": "Ilimitado"
         },
         "maintenance": {
-          "title": "Maintenance",
-          "description": "Reinstalling will re-run the install script and may overwrite files.",
-          "reinstall": "Reinstall Server",
-          "reinstalling": "Reinstalling...",
-          "confirmReinstall": "Are you sure you want to reinstall this server? This may overwrite existing files.",
-          "reinstalled": "Server reinstallation started",
-          "reinstallFailed": "Failed to reinstall"
+          "title": "Manutenção",
+          "description": "Reinstalar vai executar novamente o script de instalação e pode substituir ficheiros.",
+          "reinstall": "Reinstalar servidor",
+          "reinstalling": "A reinstalar...",
+          "confirmReinstall": "Tens a certeza de que queres reinstalar este servidor? Isto pode substituir ficheiros existentes.",
+          "reinstalled": "Reinstalação do servidor iniciada",
+          "reinstallFailed": "Não foi possível reinstalar"
         },
         "danger": {
-          "title": "Danger Zone",
-          "description": "Deleting this server will permanently remove all files and data. This action cannot be undone.",
-          "delete": "Delete Server",
-          "deleting": "Deleting...",
-          "confirmDelete": "Are you sure you want to delete this server? This action cannot be undone!",
-          "deleted": "Server deleted",
-          "deleteFailed": "Failed to delete"
+          "title": "Zona de perigo",
+          "description": "Eliminar este servidor vai remover permanentemente todos os ficheiros e dados. Esta ação não pode ser revertida.",
+          "delete": "Eliminar servidor",
+          "deleting": "A eliminar...",
+          "confirmDelete": "Tens a certeza de que queres eliminar este servidor? Esta ação não pode ser revertida!",
+          "deleted": "Servidor eliminado",
+          "deleteFailed": "Não foi possível eliminar"
         }
       },
       "startup": {
-        "title": "Startup",
+        "title": "Arranque",
         "docker": {
-          "title": "Docker Image",
-          "loading": "Loading..."
+          "title": "Imagem Docker",
+          "loading": "A carregar..."
         },
         "variables": {
-          "title": "Variables",
-          "save": "Save Changes",
-          "saving": "Saving...",
-          "loading": "Loading variables...",
-          "empty": "No variables available",
-          "saved": "Startup configuration saved",
-          "saveFailed": "Failed to save"
+          "title": "Variáveis",
+          "save": "Guardar alterações",
+          "saving": "A guardar...",
+          "loading": "A carregar variáveis...",
+          "empty": "Não há variáveis disponíveis",
+          "saved": "Configuração de arranque guardada",
+          "saveFailed": "Não foi possível guardar"
+        }
+      },
+      "schedules": {
+        "newTitle": "Novo agendamento",
+        "newSubtitle": "Automatiza ações de energia, comandos e cópias de segurança com cron.",
+        "namePlaceholder": "Nome",
+        "cron": {
+          "minute": "min",
+          "hour": "hora",
+          "dayOfMonth": "dia",
+          "month": "mês",
+          "dayOfWeek": "sem"
+        },
+        "creating": "A criar…",
+        "create": "Criar agendamento",
+        "loading": "A carregar…",
+        "empty": "Ainda não há agendamentos.",
+        "actions": {
+          "runNow": "Executar agora",
+          "addTask": "Adicionar tarefa",
+          "delete": "Eliminar",
+          "removeTask": "Remover tarefa"
+        },
+        "deleteModal": {
+          "title": "Eliminar agendamento",
+          "message": "Este agendamento e as suas tarefas serão eliminados permanentemente.",
+          "confirm": "Eliminar"
+        },
+        "taskModal": {
+          "title": "Adicionar tarefa",
+          "subtitle": "As tarefas de um agendamento são executadas por ordem, de cima para baixo.",
+          "actionLabel": "Ação",
+          "powerStateLabel": "Estado de energia",
+          "commandLabel": "Comando",
+          "commandPlaceholder": "say Olá mundo",
+          "backupLabel": "Nome da cópia de segurança (opcional)",
+          "backupPlaceholder": "Cópia de segurança agendada",
+          "cancel": "Cancelar",
+          "addTask": "Adicionar tarefa"
+        },
+        "messages": {
+          "nameRequired": "Introduz um nome para o agendamento",
+          "created": "Agendamento criado",
+          "createFailed": "Não foi possível criar o agendamento",
+          "deleted": "Agendamento eliminado",
+          "running": "Agendamento em execução",
+          "runFailed": "Não foi possível executar",
+          "taskAdded": "Tarefa adicionada",
+          "taskAddFailed": "Não foi possível adicionar a tarefa"
         }
       },
       "users": {
-        "title": "Server Users",
+        "title": "Utilizadores do servidor",
         "list": {
-          "title": "Users",
-          "add": "Add User",
-          "loading": "Loading...",
-          "empty": "No users found.",
-          "error": "Error: {message}",
-          "loadFailed": "Failed to load users.",
-          "remove": "Remove",
-          "edit": "Edit"
+          "title": "Utilizadores",
+          "add": "Adicionar utilizador",
+          "loading": "A carregar...",
+          "empty": "Não foram encontrados utilizadores.",
+          "error": "Erro: {message}",
+          "loadFailed": "Não foi possível carregar os utilizadores.",
+          "remove": "Remover",
+          "edit": "Editar"
         },
         "addModal": {
-          "title": "Add User",
-          "emailPlaceholder": "Email or User ID",
-          "console": "Console",
-          "power": "Power",
-          "files": "Files",
-          "settings": "Settings",
-          "network": "Network",
-          "users": "Manage Users",
-          "cancel": "Cancel",
-          "add": "Add",
-          "failed": "Failed to add user",
-          "success": "User added"
+          "title": "Adicionar utilizador",
+          "emailPlaceholder": "E-mail ou ID do utilizador",
+          "console": "Consola",
+          "power": "Energia",
+          "files": "Ficheiros",
+          "settings": "Definições",
+          "network": "Rede",
+          "users": "Gerir utilizadores",
+          "cancel": "Cancelar",
+          "add": "Adicionar",
+          "failed": "Não foi possível adicionar o utilizador",
+          "success": "Utilizador adicionado"
         },
         "editModal": {
-          "title": "Edit Permissions",
-          "console": "Console",
-          "power": "Power",
-          "files": "Files",
-          "settings": "Settings",
-          "network": "Network",
-          "users": "Manage Users",
-          "cancel": "Cancel",
-          "save": "Save",
-          "failed": "Failed to update permissions",
-          "success": "Permissions saved"
+          "title": "Editar permissões",
+          "console": "Consola",
+          "power": "Energia",
+          "files": "Ficheiros",
+          "settings": "Definições",
+          "network": "Rede",
+          "users": "Gerir utilizadores",
+          "cancel": "Cancelar",
+          "save": "Guardar",
+          "failed": "Não foi possível atualizar as permissões",
+          "success": "Permissões guardadas"
         },
         "remove": {
-          "confirm": "Are you sure you want to remove this user?",
-          "failed": "Failed to remove user",
-          "success": "User removed"
+          "confirm": "Tens a certeza de que queres remover este utilizador?",
+          "failed": "Não foi possível remover o utilizador",
+          "success": "Utilizador removido"
         }
       }
     }
   },
+  "admin": {
+    "coins": {
+      "title": "Recompensas de moedas",
+      "subtitle": "Configura quantas moedas os utilizadores ganham por cada evento.",
+      "denied": "Não tens permissão para ver estas definições.",
+      "loading": "A carregar…",
+      "saving": "A guardar…",
+      "save": "Guardar alterações",
+      "saved": "Recompensas de moedas guardadas",
+      "saveFailed": "Não foi possível guardar",
+      "fields": {
+        "register": {
+          "label": "Registo de conta",
+          "hint": "Moedas concedidas quando um utilizador se regista"
+        },
+        "verifyGoogle": {
+          "label": "Google verificado",
+          "hint": "Quando um utilizador vincula/verifica o Google"
+        },
+        "syncDiscord": {
+          "label": "Discord sincronizado",
+          "hint": "Quando um utilizador vincula o seu Discord"
+        },
+        "syncGithub": {
+          "label": "GitHub sincronizado",
+          "hint": "Quando um utilizador vincula o seu GitHub"
+        }
+      }
+    },
+    "databaseHosts": {
+      "denied": "Não tens permissão para ver os anfitriões de bases de dados.",
+      "addTitle": "Adicionar anfitrião de base de dados",
+      "addSubtitle": "As credenciais de administrador são usadas para criar bases de dados e utilizadores por cliente. A palavra-passe é armazenada encriptada.",
+      "form": {
+        "namePlaceholder": "Nome a apresentar",
+        "hostPlaceholder": "Anfitrião (p. ex. 127.0.0.1)",
+        "portPlaceholder": "Porta",
+        "usernamePlaceholder": "Utilizador administrador",
+        "passwordPlaceholder": "Palavra-passe do administrador",
+        "saving": "A guardar…",
+        "add": "Adicionar anfitrião"
+      },
+      "loading": "A carregar…",
+      "empty": "Ainda não há anfitriões de bases de dados configurados.",
+      "actions": {
+        "test": "Testar ligação",
+        "delete": "Eliminar"
+      },
+      "deleteModal": {
+        "title": "Eliminar anfitrião de base de dados",
+        "message": "Este anfitrião de base de dados será eliminado. As bases de dados nele ficarão órfãs.",
+        "confirm": "Eliminar"
+      },
+      "messages": {
+        "fieldsRequired": "O nome, o anfitrião e o utilizador são obrigatórios",
+        "added": "Anfitrião de base de dados adicionado",
+        "addFailed": "Não foi possível adicionar o anfitrião",
+        "connectionOk": "Ligação bem-sucedida",
+        "connectionFailed": "Falha na ligação",
+        "testFailed": "O teste falhou",
+        "deleted": "Anfitrião eliminado",
+        "deleteFailed": "Não foi possível eliminar"
+      }
+    }
+  },
   "titles": {
-    "dashboard": "Dashboard",
-    "databases": "Databases",
-    "general": "GENERAL",
-    "servers": "Servers",
-    "credits": "Credits",
+    "dashboard": "Painel",
+    "databases": "Bases de dados",
+    "general": "GERAL",
+    "servers": "Servidores",
+    "credits": "Créditos",
     "afk": "Afk",
-    "features": "Features",
-    "limits": "Limits",
-    "apiKeys": "API Keys",
-    "documentation": "Documentation"
+    "features": "Funcionalidades",
+    "limits": "Limites",
+    "apiKeys": "Chaves de API",
+    "documentation": "Documentação"
   },
   "global": {
-    "contact": "Contact us",
-    "help": "Need urgent help?",
-    "view_all": "View All",
-    "logout": "Logout",
-    "loading": "Loading..."
+    "contact": "Contacta-nos",
+    "help": "Precisas de ajuda urgente?",
+    "view_all": "Ver tudo",
+    "logout": "Terminar sessão",
+    "loading": "A carregar..."
   }
 }
