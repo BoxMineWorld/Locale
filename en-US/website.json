@@ -5,6 +5,85 @@
     "description": "We're improving the BoxMine experience. We'll be back soon with new features."
   },
   "client": {
+    "account": {
+      "title": "My Account",
+      "subtitle": "Manage your profile, security and linked accounts",
+      "avatar": {
+        "title": "Profile picture",
+        "hint": "PNG, JPEG, WebP or GIF, up to 10 MB.",
+        "upload": "Upload",
+        "remove": "Remove",
+        "uploading": "Uploading…",
+        "tooLarge": "Image must be 10 MB or smaller",
+        "notImage": "That file is not a supported image",
+        "updated": "Profile picture updated",
+        "removed": "Profile picture removed",
+        "failed": "Could not update the picture"
+      },
+      "profile": {
+        "title": "Profile",
+        "name": "Display name",
+        "email": "Email",
+        "emailVerified": "Verified",
+        "emailUnverified": "Not verified",
+        "save": "Save changes",
+        "saving": "Saving…",
+        "saved": "Profile updated",
+        "failed": "Could not save your profile"
+      },
+      "password": {
+        "title": "Password",
+        "subtitleSet": "Change your account password.",
+        "subtitleCreate": "Set a password so you can also log in with email.",
+        "current": "Current password",
+        "new": "New password",
+        "confirm": "Confirm new password",
+        "save": "Update password",
+        "saving": "Updating…",
+        "saved": "Password updated",
+        "mismatch": "The passwords don't match",
+        "tooShort": "Password must be at least 8 characters",
+        "failed": "Could not update the password"
+      },
+      "providers": {
+        "title": "Linked accounts",
+        "subtitle": "Connect other accounts to log in with them.",
+        "linked": "Linked",
+        "notLinked": "Not linked",
+        "link": "Link",
+        "unlink": "Unlink",
+        "unlinkConfirmTitle": "Unlink {provider}",
+        "unlinkConfirmMessage": "You will no longer be able to log in with {provider}.",
+        "unlinked": "{provider} unlinked",
+        "linkedOk": "{provider} linked",
+        "lastMethod": "You can't remove your only login method",
+        "alreadyLinked": "That account is already linked here",
+        "inUse": "That account is linked to another user",
+        "failed": "Could not update linked accounts"
+      },
+      "twoFactor": {
+        "title": "Two-factor authentication",
+        "subtitle": "Add a second step to your login with an authenticator app.",
+        "enabled": "Enabled",
+        "disabled": "Disabled",
+        "enable": "Enable 2FA",
+        "disable": "Disable 2FA",
+        "scan": "Scan this QR code with your authenticator app, then enter the 6-digit code.",
+        "manualKey": "Or enter this key manually:",
+        "code": "6-digit code",
+        "verify": "Verify & enable",
+        "verifying": "Verifying…",
+        "enabledOk": "Two-factor enabled",
+        "disabledOk": "Two-factor disabled",
+        "invalidCode": "Invalid code",
+        "backupTitle": "Save your backup codes",
+        "backupHint": "Each code works once if you lose access to your app. Store them somewhere safe.",
+        "backupDone": "I saved them",
+        "disableTitle": "Disable two-factor",
+        "disablePrompt": "Enter a code from your app (or a backup code) to disable 2FA.",
+        "failed": "Something went wrong"
+      }
+    },
     "auth": {
       "signIn": {
         "title": "Welcome",
@@ -18,7 +97,12 @@
         "orContinueWith": "Or continue with",
         "noAccount": "Don't have an account?",
         "signUpHere": "Sign up here",
-        "invalidCredentials": "Invalid credentials"
+        "invalidCredentials": "Invalid credentials",
+        "twoFactorTitle": "Two-factor authentication",
+        "twoFactorPrompt": "Enter the 6-digit code from your authenticator app (or a backup code).",
+        "twoFactorCode": "Authentication code",
+        "twoFactorVerify": "Verify",
+        "twoFactorInvalid": "Invalid code"
       },
       "signUp": {
         "title": "Create Account",
@@ -871,7 +955,8 @@
     "features": "Features",
     "limits": "Limits",
     "apiKeys": "API Keys",
-    "documentation": "Documentation"
+    "documentation": "Documentation",
+    "account": "My Account"
   },
   "global": {
     "contact": "Contact us",

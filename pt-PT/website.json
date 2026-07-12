@@ -18,7 +18,12 @@
         "orContinueWith": "Ou continua com",
         "noAccount": "Não tens conta?",
         "signUpHere": "Regista-te aqui",
-        "invalidCredentials": "Credenciais inválidas"
+        "invalidCredentials": "Credenciais inválidas",
+        "twoFactorTitle": "Autenticação de dois fatores",
+        "twoFactorPrompt": "Introduz o código de 6 dígitos da tua app autenticadora (ou um código de recuperação).",
+        "twoFactorCode": "Código de autenticação",
+        "twoFactorVerify": "Verificar",
+        "twoFactorInvalid": "Código inválido"
       },
       "signUp": {
         "title": "Criar conta",
@@ -794,6 +799,85 @@
           "success": "Utilizador removido"
         }
       }
+    },
+    "account": {
+      "title": "A minha conta",
+      "subtitle": "Gere o teu perfil, segurança e contas associadas",
+      "avatar": {
+        "title": "Foto de perfil",
+        "hint": "PNG, JPEG, WebP ou GIF, até 10 MB.",
+        "upload": "Carregar",
+        "remove": "Remover",
+        "uploading": "A carregar…",
+        "tooLarge": "A imagem deve ter 10 MB ou menos",
+        "notImage": "Esse ficheiro não é uma imagem compatível",
+        "updated": "Foto de perfil atualizada",
+        "removed": "Foto de perfil removida",
+        "failed": "Não foi possível atualizar a foto"
+      },
+      "profile": {
+        "title": "Perfil",
+        "name": "Nome a apresentar",
+        "email": "E-mail",
+        "emailVerified": "Verificado",
+        "emailUnverified": "Não verificado",
+        "save": "Guardar alterações",
+        "saving": "A guardar…",
+        "saved": "Perfil atualizado",
+        "failed": "Não foi possível guardar o teu perfil"
+      },
+      "password": {
+        "title": "Palavra-passe",
+        "subtitleSet": "Altera a palavra-passe da tua conta.",
+        "subtitleCreate": "Define uma palavra-passe para também poderes iniciar sessão com e-mail.",
+        "current": "Palavra-passe atual",
+        "new": "Nova palavra-passe",
+        "confirm": "Confirmar nova palavra-passe",
+        "save": "Atualizar palavra-passe",
+        "saving": "A atualizar…",
+        "saved": "Palavra-passe atualizada",
+        "mismatch": "As palavras-passe não coincidem",
+        "tooShort": "A palavra-passe deve ter pelo menos 8 caracteres",
+        "failed": "Não foi possível atualizar a palavra-passe"
+      },
+      "providers": {
+        "title": "Contas associadas",
+        "subtitle": "Liga outras contas para iniciares sessão com elas.",
+        "linked": "Associada",
+        "notLinked": "Não associada",
+        "link": "Associar",
+        "unlink": "Desassociar",
+        "unlinkConfirmTitle": "Desassociar {provider}",
+        "unlinkConfirmMessage": "Deixarás de poder iniciar sessão com {provider}.",
+        "unlinked": "{provider} desassociada",
+        "linkedOk": "{provider} associada",
+        "lastMethod": "Não podes remover o teu único método de acesso",
+        "alreadyLinked": "Essa conta já está associada aqui",
+        "inUse": "Essa conta está associada a outro utilizador",
+        "failed": "Não foi possível atualizar as contas associadas"
+      },
+      "twoFactor": {
+        "title": "Autenticação de dois fatores",
+        "subtitle": "Adiciona um segundo passo ao teu início de sessão com uma app autenticadora.",
+        "enabled": "Ativada",
+        "disabled": "Desativada",
+        "enable": "Ativar 2FA",
+        "disable": "Desativar 2FA",
+        "scan": "Digitaliza este código QR com a tua app autenticadora e introduz o código de 6 dígitos.",
+        "manualKey": "Ou introduz esta chave manualmente:",
+        "code": "Código de 6 dígitos",
+        "verify": "Verificar e ativar",
+        "verifying": "A verificar…",
+        "enabledOk": "Autenticação de dois fatores ativada",
+        "disabledOk": "Autenticação de dois fatores desativada",
+        "invalidCode": "Código inválido",
+        "backupTitle": "Guarda os teus códigos de recuperação",
+        "backupHint": "Cada código funciona uma vez se perderes acesso à app. Guarda-os num local seguro.",
+        "backupDone": "Guardei-os",
+        "disableTitle": "Desativar dois fatores",
+        "disablePrompt": "Introduz um código da tua app (ou um código de recuperação) para desativar 2FA.",
+        "failed": "Algo correu mal"
+      }
     }
   },
   "admin": {
@@ -871,7 +955,8 @@
     "features": "Funcionalidades",
     "limits": "Limites",
     "apiKeys": "Chaves de API",
-    "documentation": "Documentação"
+    "documentation": "Documentação",
+    "account": "A minha conta"
   },
   "global": {
     "contact": "Contacta-nos",
