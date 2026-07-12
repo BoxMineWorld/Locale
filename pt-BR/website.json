@@ -18,7 +18,12 @@
         "orContinueWith": "Ou continue com",
         "noAccount": "Não tem uma conta?",
         "signUpHere": "Cadastre-se aqui",
-        "invalidCredentials": "Credenciais inválidas"
+        "invalidCredentials": "Credenciais inválidas",
+        "twoFactorTitle": "Autenticação em duas etapas",
+        "twoFactorPrompt": "Digite o código de 6 dígitos do seu app autenticador (ou um código de backup).",
+        "twoFactorCode": "Código de autenticação",
+        "twoFactorVerify": "Verificar",
+        "twoFactorInvalid": "Código inválido"
       },
       "signUp": {
         "title": "Criar conta",
@@ -794,6 +799,85 @@
           "success": "Usuário removido"
         }
       }
+    },
+    "account": {
+      "title": "Minha conta",
+      "subtitle": "Gerencie seu perfil, segurança e contas vinculadas",
+      "avatar": {
+        "title": "Foto de perfil",
+        "hint": "PNG, JPEG, WebP ou GIF, até 10 MB.",
+        "upload": "Enviar",
+        "remove": "Remover",
+        "uploading": "Enviando…",
+        "tooLarge": "A imagem deve ter 10 MB ou menos",
+        "notImage": "Esse arquivo não é uma imagem compatível",
+        "updated": "Foto de perfil atualizada",
+        "removed": "Foto de perfil removida",
+        "failed": "Não foi possível atualizar a foto"
+      },
+      "profile": {
+        "title": "Perfil",
+        "name": "Nome de exibição",
+        "email": "E-mail",
+        "emailVerified": "Verificado",
+        "emailUnverified": "Não verificado",
+        "save": "Salvar alterações",
+        "saving": "Salvando…",
+        "saved": "Perfil atualizado",
+        "failed": "Não foi possível salvar seu perfil"
+      },
+      "password": {
+        "title": "Senha",
+        "subtitleSet": "Altere a senha da sua conta.",
+        "subtitleCreate": "Defina uma senha para também poder entrar com e-mail.",
+        "current": "Senha atual",
+        "new": "Nova senha",
+        "confirm": "Confirmar nova senha",
+        "save": "Atualizar senha",
+        "saving": "Atualizando…",
+        "saved": "Senha atualizada",
+        "mismatch": "As senhas não coincidem",
+        "tooShort": "A senha deve ter pelo menos 8 caracteres",
+        "failed": "Não foi possível atualizar a senha"
+      },
+      "providers": {
+        "title": "Contas vinculadas",
+        "subtitle": "Conecte outras contas para entrar com elas.",
+        "linked": "Vinculada",
+        "notLinked": "Não vinculada",
+        "link": "Vincular",
+        "unlink": "Desvincular",
+        "unlinkConfirmTitle": "Desvincular {provider}",
+        "unlinkConfirmMessage": "Você não poderá mais entrar com {provider}.",
+        "unlinked": "{provider} desvinculada",
+        "linkedOk": "{provider} vinculada",
+        "lastMethod": "Você não pode remover seu único método de acesso",
+        "alreadyLinked": "Essa conta já está vinculada aqui",
+        "inUse": "Essa conta está vinculada a outro usuário",
+        "failed": "Não foi possível atualizar as contas vinculadas"
+      },
+      "twoFactor": {
+        "title": "Autenticação em duas etapas",
+        "subtitle": "Adicione uma segunda etapa ao seu login com um app autenticador.",
+        "enabled": "Ativada",
+        "disabled": "Desativada",
+        "enable": "Ativar 2FA",
+        "disable": "Desativar 2FA",
+        "scan": "Escaneie este QR code com seu app autenticador e digite o código de 6 dígitos.",
+        "manualKey": "Ou digite esta chave manualmente:",
+        "code": "Código de 6 dígitos",
+        "verify": "Verificar e ativar",
+        "verifying": "Verificando…",
+        "enabledOk": "Autenticação em duas etapas ativada",
+        "disabledOk": "Autenticação em duas etapas desativada",
+        "invalidCode": "Código inválido",
+        "backupTitle": "Salve seus códigos de backup",
+        "backupHint": "Cada código funciona uma vez se você perder acesso ao app. Guarde-os em local seguro.",
+        "backupDone": "Eu salvei",
+        "disableTitle": "Desativar duas etapas",
+        "disablePrompt": "Digite um código do seu app (ou um código de backup) para desativar 2FA.",
+        "failed": "Algo deu errado"
+      }
     }
   },
   "admin": {
@@ -871,7 +955,8 @@
     "features": "Recursos",
     "limits": "Limites",
     "apiKeys": "Chaves de API",
-    "documentation": "Documentação"
+    "documentation": "Documentação",
+    "account": "Minha conta"
   },
   "global": {
     "contact": "Fale conosco",
