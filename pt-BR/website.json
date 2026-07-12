@@ -348,7 +348,8 @@
           "node": {
             "label": "Nó",
             "selectFirst": "Selecione um produto primeiro",
-            "none": "Nenhum nó disponível"
+            "selectEggFirst": "Selecione um egg primeiro",
+            "none": "Nenhum nó disponível para este egg"
           },
           "egg": {
             "label": "Egg",

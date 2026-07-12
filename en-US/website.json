@@ -427,7 +427,8 @@
           "node": {
             "label": "Node",
             "selectFirst": "Select a product first",
-            "none": "No nodes available"
+            "selectEggFirst": "Select an egg first",
+            "none": "No nodes available for this egg"
           },
           "egg": {
             "label": "Egg",
