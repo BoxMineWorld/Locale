@@ -799,6 +799,18 @@
           "failed": "No se pudo eliminar al usuario",
           "success": "Usuario eliminado"
         }
+      },
+      "tabs": {
+        "console": "Consola",
+        "files": "Archivos",
+        "startup": "Inicio",
+        "network": "Red",
+        "databases": "Bases de datos",
+        "backups": "Copias de seguridad",
+        "schedules": "Programaciones",
+        "activity": "Actividad",
+        "users": "Usuarios",
+        "settings": "Ajustes"
       }
     },
     "account": {
