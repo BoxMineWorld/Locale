@@ -965,5 +965,293 @@
     "view_all": "Ver tudo",
     "logout": "Terminar sessão",
     "loading": "A carregar..."
+  },
+  "landing": {
+    "navbar": {
+      "home": "Início",
+      "features": "Funcionalidades",
+      "pricing": "Preços",
+      "team": "Equipa",
+      "login": "Entrar",
+      "register": "Registar"
+    },
+    "hero": {
+      "slides": [
+        {
+          "title": "Alojamento de Bots",
+          "subtitle": "Estabilidade para o teu Bot",
+          "description": "Alojamento de bots de WhatsApp, Discord, Telegram e muito mais, com máxima estabilidade.",
+          "buttonText": "Alojamento de Bots",
+          "buttonText2": "Adquirir Alojamento"
+        },
+        {
+          "title": "Alojamento Especializado para Minecraft",
+          "subtitle": "Potencia o teu Servidor",
+          "description": "Alojamento para Minecraft com mods, plugins ilimitados e latência otimizada. Painel Pterodactyl incluído.",
+          "buttonText": "Alojamento Minecraft",
+          "buttonText2": "Adquirir Alojamento"
+        },
+        {
+          "title": "Alojamento Web de Alto Desempenho",
+          "subtitle": "Para Projetos Exigentes",
+          "description": "Servidores otimizados com SSD NVMe, proteção DDoS e suporte 24/7. Escala o teu projeto sem limites.",
+          "buttonText": "Ver Planos",
+          "buttonText2": "Começar Agora"
+        },
+        {
+          "title": "Cloud VPS",
+          "subtitle": "Controlo Total e Flexibilidade",
+          "description": "VPS totalmente geridos com acesso root. Escolhe o teu sistema operativo e configura ao teu gosto.",
+          "buttonText": "Configurar VPS (Indisponível)",
+          "buttonText2": "Mais Informações"
+        }
+      ],
+      "features": [
+        {
+          "title": "Alto Desempenho",
+          "description": "SSD NVMe e hardware de última geração"
+        },
+        {
+          "title": "Proteção DDoS",
+          "description": "Defesa avançada contra ataques"
+        },
+        {
+          "title": "Suporte 24/7",
+          "description": "Assistência técnica sempre disponível"
+        }
+      ]
+    },
+    "servicesBanner": {
+      "title": "Os Nossos Serviços",
+      "subtitle": "Oferecemos soluções de alojamento especializadas para cada necessidade. Escolhe o serviço perfeito para o teu projeto.",
+      "popularBadge": "Mais Popular",
+      "services": [
+        {
+          "title": "Bots de Discord/WhatsApp",
+          "description": "Alojamento especializado para bots de Discord, WhatsApp e outras plataformas de mensagens",
+          "features": [
+            "Node.js/Python",
+            "99.9% de Uptime",
+            "Monitorização 24/7",
+            "Reinício Automático"
+          ],
+          "price": "Desde $2/mês",
+          "buttonText": "Implementar Bot"
+        },
+        {
+          "title": "Alojamento Minecraft",
+          "description": "Especializado para servidores de Minecraft",
+          "features": [
+            "Mods/Plugins",
+            "Proteção DDoS",
+            "Subdomínio Grátis",
+            "Backups"
+          ],
+          "price": "Desde $3/mês",
+          "buttonText": "Jogar Agora"
+        },
+        {
+          "title": "Alojamento Web",
+          "description": "Alojamento otimizado para sítios web de alto tráfego",
+          "features": [
+            "SSD NVMe",
+            "SSL Grátis",
+            "Backups Diários",
+            "Subdomínios Grátis"
+          ],
+          "price": "Desde $5/mês",
+          "buttonText": "Contratar"
+        },
+        {
+          "title": "VPS Cloud",
+          "description": "Servidores virtuais com acesso root completo",
+          "features": [
+            "Virtualização KVM",
+            "IPv4/IPv6",
+            "Painel de Controlo",
+            "Snapshots"
+          ],
+          "price": "Desde $10/mês",
+          "buttonText": "Indisponível"
+        }
+      ],
+      "ctaTitle": "Precisas de algo personalizado?",
+      "ctaDescription": "Contacta-nos para planos empresariais e soluções à medida.",
+      "ctaButton": "Contactar Suporte"
+    },
+    "stats": {
+      "title": "A Impulsionar",
+      "titleHighlight": "o Sucesso",
+      "subtitle": "Milhares de utilizadores confiam na nossa infraestrutura de alto desempenho",
+      "items": [
+        {
+          "label": "Utilizadores",
+          "description": "Comunidade ativa e em crescimento"
+        },
+        {
+          "label": "Servidores",
+          "description": "Infraestrutura distribuída globalmente"
+        },
+        {
+          "label": "Anos de Experiência",
+          "description": "Especialistas em alojamento de alto desempenho"
+        }
+      ],
+      "badge": "99,9% de Uptime Garantido"
+    },
+    "features": {
+      "title": "Porquê a BoxMine?",
+      "subtitle": "Serviço de Alojamento",
+      "items": [
+        {
+          "step": "Passo 1",
+          "title": "Serviço 24/7.",
+          "content": "Fazemos tudo o que é possível para manter os nossos serviços a funcionar 24 horas por dia, 365 dias por ano."
+        },
+        {
+          "step": "Passo 2",
+          "title": "Os melhores preços.",
+          "content": "Procuramos oferecer os melhores preços para os serviços que disponibilizamos."
+        },
+        {
+          "step": "Passo 3",
+          "title": "Os seus dados estão protegidos.",
+          "content": "Estamos constantemente a criar cópias de segurança para manter os seus dados o mais seguros possível."
+        },
+        {
+          "step": "Passo 4",
+          "title": "Desenvolvimento constante.",
+          "content": "Estamos em constante desenvolvimento e melhoria dos nossos serviços."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Planos flexíveis",
+      "subtitle": "Escolha o plano que melhor se adapta às suas necessidades e escale sempre que precisar.",
+      "monthly": "Mensal",
+      "annual": "Anual",
+      "selectButton": "Selecionar",
+      "plans": [
+        {
+          "features": [
+            "500mb de RAM",
+            "100% de CPU",
+            "64mb de Swap",
+            "1GB de Armazenamento",
+            "1 Cópia de Segurança"
+          ]
+        },
+        {
+          "features": [
+            "500mb de RAM",
+            "100% de CPU",
+            "64mb de Swap",
+            "1GB de Armazenamento",
+            "1 Cópia de Segurança"
+          ]
+        },
+        {
+          "features": [
+            "700mb de RAM",
+            "150% de CPU",
+            "128mb de Swap",
+            "3GB de Armazenamento",
+            "2 Cópias de Segurança"
+          ]
+        },
+        {
+          "features": [
+            "1GB de RAM",
+            "200% de CPU",
+            "256mb de Swap",
+            "5GB de Armazenamento",
+            "3 Cópias de Segurança"
+          ]
+        },
+        {
+          "features": [
+            "2GB de RAM",
+            "300% de CPU",
+            "512mb de Swap",
+            "10GB de Armazenamento",
+            "5 Cópias de Segurança"
+          ]
+        }
+      ]
+    },
+    "otherServices": {
+      "titleStart": "Soluções",
+      "titleHighlight": "Especializadas",
+      "subtitle": "Descubre os nossos serviços especializados concebidos para necessidades específicas",
+      "exploreCta": "Explorar",
+      "services": {
+        "boxForStudents": {
+          "description": "Plataforma de alojamento otimizada, concebida especificamente para estudantes. Acede a recursos educativos, projetos académicos e ferramentas de desenvolvimento com descontos exclusivos.",
+          "badge": "🎓 Educação",
+          "features": {
+            "educationalResources": "Recursos Educativos",
+            "guaranteedSecurity": "Segurança Garantida",
+            "studentSupport": "Apoio a Estudantes",
+            "exclusiveDiscounts": "Descontos Exclusivos"
+          }
+        },
+        "boxMC": {
+          "description": "Alojamento especializado para servidores Minecraft com desempenho otimizado. Suporte a mods e plugins ilimitados, proteção DDoS avançada e cópias de segurança automáticas em tempo real.",
+          "badge": "🎮 Gaming",
+          "features": {
+            "highPerformance": "Alto Desempenho",
+            "ddosProtection": "Proteção DDoS",
+            "automaticBackups": "Cópias de Segurança Automáticas",
+            "unlimitedModsPlugins": "Mods/Plugins Ilimitados"
+          }
+        }
+      }
+    },
+    "reviews": {
+      "title": "O que os nossos clientes dizem",
+      "viewAllCta": "Ver todas as avaliações"
+    },
+    "team": {
+      "title": "Conhece a equipa",
+      "staffTitle": "A Nossa Equipa"
+    },
+    "logos": {
+      "heading": "Parceiros e Amigos"
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "items": [
+        {
+          "question": "Preciso de dinheiro para usar o plano Free?",
+          "answer": "Não necessariamente, uma vez que damos aos nossos utilizadores, de forma anual e gratuita, as BoxCoins necessárias para manterem os seus contentores/servidores ativos."
+        },
+        {
+          "question": "Que métodos de pagamento aceitamos?",
+          "answer": "Graças às nossas opções de pagamento através de subscrições no Patreon, Prex (Argentina e Uruguai), Mercado Livre (no Uruguai, Argentina, México) e outros métodos populares, conseguimos oferecer uma grande variedade de formas de pagamento. Todos estes são geridos de forma simples através de um ticket no nosso Discord, garantindo comodidade e flexibilidade aos nossos utilizadores."
+        },
+        {
+          "question": "Onde se encontram os servidores?",
+          "answer": "Os nossos servidores estão distribuídos globalmente para oferecer um serviço fiável. O Node2 e o Node5 encontram-se na infraestrutura própria do criador, Vicemi, na sua casa no Uruguai. O Node3 e o Node8 são nós pagos localizados na Europa, enquanto o Node7 é um nó dedicado a jogos e está localizado no Brasil. Além disso, temos nós gratuitos nos Estados Unidos, como o Node4. Contamos ainda com nós privados e especializados em alojamento de Minecraft, localizados nos Estados Unidos e no Brasil. Com esta distribuição, garantimos elevada disponibilidade e segurança para os seus dados."
+        }
+      ]
+    },
+    "footer": {
+      "about": {
+        "heading": "Sobre Nós",
+        "text": "Nascemos da ideia de dar aos nossos utilizadores um lugar seguro onde possam alojar os seus bots e projetos de forma segura e eficiente, oferecendo-lhes um dos melhores serviços, acompanhado de uma ótima comunidade."
+      },
+      "quickLinks": {
+        "heading": "Ligações Rápidas",
+        "home": "Início",
+        "pricing": "Preços",
+        "team": "A Nossa Equipa",
+        "faq": "Perguntas Frequentes"
+      },
+      "social": {
+        "heading": "Siga-nos"
+      },
+      "copyright": "© 2025 BoxMine World - Todos os direitos reservados",
+      "designCredit": "Design por Vicemi Design"
+    }
   }
 }
