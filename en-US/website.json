@@ -878,6 +878,18 @@
           "failed": "Failed to remove user",
           "success": "User removed"
         }
+      },
+      "tabs": {
+        "console": "Console",
+        "files": "Files",
+        "startup": "Startup",
+        "network": "Network",
+        "databases": "Databases",
+        "backups": "Backups",
+        "schedules": "Schedules",
+        "activity": "Activity",
+        "users": "Users",
+        "settings": "Settings"
       }
     }
   },

@@ -799,6 +799,18 @@
           "failed": "Não foi possível remover o usuário",
           "success": "Usuário removido"
         }
+      },
+      "tabs": {
+        "console": "Console",
+        "files": "Arquivos",
+        "startup": "Inicialização",
+        "network": "Rede",
+        "databases": "Bancos de dados",
+        "backups": "Backups",
+        "schedules": "Agendamentos",
+        "activity": "Atividade",
+        "users": "Usuários",
+        "settings": "Configurações"
       }
     },
     "account": {
