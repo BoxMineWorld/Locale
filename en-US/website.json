@@ -965,5 +965,293 @@
     "view_all": "View All",
     "logout": "Logout",
     "loading": "Loading..."
+  },
+  "landing": {
+    "navbar": {
+      "home": "Home",
+      "features": "Features",
+      "pricing": "Pricing",
+      "team": "Team",
+      "login": "Log in",
+      "register": "Sign up"
+    },
+    "hero": {
+      "slides": [
+        {
+          "title": "Bot Hosting",
+          "subtitle": "Stability for Your Bot",
+          "description": "WhatsApp, Discord, Telegram and more bot hosting, with maximum stability.",
+          "buttonText": "Bot Hosting",
+          "buttonText2": "Get Hosting"
+        },
+        {
+          "title": "Specialized Minecraft Hosting",
+          "subtitle": "Power Up Your Server",
+          "description": "Minecraft hosting with mods, unlimited plugins and optimized latency. Pterodactyl panel included.",
+          "buttonText": "Minecraft Hosting",
+          "buttonText2": "Get Hosting"
+        },
+        {
+          "title": "High-Performance Web Hosting",
+          "subtitle": "For Demanding Projects",
+          "description": "Optimized servers with NVMe SSD, DDoS protection and 24/7 support. Scale your project without limits.",
+          "buttonText": "View Plans",
+          "buttonText2": "Get Started Now"
+        },
+        {
+          "title": "Cloud VPS",
+          "subtitle": "Total Control and Flexibility",
+          "description": "Fully managed VPS with root access. Choose your operating system and configure it your way.",
+          "buttonText": "Configure VPS (Unavailable)",
+          "buttonText2": "More Information"
+        }
+      ],
+      "features": [
+        {
+          "title": "High Performance",
+          "description": "NVMe SSD and cutting-edge hardware"
+        },
+        {
+          "title": "DDoS Protection",
+          "description": "Advanced defense against attacks"
+        },
+        {
+          "title": "24/7 Support",
+          "description": "Technical assistance always available"
+        }
+      ]
+    },
+    "servicesBanner": {
+      "title": "Our Services",
+      "subtitle": "We offer specialized hosting solutions for every need. Choose the perfect service for your project.",
+      "popularBadge": "Most Popular",
+      "services": [
+        {
+          "title": "Discord Bots/WhatsApp Bots",
+          "description": "Specialized hosting for Discord, WhatsApp and other messaging platform bots",
+          "features": [
+            "Node.js/Python",
+            "99.9% Uptime",
+            "24/7 Monitoring",
+            "Auto Restart"
+          ],
+          "price": "From $2/mo",
+          "buttonText": "Deploy Bot"
+        },
+        {
+          "title": "Minecraft Hosting",
+          "description": "Specialized for Minecraft servers",
+          "features": [
+            "Mods/Plugins",
+            "DDoS Protection",
+            "Free Subdomain",
+            "Backups"
+          ],
+          "price": "From $3/mo",
+          "buttonText": "Play Now"
+        },
+        {
+          "title": "Web Hosting",
+          "description": "Optimized hosting for high-traffic websites",
+          "features": [
+            "NVMe SSD",
+            "Free SSL",
+            "Daily Backups",
+            "Free Subdomains"
+          ],
+          "price": "From $5/mo",
+          "buttonText": "Get Started"
+        },
+        {
+          "title": "Cloud VPS",
+          "description": "Virtual servers with full root access",
+          "features": [
+            "KVM Virtualization",
+            "IPv4/IPv6",
+            "Control Panel",
+            "Snapshots"
+          ],
+          "price": "From $10/mo",
+          "buttonText": "Unavailable"
+        }
+      ],
+      "ctaTitle": "Need something custom?",
+      "ctaDescription": "Contact us for enterprise plans and tailored solutions.",
+      "ctaButton": "Contact Support"
+    },
+    "stats": {
+      "title": "Powering",
+      "titleHighlight": "Success",
+      "subtitle": "Thousands of users trust our high-performance infrastructure",
+      "items": [
+        {
+          "label": "Users",
+          "description": "Active and growing community"
+        },
+        {
+          "label": "Servers",
+          "description": "Globally distributed infrastructure"
+        },
+        {
+          "label": "Years of Experience",
+          "description": "Experts in high-performance hosting"
+        }
+      ],
+      "badge": "99.9% Uptime Guaranteed"
+    },
+    "features": {
+      "title": "Why BoxMine?",
+      "subtitle": "Hosting Service",
+      "items": [
+        {
+          "step": "Step 1",
+          "title": "24/7 Service.",
+          "content": "We do everything possible to keep our services running 24/7, 365 days a year."
+        },
+        {
+          "step": "Step 2",
+          "title": "The best prices.",
+          "content": "We strive to offer the best prices for the services we provide."
+        },
+        {
+          "step": "Step 3",
+          "title": "Your data is secure.",
+          "content": "We are constantly creating backups to keep your data as safe as possible."
+        },
+        {
+          "step": "Step 4",
+          "title": "Constant development.",
+          "content": "We are in constant development and improvement of our services."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Flexible Plans",
+      "subtitle": "Choose the plan that best fits your needs and scale whenever you need to.",
+      "monthly": "Monthly",
+      "annual": "Annual",
+      "selectButton": "Select",
+      "plans": [
+        {
+          "features": [
+            "500mb RAM",
+            "100% CPU",
+            "64mb Swap",
+            "1GB Storage",
+            "1 Backup"
+          ]
+        },
+        {
+          "features": [
+            "500mb RAM",
+            "100% CPU",
+            "64mb Swap",
+            "1GB Storage",
+            "1 Backup"
+          ]
+        },
+        {
+          "features": [
+            "700mb RAM",
+            "150% CPU",
+            "128mb Swap",
+            "3GB Storage",
+            "2 Backups"
+          ]
+        },
+        {
+          "features": [
+            "1GB RAM",
+            "200% CPU",
+            "256mb Swap",
+            "5GB Storage",
+            "3 Backups"
+          ]
+        },
+        {
+          "features": [
+            "2GB RAM",
+            "300% CPU",
+            "512mb Swap",
+            "10GB Storage",
+            "5 Backups"
+          ]
+        }
+      ]
+    },
+    "otherServices": {
+      "titleStart": "Specialized",
+      "titleHighlight": "Solutions",
+      "subtitle": "Discover our specialized services designed for specific needs",
+      "exploreCta": "Explore",
+      "services": {
+        "boxForStudents": {
+          "description": "Optimized hosting platform designed specifically for students. Access educational resources, academic projects, and development tools with exclusive discounts.",
+          "badge": "🎓 Education",
+          "features": {
+            "educationalResources": "Educational Resources",
+            "guaranteedSecurity": "Guaranteed Security",
+            "studentSupport": "Student Support",
+            "exclusiveDiscounts": "Exclusive Discounts"
+          }
+        },
+        "boxMC": {
+          "description": "Specialized hosting for Minecraft servers with optimized performance. Unlimited mod and plugin support, advanced DDoS protection, and real-time automatic backups.",
+          "badge": "🎮 Gaming",
+          "features": {
+            "highPerformance": "High Performance",
+            "ddosProtection": "DDoS Protection",
+            "automaticBackups": "Automatic Backups",
+            "unlimitedModsPlugins": "Unlimited Mods/Plugins"
+          }
+        }
+      }
+    },
+    "reviews": {
+      "title": "What our customers say",
+      "viewAllCta": "View all reviews"
+    },
+    "team": {
+      "title": "Meet the team",
+      "staffTitle": "Our Staff"
+    },
+    "logos": {
+      "heading": "Partners & Friends"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "Do I need money to use the Free plan?",
+          "answer": "Not necessarily, since we give our users the BoxCoins they need for free every year so they can keep their containers/servers active."
+        },
+        {
+          "question": "What payment methods do we accept?",
+          "answer": "Thanks to our payment options through subscriptions on Patreon, Prex (Argentina and Uruguay), Mercado Libre (in Uruguay, Argentina, Mexico) and other popular methods, we can offer a wide variety of payment options. All of these are handled easily through a ticket on our Discord, ensuring convenience and flexibility for our users."
+        },
+        {
+          "question": "Where are the servers located?",
+          "answer": "Our servers are distributed globally to offer a reliable service. Node2 and Node5 run on the creator Vicemi's own infrastructure, located at his home in Uruguay. Node3 and Node8 are paid nodes located in Europe, while Node7 is a node dedicated to games and is located in Brazil. We also have free nodes in the United States such as Node4. We also have private, specialized Minecraft hosting nodes, located in the United States and Brazil. With this distribution, we guarantee high availability and security for your data."
+        }
+      ]
+    },
+    "footer": {
+      "about": {
+        "heading": "About Us",
+        "text": "We were born from the idea of giving our users a safe place to host their bots and projects securely and efficiently, offering one of the best services alongside a great community."
+      },
+      "quickLinks": {
+        "heading": "Quick Links",
+        "home": "Home",
+        "pricing": "Pricing",
+        "team": "Our Team",
+        "faq": "FAQ"
+      },
+      "social": {
+        "heading": "Follow Us"
+      },
+      "copyright": "© 2025 BoxMine World - All rights reserved",
+      "designCredit": "Design by Vicemi Design"
+    }
   }
 }
