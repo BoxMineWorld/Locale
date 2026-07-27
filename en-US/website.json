@@ -891,6 +891,25 @@
         "users": "Users",
         "settings": "Settings"
       }
+    },
+    "bots": {
+      "title": "Bots",
+      "tabCatalog": "Catalog",
+      "tabMine": "My Bots",
+      "emptyCatalog": "No bots published yet.",
+      "emptyMine": "You haven't submitted any bots yet.",
+      "cancel": "Cancel",
+      "submitBot": "Submit a bot",
+      "submitting": "Submitting...",
+      "submitForReview": "Submit for review",
+      "form": {
+        "name": "Bot name",
+        "description": "Description",
+        "githubOwner": "GitHub owner",
+        "githubRepo": "GitHub repo",
+        "selectEgg": "Select target egg...",
+        "hint": "The repo must already have at least one public GitHub release. Only the latest release is ever installable, and only after an admin reviews it."
+      }
     }
   },
   "admin": {
@@ -969,7 +988,8 @@
     "limits": "Limits",
     "apiKeys": "API Keys",
     "documentation": "Documentation",
-    "account": "My Account"
+    "account": "My Account",
+    "bots": "Bots"
   },
   "global": {
     "contact": "Contact us",
