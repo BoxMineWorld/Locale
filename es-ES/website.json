@@ -893,6 +893,19 @@
       },
       "badges": {
         "title": "Insignias"
+      },
+      "social": {
+        "title": "Bio y redes sociales",
+        "subtitle": "Se muestran en tu perfil público.",
+        "bioLabel": "Bio",
+        "youtube": "Usuario de YouTube",
+        "instagram": "Usuario de Instagram",
+        "tiktok": "Usuario de TikTok",
+        "x": "Usuario de X",
+        "save": "Guardar",
+        "saving": "Guardando...",
+        "saved": "Perfil actualizado",
+        "failed": "No se pudo guardar"
       }
     },
     "bots": {
@@ -912,6 +925,36 @@
         "githubRepo": "Repositorio de GitHub",
         "selectEgg": "Selecciona el egg de destino...",
         "hint": "El repositorio ya debe tener al menos una release pública en GitHub. Solo la última release es instalable, y únicamente después de que un admin la revise."
+      }
+    },
+    "social": {
+      "friends": {
+        "title": "Amigos",
+        "searchTitle": "Buscar personas",
+        "searchPlaceholder": "Buscar por nombre...",
+        "addFriend": "Añadir amigo",
+        "incomingTitle": "Solicitudes de amistad",
+        "accept": "Aceptar",
+        "decline": "Rechazar",
+        "outgoingTitle": "Solicitudes enviadas",
+        "cancel": "Cancelar",
+        "listTitle": "Mis amigos",
+        "empty": "Todavía no has añadido amigos.",
+        "chat": "Chat",
+        "gift": "Regalar",
+        "remove": "Eliminar",
+        "giftTitle": "Enviar un regalo a {name}"
+      },
+      "profile": {
+        "title": "Perfil",
+        "memberSince": "Miembro desde {date}",
+        "requestPending": "Solicitud de amistad pendiente"
+      },
+      "chat": {
+        "title": "Chat con {name}",
+        "pageTitle": "Chat",
+        "placeholder": "Escribe un mensaje...",
+        "send": "Enviar"
       }
     }
   },
@@ -992,7 +1035,9 @@
     "apiKeys": "Claves API",
     "documentation": "Documentación",
     "account": "Mi cuenta",
-    "bots": "Bots"
+    "bots": "Bots",
+    "social": "SOCIAL",
+    "friends": "Amigos"
   },
   "global": {
     "contact": "Contáctanos",
