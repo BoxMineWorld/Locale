@@ -82,6 +82,9 @@
         "disableTitle": "Disable two-factor",
         "disablePrompt": "Enter a code from your app (or a backup code) to disable 2FA.",
         "failed": "Something went wrong"
+      },
+      "badges": {
+        "title": "Badges"
       }
     },
     "auth": {
