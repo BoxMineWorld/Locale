@@ -891,6 +891,25 @@
         "disablePrompt": "Digite um código do seu app (ou um código de backup) para desativar 2FA.",
         "failed": "Algo deu errado"
       }
+    },
+    "bots": {
+      "title": "Bots",
+      "tabCatalog": "Catálogo",
+      "tabMine": "Meus Bots",
+      "emptyCatalog": "Ainda não há bots publicados.",
+      "emptyMine": "Você ainda não enviou nenhum bot.",
+      "cancel": "Cancelar",
+      "submitBot": "Enviar um bot",
+      "submitting": "Enviando...",
+      "submitForReview": "Enviar para revisão",
+      "form": {
+        "name": "Nome do bot",
+        "description": "Descrição",
+        "githubOwner": "Proprietário do GitHub",
+        "githubRepo": "Repositório do GitHub",
+        "selectEgg": "Selecione o egg de destino...",
+        "hint": "O repositório já deve ter pelo menos um release público no GitHub. Apenas o release mais recente é instalável, e somente depois que um admin o revisar."
+      }
     }
   },
   "admin": {
@@ -969,7 +988,8 @@
     "limits": "Limites",
     "apiKeys": "Chaves de API",
     "documentation": "Documentação",
-    "account": "Minha conta"
+    "account": "Minha conta",
+    "bots": "Bots"
   },
   "global": {
     "contact": "Fale conosco",
