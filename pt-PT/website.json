@@ -890,6 +890,9 @@
         "disableTitle": "Desativar dois fatores",
         "disablePrompt": "Introduz um código da tua app (ou um código de recuperação) para desativar 2FA.",
         "failed": "Algo correu mal"
+      },
+      "badges": {
+        "title": "Emblemas"
       }
     },
     "bots": {

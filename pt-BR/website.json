@@ -890,6 +890,9 @@
         "disableTitle": "Desativar duas etapas",
         "disablePrompt": "Digite um código do seu app (ou um código de backup) para desativar 2FA.",
         "failed": "Algo deu errado"
+      },
+      "badges": {
+        "title": "Emblemas"
       }
     },
     "bots": {

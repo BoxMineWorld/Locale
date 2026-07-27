@@ -890,6 +890,9 @@
         "disableTitle": "Desactivar dos pasos",
         "disablePrompt": "Introduce un código de tu app (o un código de respaldo) para desactivar 2FA.",
         "failed": "Algo salió mal"
+      },
+      "badges": {
+        "title": "Insignias"
       }
     },
     "bots": {
