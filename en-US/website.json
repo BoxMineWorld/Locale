@@ -85,6 +85,19 @@
       },
       "badges": {
         "title": "Badges"
+      },
+      "social": {
+        "title": "Bio & social links",
+        "subtitle": "Shown on your public profile.",
+        "bioLabel": "Bio",
+        "youtube": "YouTube handle",
+        "instagram": "Instagram handle",
+        "tiktok": "TikTok handle",
+        "x": "X handle",
+        "save": "Save",
+        "saving": "Saving...",
+        "saved": "Profile updated",
+        "failed": "Failed to save"
       }
     },
     "auth": {
@@ -913,6 +926,36 @@
         "selectEgg": "Select target egg...",
         "hint": "The repo must already have at least one public GitHub release. Only the latest release is ever installable, and only after an admin reviews it."
       }
+    },
+    "social": {
+      "friends": {
+        "title": "Friends",
+        "searchTitle": "Find people",
+        "searchPlaceholder": "Search by name...",
+        "addFriend": "Add friend",
+        "incomingTitle": "Friend requests",
+        "accept": "Accept",
+        "decline": "Decline",
+        "outgoingTitle": "Sent requests",
+        "cancel": "Cancel",
+        "listTitle": "My friends",
+        "empty": "You haven't added any friends yet.",
+        "chat": "Chat",
+        "gift": "Gift",
+        "remove": "Remove",
+        "giftTitle": "Send a gift to {name}"
+      },
+      "profile": {
+        "title": "Profile",
+        "memberSince": "Member since {date}",
+        "requestPending": "Friend request pending"
+      },
+      "chat": {
+        "title": "Chat with {name}",
+        "pageTitle": "Chat",
+        "placeholder": "Type a message...",
+        "send": "Send"
+      }
     }
   },
   "admin": {
@@ -992,7 +1035,9 @@
     "apiKeys": "API Keys",
     "documentation": "Documentation",
     "account": "My Account",
-    "bots": "Bots"
+    "bots": "Bots",
+    "social": "SOCIAL",
+    "friends": "Friends"
   },
   "global": {
     "contact": "Contact us",
