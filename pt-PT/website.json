@@ -1463,6 +1463,27 @@
       "remove": "Remover",
       "invalidateAll": "Invalidar Todas",
       "loginAsUser": "Iniciar sessão como utilizador"
+    },
+    "proxy": {
+      "pageTitle": "Rotas de Proxy",
+      "createTitle": "Registar uma rota",
+      "fields": {
+        "serverId": "ID do Servidor",
+        "domain": "Domínio",
+        "internalPort": "Porta Interna"
+      },
+      "create": "Criar Rota",
+      "table": {
+        "server": "Servidor",
+        "domain": "Domínio",
+        "port": "Porta Interna"
+      },
+      "empty": "Ainda não há rotas de proxy registadas.",
+      "messages": {
+        "created": "Rota criada",
+        "deleted": "Rota removida",
+        "failed": "Falhou"
+      }
     }
   },
   "titles": {
