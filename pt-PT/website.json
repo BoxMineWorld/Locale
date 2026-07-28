@@ -1220,6 +1220,34 @@
       "noBans": "Nenhum banimento ativo.",
       "never": "Nunca",
       "unban": "Desbanir"
+    },
+    "badges": {
+      "pageTitle": "Emblemas",
+      "create": "Criar Emblema",
+      "table": {
+        "name": "Nome",
+        "condition": "Condição",
+        "reward": "Permissões de recompensa",
+        "actions": "Ações"
+      },
+      "loadFailed": "Falha ao carregar",
+      "empty": "Ainda não há emblemas",
+      "manualOnly": "Apenas manual",
+      "unnamed": "(sem nome)",
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "deleteModal": {
+        "title": "Eliminar emblema",
+        "message": "Isto remove o emblema de todos os utilizadores que o têm. Isto não pode ser desfeito."
+      },
+      "messages": {
+        "deleted": "Emblema eliminado",
+        "deleteFailed": "Falha ao eliminar"
+      }
+    },
+    "common": {
+      "success": "Sucesso",
+      "error": "Erro"
     }
   },
   "titles": {

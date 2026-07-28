@@ -1220,6 +1220,34 @@
       "noBans": "No active bans.",
       "never": "Never",
       "unban": "Unban"
+    },
+    "badges": {
+      "pageTitle": "Badges",
+      "create": "Create Badge",
+      "table": {
+        "name": "Name",
+        "condition": "Condition",
+        "reward": "Reward permissions",
+        "actions": "Actions"
+      },
+      "loadFailed": "Failed to load",
+      "empty": "No badges yet",
+      "manualOnly": "Manual only",
+      "unnamed": "(unnamed)",
+      "edit": "Edit",
+      "delete": "Delete",
+      "deleteModal": {
+        "title": "Delete badge",
+        "message": "This removes the badge from every user who has it. This cannot be undone."
+      },
+      "messages": {
+        "deleted": "Badge deleted",
+        "deleteFailed": "Failed to delete"
+      }
+    },
+    "common": {
+      "success": "Success",
+      "error": "Error"
     }
   },
   "titles": {

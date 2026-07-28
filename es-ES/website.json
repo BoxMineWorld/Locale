@@ -1220,6 +1220,34 @@
       "noBans": "No hay baneos activos.",
       "never": "Nunca",
       "unban": "Desbanear"
+    },
+    "badges": {
+      "pageTitle": "Insignias",
+      "create": "Crear Insignia",
+      "table": {
+        "name": "Nombre",
+        "condition": "Condición",
+        "reward": "Permisos de recompensa",
+        "actions": "Acciones"
+      },
+      "loadFailed": "No se pudo cargar",
+      "empty": "Todavía no hay insignias",
+      "manualOnly": "Solo manual",
+      "unnamed": "(sin nombre)",
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "deleteModal": {
+        "title": "Eliminar insignia",
+        "message": "Esto elimina la insignia de todos los usuarios que la tienen. No se puede deshacer."
+      },
+      "messages": {
+        "deleted": "Insignia eliminada",
+        "deleteFailed": "No se pudo eliminar"
+      }
+    },
+    "common": {
+      "success": "Éxito",
+      "error": "Error"
     }
   },
   "titles": {
