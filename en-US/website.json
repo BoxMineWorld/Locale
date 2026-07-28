@@ -1257,7 +1257,15 @@
     "common": {
       "success": "Success",
       "error": "Error",
-      "save": "Save"
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "edit": "Edit",
+      "actions": "Actions",
+      "name": "Name",
+      "created": "Created",
+      "status": "Status",
+      "order": "Order"
     },
     "bots": {
       "reviewTitle": "Review release",
@@ -1290,6 +1298,14 @@
       "botListings": "Bot listings",
       "pendingReleases": "Pending releases",
       "reviewLink": "Review"
+    },
+    "categories": {
+      "pageTitle": "Categories",
+      "create": "Create Category",
+      "deleteDialog": {
+        "title": "Delete Category",
+        "message": "Are you sure you want to delete this category?"
+      }
     }
   },
   "titles": {

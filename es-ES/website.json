@@ -1257,7 +1257,15 @@
     "common": {
       "success": "Éxito",
       "error": "Error",
-      "save": "Guardar"
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "delete": "Eliminar",
+      "edit": "Editar",
+      "actions": "Acciones",
+      "name": "Nombre",
+      "created": "Creado",
+      "status": "Estado",
+      "order": "Orden"
     },
     "bots": {
       "reviewTitle": "Revisar versión",
@@ -1290,6 +1298,14 @@
       "botListings": "Listado de bots",
       "pendingReleases": "Versiones pendientes",
       "reviewLink": "Revisar"
+    },
+    "categories": {
+      "pageTitle": "Categorías",
+      "create": "Crear Categoría",
+      "deleteDialog": {
+        "title": "Eliminar Categoría",
+        "message": "¿Seguro que querés eliminar esta categoría?"
+      }
     }
   },
   "titles": {
