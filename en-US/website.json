@@ -1184,6 +1184,42 @@
         "deleted": "Host deleted",
         "deleteFailed": "Failed to delete"
       }
+    },
+    "features": {
+      "tabs": {
+        "posts": "Posts",
+        "bans": "Bans"
+      },
+      "allStatuses": "All statuses",
+      "banUser": "Ban user",
+      "banDialog": {
+        "title": "Ban user from posting",
+        "description": "Prevents this user from creating new feature requests."
+      },
+      "cancel": "Cancel",
+      "banning": "Banning...",
+      "userLabel": "User",
+      "change": "Change",
+      "searchPlaceholder": "Search by name or email...",
+      "reasonLabel": "Reason",
+      "expiresLabel": "Expires at (optional)",
+      "table": {
+        "title": "Title",
+        "votes": "Votes",
+        "status": "Status",
+        "author": "Author",
+        "user": "User",
+        "reason": "Reason",
+        "expires": "Expires"
+      },
+      "loading": "Loading…",
+      "noPosts": "No feature requests found.",
+      "votesComments": "{votes} votes · {comments} comments",
+      "unknown": "Unknown",
+      "deletePost": "Delete post",
+      "noBans": "No active bans.",
+      "never": "Never",
+      "unban": "Unban"
     }
   },
   "titles": {
@@ -1200,7 +1236,8 @@
     "account": "My Account",
     "bots": "Bots",
     "social": "SOCIAL",
-    "friends": "Friends"
+    "friends": "Friends",
+    "adminFeatures": "Feature Requests"
   },
   "global": {
     "contact": "Contact us",

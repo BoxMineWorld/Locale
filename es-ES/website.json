@@ -1184,6 +1184,42 @@
         "deleted": "Host eliminado",
         "deleteFailed": "No se pudo eliminar"
       }
+    },
+    "features": {
+      "tabs": {
+        "posts": "Publicaciones",
+        "bans": "Baneos"
+      },
+      "allStatuses": "Todos los estados",
+      "banUser": "Banear usuario",
+      "banDialog": {
+        "title": "Banear usuario de publicar",
+        "description": "Evita que este usuario cree nuevas solicitudes de funciones."
+      },
+      "cancel": "Cancelar",
+      "banning": "Baneando...",
+      "userLabel": "Usuario",
+      "change": "Cambiar",
+      "searchPlaceholder": "Buscar por nombre o correo...",
+      "reasonLabel": "Motivo",
+      "expiresLabel": "Vence el (opcional)",
+      "table": {
+        "title": "Título",
+        "votes": "Votos",
+        "status": "Estado",
+        "author": "Autor",
+        "user": "Usuario",
+        "reason": "Motivo",
+        "expires": "Vence"
+      },
+      "loading": "Cargando…",
+      "noPosts": "No se encontraron solicitudes.",
+      "votesComments": "{votes} votos · {comments} comentarios",
+      "unknown": "Desconocido",
+      "deletePost": "Eliminar publicación",
+      "noBans": "No hay baneos activos.",
+      "never": "Nunca",
+      "unban": "Desbanear"
     }
   },
   "titles": {
@@ -1200,7 +1236,8 @@
     "account": "Mi cuenta",
     "bots": "Bots",
     "social": "SOCIAL",
-    "friends": "Amigos"
+    "friends": "Amigos",
+    "adminFeatures": "Solicitudes de funciones"
   },
   "global": {
     "contact": "Contáctanos",

@@ -1184,6 +1184,42 @@
         "deleted": "Anfitrião eliminado",
         "deleteFailed": "Não foi possível eliminar"
       }
+    },
+    "features": {
+      "tabs": {
+        "posts": "Publicações",
+        "bans": "Banimentos"
+      },
+      "allStatuses": "Todos os estados",
+      "banUser": "Banir utilizador",
+      "banDialog": {
+        "title": "Banir utilizador de publicar",
+        "description": "Impede que este utilizador crie novos pedidos de funcionalidades."
+      },
+      "cancel": "Cancelar",
+      "banning": "A banir...",
+      "userLabel": "Utilizador",
+      "change": "Alterar",
+      "searchPlaceholder": "Pesquisar por nome ou e-mail...",
+      "reasonLabel": "Motivo",
+      "expiresLabel": "Expira em (opcional)",
+      "table": {
+        "title": "Título",
+        "votes": "Votos",
+        "status": "Estado",
+        "author": "Autor",
+        "user": "Utilizador",
+        "reason": "Motivo",
+        "expires": "Expira"
+      },
+      "loading": "A carregar…",
+      "noPosts": "Nenhum pedido de funcionalidade encontrado.",
+      "votesComments": "{votes} votos · {comments} comentários",
+      "unknown": "Desconhecido",
+      "deletePost": "Eliminar publicação",
+      "noBans": "Nenhum banimento ativo.",
+      "never": "Nunca",
+      "unban": "Desbanir"
     }
   },
   "titles": {
@@ -1200,7 +1236,8 @@
     "account": "A minha conta",
     "bots": "Bots",
     "social": "SOCIAL",
-    "friends": "Amigos"
+    "friends": "Amigos",
+    "adminFeatures": "Pedidos de funcionalidades"
   },
   "global": {
     "contact": "Contacta-nos",

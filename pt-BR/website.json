@@ -1184,6 +1184,42 @@
         "deleted": "Host excluído",
         "deleteFailed": "Não foi possível excluir"
       }
+    },
+    "features": {
+      "tabs": {
+        "posts": "Publicações",
+        "bans": "Banimentos"
+      },
+      "allStatuses": "Todos os status",
+      "banUser": "Banir usuário",
+      "banDialog": {
+        "title": "Banir usuário de publicar",
+        "description": "Impede que este usuário crie novas solicitações de recursos."
+      },
+      "cancel": "Cancelar",
+      "banning": "Banindo...",
+      "userLabel": "Usuário",
+      "change": "Alterar",
+      "searchPlaceholder": "Pesquisar por nome ou e-mail...",
+      "reasonLabel": "Motivo",
+      "expiresLabel": "Expira em (opcional)",
+      "table": {
+        "title": "Título",
+        "votes": "Votos",
+        "status": "Status",
+        "author": "Autor",
+        "user": "Usuário",
+        "reason": "Motivo",
+        "expires": "Expira"
+      },
+      "loading": "Carregando…",
+      "noPosts": "Nenhuma solicitação de recurso encontrada.",
+      "votesComments": "{votes} votos · {comments} comentários",
+      "unknown": "Desconhecido",
+      "deletePost": "Excluir publicação",
+      "noBans": "Nenhum banimento ativo.",
+      "never": "Nunca",
+      "unban": "Desbanir"
     }
   },
   "titles": {
@@ -1200,7 +1236,8 @@
     "account": "Minha conta",
     "bots": "Bots",
     "social": "SOCIAL",
-    "friends": "Amigos"
+    "friends": "Amigos",
+    "adminFeatures": "Solicitações de recursos"
   },
   "global": {
     "contact": "Fale conosco",
