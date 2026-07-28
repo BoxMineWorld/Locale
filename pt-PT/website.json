@@ -1392,6 +1392,19 @@
         "assignedNodes": "Nós Atribuídos",
         "availableEggs": "Eggs Disponíveis"
       }
+    },
+    "roles": {
+      "pageTitle": "Cargos",
+      "create": "Criar Cargo",
+      "table": {
+        "default": "Padrão",
+        "permissions": "Permissões"
+      },
+      "deleteDialog": {
+        "title": "Eliminar Cargo",
+        "message": "Tem a certeza de que quer eliminar este cargo?"
+      },
+      "edit": "Editar Cargo"
     }
   },
   "titles": {

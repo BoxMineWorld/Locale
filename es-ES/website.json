@@ -1392,6 +1392,19 @@
         "assignedNodes": "Nodos Asignados",
         "availableEggs": "Eggs Disponibles"
       }
+    },
+    "roles": {
+      "pageTitle": "Roles",
+      "create": "Crear Rol",
+      "table": {
+        "default": "Predeterminado",
+        "permissions": "Permisos"
+      },
+      "deleteDialog": {
+        "title": "Eliminar Rol",
+        "message": "¿Seguro que querés eliminar este rol?"
+      },
+      "edit": "Editar Rol"
     }
   },
   "titles": {

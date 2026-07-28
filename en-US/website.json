@@ -1392,6 +1392,19 @@
         "assignedNodes": "Assigned Nodes",
         "availableEggs": "Available Eggs"
       }
+    },
+    "roles": {
+      "pageTitle": "Roles",
+      "create": "Create Role",
+      "table": {
+        "default": "Default",
+        "permissions": "Permissions"
+      },
+      "deleteDialog": {
+        "title": "Delete Role",
+        "message": "Are you sure you want to delete this role?"
+      },
+      "edit": "Edit Role"
     }
   },
   "titles": {
