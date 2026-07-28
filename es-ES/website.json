@@ -1347,6 +1347,14 @@
         "message": "¿Seguro que querés eliminar este límite?"
       },
       "priceCoins": "Precio (monedas)"
+    },
+    "locations": {
+      "pageTitle": "Ubicaciones",
+      "create": "Crear Ubicación",
+      "deleteDialog": {
+        "title": "Eliminar Ubicación",
+        "message": "¿Estás seguro? Esto también afectará a los nodos asociados."
+      }
     }
   },
   "titles": {

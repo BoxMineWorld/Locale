@@ -1347,6 +1347,14 @@
         "message": "Are you sure you want to delete this limit?"
       },
       "priceCoins": "Price (coins)"
+    },
+    "locations": {
+      "pageTitle": "Locations",
+      "create": "Create Location",
+      "deleteDialog": {
+        "title": "Delete Location",
+        "message": "Are you sure? This will also affect associated nodes."
+      }
     }
   },
   "titles": {

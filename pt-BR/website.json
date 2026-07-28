@@ -1347,6 +1347,14 @@
         "message": "Tem certeza de que deseja excluir este limite?"
       },
       "priceCoins": "Preço (moedas)"
+    },
+    "locations": {
+      "pageTitle": "Localizações",
+      "create": "Criar Localização",
+      "deleteDialog": {
+        "title": "Excluir Localização",
+        "message": "Tem certeza? Isso também afetará os nós associados."
+      }
     }
   },
   "titles": {
