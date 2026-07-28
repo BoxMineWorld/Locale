@@ -1027,7 +1027,8 @@
         "noMessages": "Ainda não há mensagens. Diz olá!",
         "openAria": "Abrir chat",
         "closeAria": "Fechar chat",
-        "backAria": "Voltar para amigos"
+        "backAria": "Voltar para amigos",
+        "minimizeAria": "Minimizar"
       }
     },
     "notFound": {
