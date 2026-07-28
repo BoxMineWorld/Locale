@@ -1184,6 +1184,278 @@
         "deleted": "Host excluído",
         "deleteFailed": "Não foi possível excluir"
       }
+    },
+    "features": {
+      "tabs": {
+        "posts": "Publicações",
+        "bans": "Banimentos"
+      },
+      "allStatuses": "Todos os status",
+      "banUser": "Banir usuário",
+      "banDialog": {
+        "title": "Banir usuário de publicar",
+        "description": "Impede que este usuário crie novas solicitações de recursos."
+      },
+      "cancel": "Cancelar",
+      "banning": "Banindo...",
+      "userLabel": "Usuário",
+      "change": "Alterar",
+      "searchPlaceholder": "Pesquisar por nome ou e-mail...",
+      "reasonLabel": "Motivo",
+      "expiresLabel": "Expira em (opcional)",
+      "table": {
+        "title": "Título",
+        "votes": "Votos",
+        "status": "Status",
+        "author": "Autor",
+        "user": "Usuário",
+        "reason": "Motivo",
+        "expires": "Expira"
+      },
+      "loading": "Carregando…",
+      "noPosts": "Nenhuma solicitação de recurso encontrada.",
+      "votesComments": "{votes} votos · {comments} comentários",
+      "unknown": "Desconhecido",
+      "deletePost": "Excluir publicação",
+      "noBans": "Nenhum banimento ativo.",
+      "never": "Nunca",
+      "unban": "Desbanir"
+    },
+    "badges": {
+      "pageTitle": "Emblemas",
+      "create": "Criar Emblema",
+      "table": {
+        "name": "Nome",
+        "condition": "Condição",
+        "reward": "Permissões de recompensa",
+        "actions": "Ações"
+      },
+      "loadFailed": "Falha ao carregar",
+      "empty": "Nenhum emblema ainda",
+      "manualOnly": "Apenas manual",
+      "unnamed": "(sem nome)",
+      "edit": "Editar",
+      "delete": "Excluir",
+      "deleteModal": {
+        "title": "Excluir emblema",
+        "message": "Isso remove o emblema de todos os usuários que o possuem. Isso não pode ser desfeito."
+      },
+      "messages": {
+        "deleted": "Emblema excluído",
+        "deleteFailed": "Falha ao excluir"
+      },
+      "pageTitleCreate": "Criar Emblema",
+      "pageTitleEdit": "Editar Emblema",
+      "sections": {
+        "icon": "Ícone",
+        "nameDescription": "Nome e descrição (por idioma)",
+        "howObtained": "Como é obtida",
+        "rewards": "Permissões de recompensa"
+      },
+      "uploadIcon": "Enviar ícone"
+    },
+    "common": {
+      "success": "Sucesso",
+      "error": "Erro",
+      "save": "Salvar",
+      "cancel": "Cancelar",
+      "delete": "Excluir",
+      "edit": "Editar",
+      "actions": "Ações",
+      "name": "Nome",
+      "created": "Criado",
+      "status": "Status",
+      "order": "Ordem",
+      "description": "Descrição",
+      "price": "Preço",
+      "saveChanges": "Salvar Alterações",
+      "category": "Categoria",
+      "hidden": "Oculto",
+      "confirmDeleteGeneric": "Tem certeza? Isso não pode ser desfeito.",
+      "email": "E-mail",
+      "role": "Cargo",
+      "coins": "Moedas",
+      "reason": "Motivo",
+      "expiresOptional": "Expira (opcional)",
+      "add": "Adicionar"
+    },
+    "bots": {
+      "reviewTitle": "Revisar versão",
+      "backToCatalog": "Voltar ao catálogo",
+      "review": {
+        "bot": "Bot",
+        "repository": "Repositório",
+        "tag": "Tag",
+        "status": "Status",
+        "submitted": "Enviado"
+      },
+      "approve": "Aprovar",
+      "reject": "Rejeitar",
+      "pageTitle": "Bots",
+      "tabs": {
+        "catalog": "Catálogo",
+        "pending": "Versões Pendentes"
+      },
+      "table": {
+        "name": "Nome",
+        "repository": "Repositório",
+        "egg": "Egg",
+        "status": "Status",
+        "actions": "Ações",
+        "bot": "Bot",
+        "tag": "Tag",
+        "submitted": "Enviado"
+      },
+      "suspend": "Suspender",
+      "botListings": "Listagem de bots",
+      "pendingReleases": "Versões pendentes",
+      "reviewLink": "Revisar"
+    },
+    "categories": {
+      "pageTitle": "Categorias",
+      "create": "Criar Categoria",
+      "deleteDialog": {
+        "title": "Excluir Categoria",
+        "message": "Tem certeza de que deseja excluir esta categoria?"
+      }
+    },
+    "eggCategories": {
+      "pageTitle": "Categorias de Eggs",
+      "create": "Criar Categoria",
+      "table": {
+        "eggs": "Eggs"
+      },
+      "deleteDialog": {
+        "title": "Excluir Categoria",
+        "message": "Tem certeza de que deseja excluir esta categoria? Os eggs nela ficarão sem categoria."
+      },
+      "viewTitle": "Eggs da Categoria",
+      "createEgg": "Criar Egg"
+    },
+    "eggs": {
+      "pageTitle": "Eggs",
+      "manageCategories": "Gerenciar Categorias",
+      "createEgg": "Criar Egg",
+      "editTitle": "Editar Egg",
+      "createTitle": "Criar Egg",
+      "sections": {
+        "basicInfo": "Informações Básicas",
+        "startupConfig": "Configuração de Inicialização",
+        "variables": "Variáveis"
+      }
+    },
+    "limits": {
+      "pageTitle": "Limites",
+      "create": "Criar Limite",
+      "table": {
+        "type": "Tipo",
+        "amount": "Quantidade"
+      },
+      "deleteDialog": {
+        "title": "Excluir Limite",
+        "message": "Tem certeza de que deseja excluir este limite?"
+      },
+      "priceCoins": "Preço (moedas)"
+    },
+    "locations": {
+      "pageTitle": "Localizações",
+      "create": "Criar Localização",
+      "deleteDialog": {
+        "title": "Excluir Localização",
+        "message": "Tem certeza? Isso também afetará os nós associados."
+      }
+    },
+    "nodes": {
+      "pageTitle": "Nós",
+      "create": "Criar Nó",
+      "table": {
+        "location": "Localização"
+      },
+      "deleteDialog": {
+        "title": "Excluir Nó",
+        "message": "Tem certeza de que deseja excluir este nó?"
+      },
+      "sections": {
+        "details": "Detalhes do Nó",
+        "allocations": "Alocações",
+        "wingsConfig": "Configuração do Wings",
+        "allowedEggs": "Eggs Permitidos"
+      }
+    },
+    "products": {
+      "pageTitle": "Produtos",
+      "create": "Criar Produto",
+      "deleteDialog": {
+        "title": "Excluir Produto"
+      },
+      "sections": {
+        "basicInfo": "Informações Básicas",
+        "settings": "Configurações",
+        "billingSettings": "Configurações de Faturamento",
+        "limits": "Limites",
+        "visibilityOverrides": "Substituições de Visibilidade",
+        "pricingCycles": "Ciclos de Preço",
+        "assignedNodes": "Nós Atribuídos",
+        "availableEggs": "Eggs Disponíveis"
+      }
+    },
+    "roles": {
+      "pageTitle": "Cargos",
+      "create": "Criar Cargo",
+      "table": {
+        "default": "Padrão",
+        "permissions": "Permissões"
+      },
+      "deleteDialog": {
+        "title": "Excluir Cargo",
+        "message": "Tem certeza de que deseja excluir este cargo?"
+      },
+      "edit": "Editar Cargo"
+    },
+    "servers": {
+      "pageTitle": "Servidores",
+      "create": "Criar Servidor",
+      "table": {
+        "owner": "Proprietário",
+        "node": "Nó",
+        "suspended": "Suspenso"
+      },
+      "deleteDialog": {
+        "title": "Excluir Servidor",
+        "message": "Tem certeza? Isso excluirá todos os arquivos e não pode ser desfeito."
+      },
+      "edit": "Editar Servidor",
+      "sections": {
+        "info": "Informações do Servidor",
+        "plan": "Plano",
+        "status": "Status",
+        "actions": "Ações"
+      },
+      "changePlan": "Alterar Plano",
+      "saveNextCharge": "Salvar Próxima Cobrança"
+    },
+    "users": {
+      "pageTitle": "Usuários",
+      "banDialog": {
+        "title": "Banir Usuário",
+        "message": "Isso suspenderá todos os servidores dele e agendará a exclusão em 1 semana.",
+        "confirm": "Banir"
+      },
+      "create": "Criar Usuário",
+      "editTitle": "Editar Usuário",
+      "sections": {
+        "userInfo": "Informações do Usuário",
+        "changePassword": "Alterar Senha",
+        "sessions": "Sessões",
+        "banStatus": "Status de Banimento",
+        "access": "Acesso",
+        "servers": "Servidores",
+        "badges": "Emblemas"
+      },
+      "updatePassword": "Atualizar Senha",
+      "remove": "Remover",
+      "invalidateAll": "Invalidar Todas",
+      "loginAsUser": "Entrar como usuário"
     }
   },
   "titles": {
@@ -1200,7 +1472,8 @@
     "account": "Minha conta",
     "bots": "Bots",
     "social": "SOCIAL",
-    "friends": "Amigos"
+    "friends": "Amigos",
+    "adminFeatures": "Solicitações de recursos"
   },
   "global": {
     "contact": "Fale conosco",

@@ -1184,6 +1184,278 @@
         "deleted": "Host deleted",
         "deleteFailed": "Failed to delete"
       }
+    },
+    "features": {
+      "tabs": {
+        "posts": "Posts",
+        "bans": "Bans"
+      },
+      "allStatuses": "All statuses",
+      "banUser": "Ban user",
+      "banDialog": {
+        "title": "Ban user from posting",
+        "description": "Prevents this user from creating new feature requests."
+      },
+      "cancel": "Cancel",
+      "banning": "Banning...",
+      "userLabel": "User",
+      "change": "Change",
+      "searchPlaceholder": "Search by name or email...",
+      "reasonLabel": "Reason",
+      "expiresLabel": "Expires at (optional)",
+      "table": {
+        "title": "Title",
+        "votes": "Votes",
+        "status": "Status",
+        "author": "Author",
+        "user": "User",
+        "reason": "Reason",
+        "expires": "Expires"
+      },
+      "loading": "Loading…",
+      "noPosts": "No feature requests found.",
+      "votesComments": "{votes} votes · {comments} comments",
+      "unknown": "Unknown",
+      "deletePost": "Delete post",
+      "noBans": "No active bans.",
+      "never": "Never",
+      "unban": "Unban"
+    },
+    "badges": {
+      "pageTitle": "Badges",
+      "create": "Create Badge",
+      "table": {
+        "name": "Name",
+        "condition": "Condition",
+        "reward": "Reward permissions",
+        "actions": "Actions"
+      },
+      "loadFailed": "Failed to load",
+      "empty": "No badges yet",
+      "manualOnly": "Manual only",
+      "unnamed": "(unnamed)",
+      "edit": "Edit",
+      "delete": "Delete",
+      "deleteModal": {
+        "title": "Delete badge",
+        "message": "This removes the badge from every user who has it. This cannot be undone."
+      },
+      "messages": {
+        "deleted": "Badge deleted",
+        "deleteFailed": "Failed to delete"
+      },
+      "pageTitleCreate": "Create Badge",
+      "pageTitleEdit": "Edit Badge",
+      "sections": {
+        "icon": "Icon",
+        "nameDescription": "Name & description (per language)",
+        "howObtained": "How it's obtained",
+        "rewards": "Reward permissions"
+      },
+      "uploadIcon": "Upload icon"
+    },
+    "common": {
+      "success": "Success",
+      "error": "Error",
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "edit": "Edit",
+      "actions": "Actions",
+      "name": "Name",
+      "created": "Created",
+      "status": "Status",
+      "order": "Order",
+      "description": "Description",
+      "price": "Price",
+      "saveChanges": "Save Changes",
+      "category": "Category",
+      "hidden": "Hidden",
+      "confirmDeleteGeneric": "Are you sure? This cannot be undone.",
+      "email": "Email",
+      "role": "Role",
+      "coins": "Coins",
+      "reason": "Reason",
+      "expiresOptional": "Expires (optional)",
+      "add": "Add"
+    },
+    "bots": {
+      "reviewTitle": "Review release",
+      "backToCatalog": "Back to catalog",
+      "review": {
+        "bot": "Bot",
+        "repository": "Repository",
+        "tag": "Tag",
+        "status": "Status",
+        "submitted": "Submitted"
+      },
+      "approve": "Approve",
+      "reject": "Reject",
+      "pageTitle": "Bots",
+      "tabs": {
+        "catalog": "Catalog",
+        "pending": "Pending Releases"
+      },
+      "table": {
+        "name": "Name",
+        "repository": "Repository",
+        "egg": "Egg",
+        "status": "Status",
+        "actions": "Actions",
+        "bot": "Bot",
+        "tag": "Tag",
+        "submitted": "Submitted"
+      },
+      "suspend": "Suspend",
+      "botListings": "Bot listings",
+      "pendingReleases": "Pending releases",
+      "reviewLink": "Review"
+    },
+    "categories": {
+      "pageTitle": "Categories",
+      "create": "Create Category",
+      "deleteDialog": {
+        "title": "Delete Category",
+        "message": "Are you sure you want to delete this category?"
+      }
+    },
+    "eggCategories": {
+      "pageTitle": "Egg Categories",
+      "create": "Create Category",
+      "table": {
+        "eggs": "Eggs"
+      },
+      "deleteDialog": {
+        "title": "Delete Category",
+        "message": "Are you sure you want to delete this category? Eggs in it will become uncategorized."
+      },
+      "viewTitle": "Category Eggs",
+      "createEgg": "Create Egg"
+    },
+    "eggs": {
+      "pageTitle": "Eggs",
+      "manageCategories": "Manage Categories",
+      "createEgg": "Create Egg",
+      "editTitle": "Edit Egg",
+      "createTitle": "Create Egg",
+      "sections": {
+        "basicInfo": "Basic Information",
+        "startupConfig": "Startup Configuration",
+        "variables": "Variables"
+      }
+    },
+    "limits": {
+      "pageTitle": "Limits",
+      "create": "Create Limit",
+      "table": {
+        "type": "Type",
+        "amount": "Amount"
+      },
+      "deleteDialog": {
+        "title": "Delete Limit",
+        "message": "Are you sure you want to delete this limit?"
+      },
+      "priceCoins": "Price (coins)"
+    },
+    "locations": {
+      "pageTitle": "Locations",
+      "create": "Create Location",
+      "deleteDialog": {
+        "title": "Delete Location",
+        "message": "Are you sure? This will also affect associated nodes."
+      }
+    },
+    "nodes": {
+      "pageTitle": "Nodes",
+      "create": "Create Node",
+      "table": {
+        "location": "Location"
+      },
+      "deleteDialog": {
+        "title": "Delete Node",
+        "message": "Are you sure you want to delete this node?"
+      },
+      "sections": {
+        "details": "Node Details",
+        "allocations": "Allocations",
+        "wingsConfig": "Wings Configuration",
+        "allowedEggs": "Allowed Eggs"
+      }
+    },
+    "products": {
+      "pageTitle": "Products",
+      "create": "Create Product",
+      "deleteDialog": {
+        "title": "Delete Product"
+      },
+      "sections": {
+        "basicInfo": "Basic Information",
+        "settings": "Settings",
+        "billingSettings": "Billing Settings",
+        "limits": "Limits",
+        "visibilityOverrides": "Visibility Overrides",
+        "pricingCycles": "Pricing Cycles",
+        "assignedNodes": "Assigned Nodes",
+        "availableEggs": "Available Eggs"
+      }
+    },
+    "roles": {
+      "pageTitle": "Roles",
+      "create": "Create Role",
+      "table": {
+        "default": "Default",
+        "permissions": "Permissions"
+      },
+      "deleteDialog": {
+        "title": "Delete Role",
+        "message": "Are you sure you want to delete this role?"
+      },
+      "edit": "Edit Role"
+    },
+    "servers": {
+      "pageTitle": "Servers",
+      "create": "Create Server",
+      "table": {
+        "owner": "Owner",
+        "node": "Node",
+        "suspended": "Suspended"
+      },
+      "deleteDialog": {
+        "title": "Delete Server",
+        "message": "Are you sure? This will delete all files and cannot be undone."
+      },
+      "edit": "Edit Server",
+      "sections": {
+        "info": "Server Information",
+        "plan": "Plan",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "changePlan": "Change Plan",
+      "saveNextCharge": "Save Next Charge"
+    },
+    "users": {
+      "pageTitle": "Users",
+      "banDialog": {
+        "title": "Ban User",
+        "message": "This will suspend all their servers and schedule deletion in 1 week.",
+        "confirm": "Ban"
+      },
+      "create": "Create User",
+      "editTitle": "Edit User",
+      "sections": {
+        "userInfo": "User Information",
+        "changePassword": "Change Password",
+        "sessions": "Sessions",
+        "banStatus": "Ban Status",
+        "access": "Access",
+        "servers": "Servers",
+        "badges": "Badges"
+      },
+      "updatePassword": "Update Password",
+      "remove": "Remove",
+      "invalidateAll": "Invalidate All",
+      "loginAsUser": "Login as user"
     }
   },
   "titles": {
@@ -1200,7 +1472,8 @@
     "account": "My Account",
     "bots": "Bots",
     "social": "SOCIAL",
-    "friends": "Friends"
+    "friends": "Friends",
+    "adminFeatures": "Feature Requests"
   },
   "global": {
     "contact": "Contact us",
