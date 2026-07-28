@@ -1271,7 +1271,13 @@
       "saveChanges": "Guardar Alterações",
       "category": "Categoria",
       "hidden": "Oculto",
-      "confirmDeleteGeneric": "Tem a certeza? Isto não pode ser desfeito."
+      "confirmDeleteGeneric": "Tem a certeza? Isto não pode ser desfeito.",
+      "email": "E-mail",
+      "role": "Cargo",
+      "coins": "Moedas",
+      "reason": "Motivo",
+      "expiresOptional": "Expira (opcional)",
+      "add": "Adicionar"
     },
     "bots": {
       "reviewTitle": "Revisar versão",
@@ -1427,6 +1433,29 @@
       },
       "changePlan": "Alterar Plano",
       "saveNextCharge": "Guardar Próxima Cobrança"
+    },
+    "users": {
+      "pageTitle": "Utilizadores",
+      "banDialog": {
+        "title": "Banir Utilizador",
+        "message": "Isto vai suspender todos os servidores dele e agendar a eliminação em 1 semana.",
+        "confirm": "Banir"
+      },
+      "create": "Criar Utilizador",
+      "editTitle": "Editar Utilizador",
+      "sections": {
+        "userInfo": "Informação do Utilizador",
+        "changePassword": "Alterar Palavra-passe",
+        "sessions": "Sessões",
+        "banStatus": "Estado de Banimento",
+        "access": "Acesso",
+        "servers": "Servidores",
+        "badges": "Emblemas"
+      },
+      "updatePassword": "Atualizar Palavra-passe",
+      "remove": "Remover",
+      "invalidateAll": "Invalidar Todas",
+      "loginAsUser": "Iniciar sessão como utilizador"
     }
   },
   "titles": {

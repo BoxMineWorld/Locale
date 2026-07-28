@@ -1271,7 +1271,13 @@
       "saveChanges": "Save Changes",
       "category": "Category",
       "hidden": "Hidden",
-      "confirmDeleteGeneric": "Are you sure? This cannot be undone."
+      "confirmDeleteGeneric": "Are you sure? This cannot be undone.",
+      "email": "Email",
+      "role": "Role",
+      "coins": "Coins",
+      "reason": "Reason",
+      "expiresOptional": "Expires (optional)",
+      "add": "Add"
     },
     "bots": {
       "reviewTitle": "Review release",
@@ -1427,6 +1433,29 @@
       },
       "changePlan": "Change Plan",
       "saveNextCharge": "Save Next Charge"
+    },
+    "users": {
+      "pageTitle": "Users",
+      "banDialog": {
+        "title": "Ban User",
+        "message": "This will suspend all their servers and schedule deletion in 1 week.",
+        "confirm": "Ban"
+      },
+      "create": "Create User",
+      "editTitle": "Edit User",
+      "sections": {
+        "userInfo": "User Information",
+        "changePassword": "Change Password",
+        "sessions": "Sessions",
+        "banStatus": "Ban Status",
+        "access": "Access",
+        "servers": "Servers",
+        "badges": "Badges"
+      },
+      "updatePassword": "Update Password",
+      "remove": "Remove",
+      "invalidateAll": "Invalidate All",
+      "loginAsUser": "Login as user"
     }
   },
   "titles": {
