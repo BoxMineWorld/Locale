@@ -1265,7 +1265,8 @@
       "name": "Name",
       "created": "Created",
       "status": "Status",
-      "order": "Order"
+      "order": "Order",
+      "description": "Description"
     },
     "bots": {
       "reviewTitle": "Review release",
@@ -1306,6 +1307,19 @@
         "title": "Delete Category",
         "message": "Are you sure you want to delete this category?"
       }
+    },
+    "eggCategories": {
+      "pageTitle": "Egg Categories",
+      "create": "Create Category",
+      "table": {
+        "eggs": "Eggs"
+      },
+      "deleteDialog": {
+        "title": "Delete Category",
+        "message": "Are you sure you want to delete this category? Eggs in it will become uncategorized."
+      },
+      "viewTitle": "Category Eggs",
+      "createEgg": "Create Egg"
     }
   },
   "titles": {

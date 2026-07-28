@@ -1265,7 +1265,8 @@
       "name": "Nombre",
       "created": "Creado",
       "status": "Estado",
-      "order": "Orden"
+      "order": "Orden",
+      "description": "Descripción"
     },
     "bots": {
       "reviewTitle": "Revisar versión",
@@ -1306,6 +1307,19 @@
         "title": "Eliminar Categoría",
         "message": "¿Seguro que querés eliminar esta categoría?"
       }
+    },
+    "eggCategories": {
+      "pageTitle": "Categorías de Eggs",
+      "create": "Crear Categoría",
+      "table": {
+        "eggs": "Eggs"
+      },
+      "deleteDialog": {
+        "title": "Eliminar Categoría",
+        "message": "¿Seguro que querés eliminar esta categoría? Los eggs en ella quedarán sin categoría."
+      },
+      "viewTitle": "Eggs de la Categoría",
+      "createEgg": "Crear Egg"
     }
   },
   "titles": {
