@@ -334,6 +334,18 @@
           "for": "for",
           "cancel": "Cancel",
           "processing": "Processing..."
+        },
+        "messages": {
+          "fetchingPortal": "Fetching billing portal...",
+          "redirecting": "Redirecting...",
+          "noPurchaseYet": "Make a purchase to access billing",
+          "portalFailed": "Failed to load billing portal",
+          "connectFailed": "Failed to connect",
+          "creatingInvoice": "Creating invoice...",
+          "redirectingToPayment": "Redirecting to payment...",
+          "invoiceFailed": "Failed to create invoice",
+          "connectionFailed": "Connection failed",
+          "paymentMethodUnavailable": "This payment method is not yet available."
         }
       }
     },
@@ -359,6 +371,10 @@
         "cancel": "Cancel",
         "purchase": "Purchase",
         "processing": "Processing..."
+      },
+      "messages": {
+        "purchased": "Limit purchased!",
+        "failed": "Failed"
       }
     },
     "apiKeys": {
@@ -639,7 +655,37 @@
           "uploadFailed": "Failed to upload {name}",
           "uploaded": "{count} file(s) uploaded",
           "fileSaved": "File saved",
-          "saveFailed": "Failed to save"
+          "saveFailed": "Failed to save",
+          "contentInstallFailed": "Install failed",
+          "contentRemoved": "Removed",
+          "contentRemoveFailed": "Failed to remove",
+          "botInstalled": "Bot installed",
+          "botInstallFailed": "Failed to install bot",
+          "openFailed": "Failed to open file",
+          "deleteSelectedFailed": "Failed to delete selected items",
+          "operationFailed": "Operation failed"
+        },
+        "botModal": {
+          "title": "Install bot",
+          "message": "Installing \"{name}\" will DELETE ALL current files on this server and replace them with the bot's latest approved release. This cannot be undone.",
+          "confirmLabel": "Delete files and install",
+          "pickerTitle": "Install a bot",
+          "installTitle": "Install {name}",
+          "back": "Back",
+          "installing": "Installing...",
+          "install": "Install",
+          "cancel": "Cancel"
+        },
+        "contentModal": {
+          "pickerTitle": "Plugins / mods / resourcepacks",
+          "installTitle": "Install {name}",
+          "remove": "Remove",
+          "searchPlaceholder": "Search Modrinth...",
+          "typePlugin": "Plugin",
+          "typeMod": "Mod",
+          "typeResourcepack": "Resourcepack",
+          "back": "Back",
+          "cancel": "Cancel"
         }
       },
       "databases": {
@@ -725,6 +771,9 @@
           "add": "Add",
           "save": "Save Firewall Rules",
           "saved": "Firewall rules saved successfully"
+        },
+        "messages": {
+          "loadFailed": "Failed to load network data"
         }
       },
       "settings": {
@@ -925,6 +974,11 @@
         "githubRepo": "GitHub repo",
         "selectEgg": "Select target egg...",
         "hint": "The repo must already have at least one public GitHub release. Only the latest release is ever installable, and only after an admin reviews it."
+      },
+      "messages": {
+        "fillEveryField": "Fill in every field",
+        "submitted": "Bot submitted for review",
+        "submitFailed": "Failed to submit bot"
       }
     },
     "social": {
@@ -943,18 +997,127 @@
         "chat": "Chat",
         "gift": "Gift",
         "remove": "Remove",
-        "giftTitle": "Send a gift to {name}"
+        "giftTitle": "Send a gift to {name}",
+        "messages": {
+          "requestSent": "Friend request sent",
+          "requestFailed": "Failed to send request",
+          "friendAdded": "Friend added",
+          "requestDeclined": "Request declined",
+          "failed": "Failed",
+          "removed": "Removed",
+          "checkoutFailed": "Failed to start checkout"
+        }
       },
       "profile": {
         "title": "Profile",
         "memberSince": "Member since {date}",
-        "requestPending": "Friend request pending"
+        "requestPending": "Friend request pending",
+        "messages": {
+          "userNotFound": "User not found"
+        }
       },
       "chat": {
         "title": "Chat with {name}",
         "pageTitle": "Chat",
         "placeholder": "Type a message...",
         "send": "Send"
+      }
+    },
+    "notFound": {
+      "title": "Oops! Page Not Found!",
+      "description": "It seems like the page you're looking for does not exist or might have been removed.",
+      "backHome": "Back to Home"
+    },
+    "staff": {
+      "title": "Join our team",
+      "subtitle": "Staff application form",
+      "closedBadge": "Applications closed",
+      "closedModal": {
+        "title": "Attention!",
+        "message": "We are no longer accepting new applications",
+        "detail": "The application period has ended. Thanks for your interest in joining our team.",
+        "understood": "Understood"
+      },
+      "sections": {
+        "personalInfo": "Personal Information",
+        "initialQuestions": "Initial Questions",
+        "skills": "Your Skills",
+        "otherQuestions": "Other Questions"
+      },
+      "fields": {
+        "name": {
+          "label": "First name",
+          "placeholder": "Your first name"
+        },
+        "surname": {
+          "label": "Last name",
+          "placeholder": "Your last name"
+        },
+        "discordUser": {
+          "label": "Discord username",
+          "placeholder": "Your Discord username (e.g. user#1234)"
+        },
+        "boxmineUser": {
+          "label": "BoxMine username",
+          "placeholder": "Your BoxMine username"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "you@email.com"
+        },
+        "description": {
+          "label": "Brief description",
+          "placeholder": "Tell us about yourself (minimum 20 characters)"
+        },
+        "aporte": {
+          "label": "What would you contribute to BoxMine?",
+          "placeholder": "Explain how you could contribute to our community (minimum 50 characters)"
+        },
+        "boxCoinsRespuesta": {
+          "label": "If a user asks you for BoxCoins, what would you tell them?"
+        },
+        "rolRespuesta": {
+          "label": "If a user asks you for a role you don't have, what would you tell them?"
+        },
+        "soporteRespuesta": {
+          "label": "You're helping a user in support and they get aggressive, what do you do?"
+        },
+        "answerPlaceholder": "Explain your answer (minimum 50 characters)"
+      },
+      "skills": {
+        "programming": {
+          "question": "Do you know how to code?",
+          "languagesLabel": "Which language(s) do you know?"
+        },
+        "video": {
+          "question": "Do you know video editing?",
+          "editorsLabel": "Which video editor(s) do you use?"
+        },
+        "design": {
+          "question": "Do you know graphic design?",
+          "programsLabel": "Which graphic design program(s) do you use?"
+        }
+      },
+      "other": "Other",
+      "submit": "Submit application",
+      "submitting": "Submitting...",
+      "disabledMessage": "The form is temporarily disabled",
+      "viewInfo": "View information",
+      "errors": {
+        "name": "First name is required",
+        "surname": "Last name is required",
+        "discordUser": "Discord username is required",
+        "boxmineUser": "BoxMine username is required",
+        "email": "Invalid email",
+        "description": "Minimum 20 characters",
+        "aporte": "Minimum 50 characters",
+        "captcha": "Please complete the captcha"
+      },
+      "toasts": {
+        "fixErrors": "Please fix the errors in the form",
+        "connectionError": "Connection error",
+        "sentDefault": "Application submitted successfully!",
+        "sendError": "Failed to submit the form"
       }
     }
   },
