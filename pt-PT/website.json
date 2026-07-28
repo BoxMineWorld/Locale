@@ -1405,6 +1405,28 @@
         "message": "Tem a certeza de que quer eliminar este cargo?"
       },
       "edit": "Editar Cargo"
+    },
+    "servers": {
+      "pageTitle": "Servidores",
+      "create": "Criar Servidor",
+      "table": {
+        "owner": "Proprietário",
+        "node": "Nó",
+        "suspended": "Suspenso"
+      },
+      "deleteDialog": {
+        "title": "Eliminar Servidor",
+        "message": "Tem a certeza? Isto vai eliminar todos os ficheiros e não pode ser desfeito."
+      },
+      "edit": "Editar Servidor",
+      "sections": {
+        "info": "Informação do Servidor",
+        "plan": "Plano",
+        "status": "Estado",
+        "actions": "Ações"
+      },
+      "changePlan": "Alterar Plano",
+      "saveNextCharge": "Guardar Próxima Cobrança"
     }
   },
   "titles": {

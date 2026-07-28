@@ -1405,6 +1405,28 @@
         "message": "Tem certeza de que deseja excluir este cargo?"
       },
       "edit": "Editar Cargo"
+    },
+    "servers": {
+      "pageTitle": "Servidores",
+      "create": "Criar Servidor",
+      "table": {
+        "owner": "Proprietário",
+        "node": "Nó",
+        "suspended": "Suspenso"
+      },
+      "deleteDialog": {
+        "title": "Excluir Servidor",
+        "message": "Tem certeza? Isso excluirá todos os arquivos e não pode ser desfeito."
+      },
+      "edit": "Editar Servidor",
+      "sections": {
+        "info": "Informações do Servidor",
+        "plan": "Plano",
+        "status": "Status",
+        "actions": "Ações"
+      },
+      "changePlan": "Alterar Plano",
+      "saveNextCharge": "Salvar Próxima Cobrança"
     }
   },
   "titles": {

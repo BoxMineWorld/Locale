@@ -1405,6 +1405,28 @@
         "message": "Are you sure you want to delete this role?"
       },
       "edit": "Edit Role"
+    },
+    "servers": {
+      "pageTitle": "Servers",
+      "create": "Create Server",
+      "table": {
+        "owner": "Owner",
+        "node": "Node",
+        "suspended": "Suspended"
+      },
+      "deleteDialog": {
+        "title": "Delete Server",
+        "message": "Are you sure? This will delete all files and cannot be undone."
+      },
+      "edit": "Edit Server",
+      "sections": {
+        "info": "Server Information",
+        "plan": "Plan",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "changePlan": "Change Plan",
+      "saveNextCharge": "Save Next Charge"
     }
   },
   "titles": {

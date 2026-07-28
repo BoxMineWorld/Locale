@@ -1405,6 +1405,28 @@
         "message": "¿Seguro que querés eliminar este rol?"
       },
       "edit": "Editar Rol"
+    },
+    "servers": {
+      "pageTitle": "Servidores",
+      "create": "Crear Servidor",
+      "table": {
+        "owner": "Propietario",
+        "node": "Nodo",
+        "suspended": "Suspendido"
+      },
+      "deleteDialog": {
+        "title": "Eliminar Servidor",
+        "message": "¿Estás seguro? Esto eliminará todos los archivos y no se puede deshacer."
+      },
+      "edit": "Editar Servidor",
+      "sections": {
+        "info": "Información del Servidor",
+        "plan": "Plan",
+        "status": "Estado",
+        "actions": "Acciones"
+      },
+      "changePlan": "Cambiar Plan",
+      "saveNextCharge": "Guardar Próximo Cobro"
     }
   },
   "titles": {
