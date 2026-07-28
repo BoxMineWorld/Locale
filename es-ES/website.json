@@ -1320,6 +1320,18 @@
       },
       "viewTitle": "Eggs de la Categoría",
       "createEgg": "Crear Egg"
+    },
+    "eggs": {
+      "pageTitle": "Eggs",
+      "manageCategories": "Gestionar Categorías",
+      "createEgg": "Crear Egg",
+      "editTitle": "Editar Egg",
+      "createTitle": "Crear Egg",
+      "sections": {
+        "basicInfo": "Información Básica",
+        "startupConfig": "Configuración de Inicio",
+        "variables": "Variables"
+      }
     }
   },
   "titles": {
