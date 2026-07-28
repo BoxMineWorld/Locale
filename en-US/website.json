@@ -1243,11 +1243,53 @@
       "messages": {
         "deleted": "Badge deleted",
         "deleteFailed": "Failed to delete"
-      }
+      },
+      "pageTitleCreate": "Create Badge",
+      "pageTitleEdit": "Edit Badge",
+      "sections": {
+        "icon": "Icon",
+        "nameDescription": "Name & description (per language)",
+        "howObtained": "How it's obtained",
+        "rewards": "Reward permissions"
+      },
+      "uploadIcon": "Upload icon"
     },
     "common": {
       "success": "Success",
-      "error": "Error"
+      "error": "Error",
+      "save": "Save"
+    },
+    "bots": {
+      "reviewTitle": "Review release",
+      "backToCatalog": "Back to catalog",
+      "review": {
+        "bot": "Bot",
+        "repository": "Repository",
+        "tag": "Tag",
+        "status": "Status",
+        "submitted": "Submitted"
+      },
+      "approve": "Approve",
+      "reject": "Reject",
+      "pageTitle": "Bots",
+      "tabs": {
+        "catalog": "Catalog",
+        "pending": "Pending Releases"
+      },
+      "table": {
+        "name": "Name",
+        "repository": "Repository",
+        "egg": "Egg",
+        "status": "Status",
+        "actions": "Actions",
+        "bot": "Bot",
+        "tag": "Tag",
+        "submitted": "Submitted"
+      },
+      "suspend": "Suspend",
+      "botListings": "Bot listings",
+      "pendingReleases": "Pending releases",
+      "reviewLink": "Review"
     }
   },
   "titles": {

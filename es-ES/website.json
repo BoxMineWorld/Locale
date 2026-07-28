@@ -1243,11 +1243,53 @@
       "messages": {
         "deleted": "Insignia eliminada",
         "deleteFailed": "No se pudo eliminar"
-      }
+      },
+      "pageTitleCreate": "Crear Insignia",
+      "pageTitleEdit": "Editar Insignia",
+      "sections": {
+        "icon": "Ícono",
+        "nameDescription": "Nombre y descripción (por idioma)",
+        "howObtained": "Cómo se obtiene",
+        "rewards": "Permisos de recompensa"
+      },
+      "uploadIcon": "Subir ícono"
     },
     "common": {
       "success": "Éxito",
-      "error": "Error"
+      "error": "Error",
+      "save": "Guardar"
+    },
+    "bots": {
+      "reviewTitle": "Revisar versión",
+      "backToCatalog": "Volver al catálogo",
+      "review": {
+        "bot": "Bot",
+        "repository": "Repositorio",
+        "tag": "Etiqueta",
+        "status": "Estado",
+        "submitted": "Enviado"
+      },
+      "approve": "Aprobar",
+      "reject": "Rechazar",
+      "pageTitle": "Bots",
+      "tabs": {
+        "catalog": "Catálogo",
+        "pending": "Versiones Pendientes"
+      },
+      "table": {
+        "name": "Nombre",
+        "repository": "Repositorio",
+        "egg": "Egg",
+        "status": "Estado",
+        "actions": "Acciones",
+        "bot": "Bot",
+        "tag": "Etiqueta",
+        "submitted": "Enviado"
+      },
+      "suspend": "Suspender",
+      "botListings": "Listado de bots",
+      "pendingReleases": "Versiones pendientes",
+      "reviewLink": "Revisar"
     }
   },
   "titles": {

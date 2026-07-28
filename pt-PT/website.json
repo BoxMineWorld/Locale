@@ -1243,11 +1243,53 @@
       "messages": {
         "deleted": "Emblema eliminado",
         "deleteFailed": "Falha ao eliminar"
-      }
+      },
+      "pageTitleCreate": "Criar Emblema",
+      "pageTitleEdit": "Editar Emblema",
+      "sections": {
+        "icon": "Ícone",
+        "nameDescription": "Nome e descrição (por idioma)",
+        "howObtained": "Como é obtida",
+        "rewards": "Permissões de recompensa"
+      },
+      "uploadIcon": "Carregar ícone"
     },
     "common": {
       "success": "Sucesso",
-      "error": "Erro"
+      "error": "Erro",
+      "save": "Guardar"
+    },
+    "bots": {
+      "reviewTitle": "Revisar versão",
+      "backToCatalog": "Voltar ao catálogo",
+      "review": {
+        "bot": "Bot",
+        "repository": "Repositório",
+        "tag": "Tag",
+        "status": "Estado",
+        "submitted": "Enviado"
+      },
+      "approve": "Aprovar",
+      "reject": "Rejeitar",
+      "pageTitle": "Bots",
+      "tabs": {
+        "catalog": "Catálogo",
+        "pending": "Versões Pendentes"
+      },
+      "table": {
+        "name": "Nome",
+        "repository": "Repositório",
+        "egg": "Egg",
+        "status": "Estado",
+        "actions": "Ações",
+        "bot": "Bot",
+        "tag": "Tag",
+        "submitted": "Enviado"
+      },
+      "suspend": "Suspender",
+      "botListings": "Listagem de bots",
+      "pendingReleases": "Versões pendentes",
+      "reviewLink": "Revisar"
     }
   },
   "titles": {
