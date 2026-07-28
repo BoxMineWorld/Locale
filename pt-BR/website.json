@@ -239,6 +239,18 @@
           "for": "por",
           "cancel": "Cancelar",
           "processing": "Processando..."
+        },
+        "messages": {
+          "fetchingPortal": "Buscando portal de faturamento...",
+          "redirecting": "Redirecionando...",
+          "noPurchaseYet": "Faça uma compra para acessar o faturamento",
+          "portalFailed": "Falha ao carregar o portal de faturamento",
+          "connectFailed": "Falha ao conectar",
+          "creatingInvoice": "Criando fatura...",
+          "redirectingToPayment": "Redirecionando para o pagamento...",
+          "invoiceFailed": "Falha ao criar a fatura",
+          "connectionFailed": "Falha na conexão",
+          "paymentMethodUnavailable": "Este método de pagamento ainda não está disponível."
         }
       }
     },
@@ -264,6 +276,10 @@
         "cancel": "Cancelar",
         "purchase": "Comprar",
         "processing": "Processando..."
+      },
+      "messages": {
+        "purchased": "Limite comprado!",
+        "failed": "Falhou"
       }
     },
     "apiKeys": {
@@ -544,7 +560,37 @@
           "uploadFailed": "Não foi possível enviar {name}",
           "uploaded": "{count} arquivo(s) enviado(s)",
           "fileSaved": "Arquivo salvo",
-          "saveFailed": "Não foi possível salvar"
+          "saveFailed": "Não foi possível salvar",
+          "contentInstallFailed": "Falha na instalação",
+          "contentRemoved": "Removido",
+          "contentRemoveFailed": "Falha ao remover",
+          "botInstalled": "Bot instalado",
+          "botInstallFailed": "Falha ao instalar o bot",
+          "openFailed": "Falha ao abrir o arquivo",
+          "deleteSelectedFailed": "Falha ao excluir os itens selecionados",
+          "operationFailed": "A operação falhou"
+        },
+        "botModal": {
+          "title": "Instalar bot",
+          "message": "Instalar \"{name}\" irá APAGAR TODOS os arquivos atuais deste servidor e substituí-los pela última versão aprovada do bot. Isso não pode ser desfeito.",
+          "confirmLabel": "Excluir arquivos e instalar",
+          "pickerTitle": "Instalar um bot",
+          "installTitle": "Instalar {name}",
+          "back": "Voltar",
+          "installing": "Instalando...",
+          "install": "Instalar",
+          "cancel": "Cancelar"
+        },
+        "contentModal": {
+          "pickerTitle": "Plugins / mods / pacotes de recursos",
+          "installTitle": "Instalar {name}",
+          "remove": "Remover",
+          "searchPlaceholder": "Pesquisar no Modrinth...",
+          "typePlugin": "Plugin",
+          "typeMod": "Mod",
+          "typeResourcepack": "Pacote de recursos",
+          "back": "Voltar",
+          "cancel": "Cancelar"
         }
       },
       "databases": {
@@ -630,6 +676,9 @@
           "add": "Adicionar",
           "save": "Salvar regras do firewall",
           "saved": "Regras do firewall salvas com sucesso"
+        },
+        "messages": {
+          "loadFailed": "Falha ao carregar os dados de rede"
         }
       },
       "settings": {
@@ -925,6 +974,11 @@
         "githubRepo": "Repositório do GitHub",
         "selectEgg": "Selecione o egg de destino...",
         "hint": "O repositório já deve ter pelo menos um release público no GitHub. Apenas o release mais recente é instalável, e somente depois que um admin o revisar."
+      },
+      "messages": {
+        "fillEveryField": "Preencha todos os campos",
+        "submitted": "Bot enviado para revisão",
+        "submitFailed": "Falha ao enviar o bot"
       }
     },
     "social": {
@@ -943,18 +997,127 @@
         "chat": "Chat",
         "gift": "Presentear",
         "remove": "Remover",
-        "giftTitle": "Enviar um presente para {name}"
+        "giftTitle": "Enviar um presente para {name}",
+        "messages": {
+          "requestSent": "Solicitação de amizade enviada",
+          "requestFailed": "Falha ao enviar a solicitação",
+          "friendAdded": "Amigo adicionado",
+          "requestDeclined": "Solicitação recusada",
+          "failed": "Falhou",
+          "removed": "Removido",
+          "checkoutFailed": "Falha ao iniciar o checkout"
+        }
       },
       "profile": {
         "title": "Perfil",
         "memberSince": "Membro desde {date}",
-        "requestPending": "Solicitação de amizade pendente"
+        "requestPending": "Solicitação de amizade pendente",
+        "messages": {
+          "userNotFound": "Usuário não encontrado"
+        }
       },
       "chat": {
         "title": "Chat com {name}",
         "pageTitle": "Chat",
         "placeholder": "Digite uma mensagem...",
         "send": "Enviar"
+      }
+    },
+    "notFound": {
+      "title": "Ops! Página não encontrada!",
+      "description": "Parece que a página que você procura não existe ou pode ter sido removida.",
+      "backHome": "Voltar ao início"
+    },
+    "staff": {
+      "title": "Junte-se à nossa equipe",
+      "subtitle": "Formulário de candidatura para Staff",
+      "closedBadge": "Candidaturas encerradas",
+      "closedModal": {
+        "title": "Atenção!",
+        "message": "Não estamos mais aceitando novas candidaturas",
+        "detail": "O período de recebimento de candidaturas terminou. Obrigado pelo seu interesse em fazer parte da nossa equipe.",
+        "understood": "Entendido"
+      },
+      "sections": {
+        "personalInfo": "Informações Pessoais",
+        "initialQuestions": "Perguntas Iniciais",
+        "skills": "Suas Habilidades",
+        "otherQuestions": "Outras Perguntas"
+      },
+      "fields": {
+        "name": {
+          "label": "Nome",
+          "placeholder": "Seu nome"
+        },
+        "surname": {
+          "label": "Sobrenome",
+          "placeholder": "Seu sobrenome"
+        },
+        "discordUser": {
+          "label": "Usuário do Discord",
+          "placeholder": "Seu usuário do Discord (ex: usuario#1234)"
+        },
+        "boxmineUser": {
+          "label": "Usuário do BoxMine",
+          "placeholder": "Seu usuário no BoxMine"
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": "voce@email.com"
+        },
+        "description": {
+          "label": "Breve Descrição",
+          "placeholder": "Conte-nos sobre você (mínimo 20 caracteres)"
+        },
+        "aporte": {
+          "label": "O que você contribuiria para o BoxMine?",
+          "placeholder": "Explique como você poderia contribuir para nossa comunidade (mínimo 50 caracteres)"
+        },
+        "boxCoinsRespuesta": {
+          "label": "Se um usuário pedir BoxCoins, o que você diria?"
+        },
+        "rolRespuesta": {
+          "label": "Se um usuário pedir um cargo que você não tem, o que você diria?"
+        },
+        "soporteRespuesta": {
+          "label": "Você está atendendo um usuário no suporte e ele fica agressivo, o que você faz?"
+        },
+        "answerPlaceholder": "Explique sua resposta (mínimo 50 caracteres)"
+      },
+      "skills": {
+        "programming": {
+          "question": "Você sabe programar?",
+          "languagesLabel": "Quais linguagens você conhece?"
+        },
+        "video": {
+          "question": "Você sabe editar vídeos?",
+          "editorsLabel": "Quais editores de vídeo você sabe usar?"
+        },
+        "design": {
+          "question": "Você sabe design gráfico?",
+          "programsLabel": "Quais programas de edição gráfica você usa?"
+        }
+      },
+      "other": "Outro",
+      "submit": "Enviar candidatura",
+      "submitting": "Enviando...",
+      "disabledMessage": "O formulário está temporariamente desabilitado",
+      "viewInfo": "Ver informação",
+      "errors": {
+        "name": "O nome é obrigatório",
+        "surname": "O sobrenome é obrigatório",
+        "discordUser": "Usuário do Discord obrigatório",
+        "boxmineUser": "Usuário do BoxMine obrigatório",
+        "email": "E-mail inválido",
+        "description": "Mínimo de 20 caracteres",
+        "aporte": "Mínimo de 50 caracteres",
+        "captcha": "Por favor, complete o captcha"
+      },
+      "toasts": {
+        "fixErrors": "Por favor, corrija os erros no formulário",
+        "connectionError": "Erro de conexão",
+        "sentDefault": "Formulário enviado com sucesso!",
+        "sendError": "Erro ao enviar o formulário"
       }
     }
   },
