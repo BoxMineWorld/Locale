@@ -1463,6 +1463,27 @@
       "remove": "Remove",
       "invalidateAll": "Invalidate All",
       "loginAsUser": "Login as user"
+    },
+    "proxy": {
+      "pageTitle": "Proxy Routes",
+      "createTitle": "Register a route",
+      "fields": {
+        "serverId": "Server ID",
+        "domain": "Domain",
+        "internalPort": "Internal Port"
+      },
+      "create": "Create Route",
+      "table": {
+        "server": "Server",
+        "domain": "Domain",
+        "port": "Internal Port"
+      },
+      "empty": "No proxy routes registered yet.",
+      "messages": {
+        "created": "Route created",
+        "deleted": "Route removed",
+        "failed": "Failed"
+      }
     }
   },
   "titles": {
