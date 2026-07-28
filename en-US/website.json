@@ -1268,7 +1268,10 @@
       "order": "Order",
       "description": "Description",
       "price": "Price",
-      "saveChanges": "Save Changes"
+      "saveChanges": "Save Changes",
+      "category": "Category",
+      "hidden": "Hidden",
+      "confirmDeleteGeneric": "Are you sure? This cannot be undone."
     },
     "bots": {
       "reviewTitle": "Review release",
@@ -1371,6 +1374,23 @@
         "allocations": "Allocations",
         "wingsConfig": "Wings Configuration",
         "allowedEggs": "Allowed Eggs"
+      }
+    },
+    "products": {
+      "pageTitle": "Products",
+      "create": "Create Product",
+      "deleteDialog": {
+        "title": "Delete Product"
+      },
+      "sections": {
+        "basicInfo": "Basic Information",
+        "settings": "Settings",
+        "billingSettings": "Billing Settings",
+        "limits": "Limits",
+        "visibilityOverrides": "Visibility Overrides",
+        "pricingCycles": "Pricing Cycles",
+        "assignedNodes": "Assigned Nodes",
+        "availableEggs": "Available Eggs"
       }
     }
   },

@@ -1268,7 +1268,10 @@
       "order": "Ordem",
       "description": "Descrição",
       "price": "Preço",
-      "saveChanges": "Guardar Alterações"
+      "saveChanges": "Guardar Alterações",
+      "category": "Categoria",
+      "hidden": "Oculto",
+      "confirmDeleteGeneric": "Tem a certeza? Isto não pode ser desfeito."
     },
     "bots": {
       "reviewTitle": "Revisar versão",
@@ -1371,6 +1374,23 @@
         "allocations": "Alocações",
         "wingsConfig": "Configuração do Wings",
         "allowedEggs": "Eggs Permitidos"
+      }
+    },
+    "products": {
+      "pageTitle": "Produtos",
+      "create": "Criar Produto",
+      "deleteDialog": {
+        "title": "Eliminar Produto"
+      },
+      "sections": {
+        "basicInfo": "Informação Básica",
+        "settings": "Configurações",
+        "billingSettings": "Configurações de Faturação",
+        "limits": "Limites",
+        "visibilityOverrides": "Substituições de Visibilidade",
+        "pricingCycles": "Ciclos de Preço",
+        "assignedNodes": "Nós Atribuídos",
+        "availableEggs": "Eggs Disponíveis"
       }
     }
   },
