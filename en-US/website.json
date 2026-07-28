@@ -1355,6 +1355,23 @@
         "title": "Delete Location",
         "message": "Are you sure? This will also affect associated nodes."
       }
+    },
+    "nodes": {
+      "pageTitle": "Nodes",
+      "create": "Create Node",
+      "table": {
+        "location": "Location"
+      },
+      "deleteDialog": {
+        "title": "Delete Node",
+        "message": "Are you sure you want to delete this node?"
+      },
+      "sections": {
+        "details": "Node Details",
+        "allocations": "Allocations",
+        "wingsConfig": "Wings Configuration",
+        "allowedEggs": "Allowed Eggs"
+      }
     }
   },
   "titles": {

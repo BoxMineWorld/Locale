@@ -1355,6 +1355,23 @@
         "title": "Eliminar Ubicación",
         "message": "¿Estás seguro? Esto también afectará a los nodos asociados."
       }
+    },
+    "nodes": {
+      "pageTitle": "Nodos",
+      "create": "Crear Nodo",
+      "table": {
+        "location": "Ubicación"
+      },
+      "deleteDialog": {
+        "title": "Eliminar Nodo",
+        "message": "¿Seguro que querés eliminar este nodo?"
+      },
+      "sections": {
+        "details": "Detalles del Nodo",
+        "allocations": "Asignaciones",
+        "wingsConfig": "Configuración de Wings",
+        "allowedEggs": "Eggs Permitidos"
+      }
     }
   },
   "titles": {

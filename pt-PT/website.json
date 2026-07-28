@@ -1355,6 +1355,23 @@
         "title": "Eliminar Localização",
         "message": "Tem a certeza? Isto também vai afetar os nós associados."
       }
+    },
+    "nodes": {
+      "pageTitle": "Nós",
+      "create": "Criar Nó",
+      "table": {
+        "location": "Localização"
+      },
+      "deleteDialog": {
+        "title": "Eliminar Nó",
+        "message": "Tem a certeza de que quer eliminar este nó?"
+      },
+      "sections": {
+        "details": "Detalhes do Nó",
+        "allocations": "Alocações",
+        "wingsConfig": "Configuração do Wings",
+        "allowedEggs": "Eggs Permitidos"
+      }
     }
   },
   "titles": {
