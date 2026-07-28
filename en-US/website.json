@@ -1027,7 +1027,8 @@
         "noMessages": "No messages yet. Say hi!",
         "openAria": "Open chat",
         "closeAria": "Close chat",
-        "backAria": "Back to friends"
+        "backAria": "Back to friends",
+        "minimizeAria": "Minimize"
       }
     },
     "notFound": {
