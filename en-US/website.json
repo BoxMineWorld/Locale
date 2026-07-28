@@ -1266,7 +1266,9 @@
       "created": "Created",
       "status": "Status",
       "order": "Order",
-      "description": "Description"
+      "description": "Description",
+      "price": "Price",
+      "saveChanges": "Save Changes"
     },
     "bots": {
       "reviewTitle": "Review release",
@@ -1332,6 +1334,19 @@
         "startupConfig": "Startup Configuration",
         "variables": "Variables"
       }
+    },
+    "limits": {
+      "pageTitle": "Limits",
+      "create": "Create Limit",
+      "table": {
+        "type": "Type",
+        "amount": "Amount"
+      },
+      "deleteDialog": {
+        "title": "Delete Limit",
+        "message": "Are you sure you want to delete this limit?"
+      },
+      "priceCoins": "Price (coins)"
     }
   },
   "titles": {

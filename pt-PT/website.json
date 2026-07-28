@@ -1266,7 +1266,9 @@
       "created": "Criado",
       "status": "Estado",
       "order": "Ordem",
-      "description": "Descrição"
+      "description": "Descrição",
+      "price": "Preço",
+      "saveChanges": "Guardar Alterações"
     },
     "bots": {
       "reviewTitle": "Revisar versão",
@@ -1332,6 +1334,19 @@
         "startupConfig": "Configuração de Arranque",
         "variables": "Variáveis"
       }
+    },
+    "limits": {
+      "pageTitle": "Limites",
+      "create": "Criar Limite",
+      "table": {
+        "type": "Tipo",
+        "amount": "Quantidade"
+      },
+      "deleteDialog": {
+        "title": "Eliminar Limite",
+        "message": "Tem a certeza de que quer eliminar este limite?"
+      },
+      "priceCoins": "Preço (moedas)"
     }
   },
   "titles": {
