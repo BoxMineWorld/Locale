@@ -1021,6 +1021,13 @@
         "pageTitle": "Chat",
         "placeholder": "Escribe un mensaje...",
         "send": "Enviar"
+      },
+      "chatWidget": {
+        "emptyFriends": "Todavía no tienes amigos. Agrega algunos desde la página de Amigos para empezar a chatear.",
+        "noMessages": "Aún no hay mensajes. ¡Saluda!",
+        "openAria": "Abrir chat",
+        "closeAria": "Cerrar chat",
+        "backAria": "Volver a amigos"
       }
     },
     "notFound": {
