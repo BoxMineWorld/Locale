@@ -1295,7 +1295,11 @@
         "repository": "Repository",
         "tag": "Tag",
         "status": "Status",
-        "submitted": "Submitted"
+        "submitted": "Submitted",
+        "history": "Release History",
+        "reviewedBy": "Reviewed By",
+        "reviewedAt": "Reviewed At",
+        "notes": "Notes"
       },
       "approve": "Approve",
       "reject": "Reject",
@@ -1463,7 +1467,8 @@
       "updatePassword": "Update Password",
       "remove": "Remove",
       "invalidateAll": "Invalidate All",
-      "loginAsUser": "Login as user"
+      "loginAsUser": "Login as user",
+      "viewPublicProfile": "View Public Profile"
     },
     "proxy": {
       "pageTitle": "Proxy Routes",
