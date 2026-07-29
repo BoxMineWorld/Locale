@@ -774,6 +774,23 @@
         },
         "messages": {
           "loadFailed": "Failed to load network data"
+        },
+        "proxies": {
+          "title": "Reverse Proxies",
+          "empty": "No proxies configured yet.",
+          "remove": "Remove",
+          "mode": "Domain Type",
+          "modeShared": "Shared Subdomain",
+          "modeCustom": "Custom Domain",
+          "subdomain": "Subdomain",
+          "customDomain": "Your Domain",
+          "internalPort": "Internal Port",
+          "protocol": "Protocol",
+          "create": "Create Proxy",
+          "created": "Proxy created",
+          "createFailed": "Failed to create proxy",
+          "confirmRemove": "Remove this proxy? This cannot be undone.",
+          "removeFailed": "Failed to remove proxy"
         }
       },
       "settings": {
