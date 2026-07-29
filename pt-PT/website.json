@@ -1295,7 +1295,11 @@
         "repository": "Repositório",
         "tag": "Tag",
         "status": "Estado",
-        "submitted": "Enviado"
+        "submitted": "Enviado",
+        "history": "Histórico de Releases",
+        "reviewedBy": "Revisto Por",
+        "reviewedAt": "Revisto Em",
+        "notes": "Notas"
       },
       "approve": "Aprovar",
       "reject": "Rejeitar",
@@ -1463,7 +1467,8 @@
       "updatePassword": "Atualizar Palavra-passe",
       "remove": "Remover",
       "invalidateAll": "Invalidar Todas",
-      "loginAsUser": "Iniciar sessão como utilizador"
+      "loginAsUser": "Iniciar sessão como utilizador",
+      "viewPublicProfile": "Ver Perfil Público"
     },
     "proxy": {
       "pageTitle": "Rotas de Proxy",
