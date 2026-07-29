@@ -679,6 +679,23 @@
         },
         "messages": {
           "loadFailed": "Falha ao carregar os dados de rede"
+        },
+        "proxies": {
+          "title": "Proxies Reversos",
+          "empty": "Ainda não há proxies configurados.",
+          "remove": "Remover",
+          "mode": "Tipo de Domínio",
+          "modeShared": "Subdomínio Compartilhado",
+          "modeCustom": "Domínio Personalizado",
+          "subdomain": "Subdomínio",
+          "customDomain": "Seu Domínio",
+          "internalPort": "Porta Interna",
+          "protocol": "Protocolo",
+          "create": "Criar Proxy",
+          "created": "Proxy criado",
+          "createFailed": "Falha ao criar o proxy",
+          "confirmRemove": "Remover este proxy? Isso não pode ser desfeito.",
+          "removeFailed": "Falha ao remover o proxy"
         }
       },
       "settings": {
