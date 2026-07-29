@@ -1325,7 +1325,11 @@
         "auditActionRejected": "Rejeitado",
         "auditActionAutoRevoked": "Revogado automaticamente (o conteúdo mudou no GitHub)",
         "auditSystem": "Sistema (automático)",
-        "auditEmpty": "Ainda não há entradas de auditoria"
+        "auditEmpty": "Ainda não há entradas de auditoria",
+        "diff": "Diferenças vs. a última aprovada",
+        "diffNoPrevious": "Não há nenhuma versão aprovada anterior para comparar",
+        "diffNoChanges": "Sem alterações nas notas da versão",
+        "diffAssets": "Arquivos anexados alterados"
       },
       "approve": "Aprovar",
       "reject": "Rejeitar",
