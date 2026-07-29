@@ -1316,7 +1316,16 @@
         "history": "Release History",
         "reviewedBy": "Reviewed By",
         "reviewedAt": "Reviewed At",
-        "notes": "Notes"
+        "notes": "Notes",
+        "auditLog": "Audit Log",
+        "auditAction": "Action",
+        "auditActor": "By",
+        "auditDate": "Date",
+        "auditActionApproved": "Approved",
+        "auditActionRejected": "Rejected",
+        "auditActionAutoRevoked": "Auto-revoked (content changed on GitHub)",
+        "auditSystem": "System (auto)",
+        "auditEmpty": "No audit entries yet"
       },
       "approve": "Approve",
       "reject": "Reject",
