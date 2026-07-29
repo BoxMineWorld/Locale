@@ -1490,6 +1490,27 @@
         "deleted": "Rota removida",
         "failed": "Falhou"
       }
+    },
+    "cloudflare": {
+      "pageTitle": "Cloudflare e Domínios",
+      "addAccount": "Conectar Conta Cloudflare",
+      "fields": {
+        "name": "Rótulo",
+        "apiToken": "Token de API"
+      },
+      "connect": "Conectar",
+      "noAccounts": "Ainda não há contas Cloudflare conectadas.",
+      "addZone": "Adicionar Zona",
+      "selectZone": "Selecione uma zona...",
+      "noZones": "Ainda não há zonas adicionadas para esta conta.",
+      "addSharedDomain": "Adicionar Domínio Compartilhado",
+      "sharedDomainPlaceholder": "ex. boxmine.xyz",
+      "messages": {
+        "accountConnected": "Conta Cloudflare conectada",
+        "zoneAdded": "Zona adicionada",
+        "domainAdded": "Domínio compartilhado adicionado",
+        "failed": "Falhou"
+      }
     }
   },
   "titles": {
