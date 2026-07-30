@@ -1244,7 +1244,14 @@
       "deletePost": "Eliminar publicación",
       "noBans": "No hay baneos activos.",
       "never": "Nunca",
-      "unban": "Desbanear"
+      "unban": "Desbanear",
+      "statusLabels": {
+        "in_review": "En revisión",
+        "planned": "Planeado",
+        "in_progress": "En progreso",
+        "completed": "Completado",
+        "rejected": "Rechazado"
+      }
     },
     "badges": {
       "pageTitle": "Insignias",
@@ -1302,7 +1309,24 @@
       "coins": "Monedas",
       "reason": "Motivo",
       "expiresOptional": "Vence (opcional)",
-      "add": "Añadir"
+      "add": "Añadir",
+      "orderHint": "Los números más bajos aparecen primero",
+      "deleted": "Eliminado",
+      "failedGeneric": "Ha fallado",
+      "failedToLoad": "No se pudo cargar",
+      "loadFailed": "No se pudo cargar",
+      "copied": "Copiado",
+      "copyId": "Copiar ID",
+      "id": "ID",
+      "idCopied": "ID copiado",
+      "idCopiedClipboard": "ID copiado al portapapeles",
+      "next": "Siguiente",
+      "previous": "Anterior",
+      "no": "No",
+      "yes": "Sí",
+      "show": "Mostrar:",
+      "pageOf": "Página {page} de {totalPages}",
+      "totalCount": "{total} en total"
     },
     "bots": {
       "reviewTitle": "Revisar versión",
@@ -1359,7 +1383,14 @@
       "deleteDialog": {
         "title": "Eliminar Categoría",
         "message": "¿Seguro que querés eliminar esta categoría?"
-      }
+      },
+      "formTitle": "Categoría",
+      "emptyState": "No se encontraron categorías",
+      "loadFailed": "No se pudo cargar la categoría (código {code})",
+      "updated": "Categoría actualizada",
+      "updateFailed": "No se pudo actualizar",
+      "createdMsg": "Categoría creada",
+      "createFailed": "No se pudo crear"
     },
     "eggCategories": {
       "pageTitle": "Categorías de Eggs",
@@ -1372,7 +1403,22 @@
         "message": "¿Seguro que querés eliminar esta categoría? Los eggs en ella quedarán sin categoría."
       },
       "viewTitle": "Eggs de la Categoría",
-      "createEgg": "Crear Egg"
+      "createEgg": "Crear Egg",
+      "formTitle": "Categoría de Egg",
+      "categoryPlaceholder": "Categoría",
+      "emptyState": "No se encontraron categorías",
+      "uncategorized": "Sin categoría",
+      "notFound": "Categoría no encontrada",
+      "loadEggsFailed": "No se pudieron cargar los eggs",
+      "noEggs": "No hay eggs en esta categoría",
+      "confirmDeleteEgg": "¿Estás seguro de que quieres eliminar este egg?",
+      "eggDeleted": "Egg eliminado",
+      "deleteEggFailed": "No se pudo eliminar",
+      "loadFailed": "No se pudo cargar la categoría (código {code})",
+      "updated": "Categoría actualizada",
+      "updateFailed": "No se pudo actualizar",
+      "createdMsg": "Categoría creada",
+      "createFailed": "No se pudo crear"
     },
     "eggs": {
       "pageTitle": "Eggs",
@@ -1384,6 +1430,59 @@
         "basicInfo": "Información Básica",
         "startupConfig": "Configuración de Inicio",
         "variables": "Variables"
+      },
+      "notFound": "Egg no encontrado",
+      "requiredFields": "Nombre, Imagen Docker y Comando de Inicio son obligatorios",
+      "updated": "Egg actualizado",
+      "created": "Egg creado",
+      "saveFailed": "Ha fallado",
+      "deleted": "Egg eliminado",
+      "deleteFailed": "No se pudo eliminar",
+      "loadFailed": "No se pudieron cargar los eggs",
+      "empty": "No se encontraron eggs",
+      "uncategorized": "Sin categoría",
+      "confirmDelete": "¿Estás seguro de que quieres eliminar este egg?",
+      "addVariable": "Añadir Variable",
+      "fields": {
+        "namePlaceholder": "Nombre del egg",
+        "descriptionPlaceholder": "Descripción del egg",
+        "noCategory": "Sin categoría",
+        "kind": "Tipo",
+        "kindGeneric": "Genérico",
+        "kindMinecraft": "Minecraft",
+        "kindBot": "Bot",
+        "kindHint": "Controla qué funciones se activan: los eggs de Minecraft obtienen el instalador de plugins/mods/resourcepacks, los eggs de Bot obtienen el botón de instalación del catálogo de bots.",
+        "minecraftLoader": "Loader de Minecraft",
+        "minecraftLoaderHint": "Slug de categoría de Modrinth usado para filtrar plugins/mods/resourcepacks compatibles.",
+        "minecraftVersion": "Versión de Minecraft",
+        "dockerImages": "Imagen(es) Docker",
+        "dockerImagesHintOnePerLine": "Una por línea. Formato:",
+        "dockerImagesHintOr": "o",
+        "startupCommand": "Comando de Inicio",
+        "startupCommandHint": "Usa $VARIABLE_NAME para sustitución de variables",
+        "stopCommand": "Comando de Detención",
+        "installScript": "Script de Instalación"
+      },
+      "variables": {
+        "empty": "No hay variables configuradas",
+        "name": "Nombre",
+        "namePlaceholder": "Nombre de Variable",
+        "envVariable": "Variable de Entorno",
+        "defaultValue": "Valor Predeterminado",
+        "defaultValuePlaceholder": "Valor predeterminado",
+        "true": "Verdadero",
+        "false": "Falso",
+        "type": "Tipo",
+        "typeString": "Texto",
+        "typeNumber": "Número",
+        "typeBoolean": "Booleano",
+        "typeOptions": "Opciones",
+        "required": "Obligatorio",
+        "min": "Mín",
+        "max": "Máx",
+        "userViewable": "Visible para el Usuario",
+        "userEditable": "Editable por el Usuario",
+        "secret": "Secreto (cifrado, oculto en la interfaz)"
       }
     },
     "limits": {
@@ -1397,7 +1496,17 @@
         "title": "Eliminar Límite",
         "message": "¿Seguro que querés eliminar este límite?"
       },
-      "priceCoins": "Precio (monedas)"
+      "priceCoins": "Precio (monedas)",
+      "formTitle": "Límite",
+      "notFound": "Límite no encontrado",
+      "editTitle": "Editar Límite",
+      "updated": "Límite actualizado",
+      "createdMsg": "Límite creado",
+      "types": {
+        "servers": "Servidores",
+        "databases": "Bases de Datos",
+        "proxies": "Proxies"
+      }
     },
     "locations": {
       "pageTitle": "Ubicaciones",
@@ -1405,13 +1514,20 @@
       "deleteDialog": {
         "title": "Eliminar Ubicación",
         "message": "¿Estás seguro? Esto también afectará a los nodos asociados."
-      }
+      },
+      "formTitle": "Ubicación",
+      "showLabel": "Mostrar:",
+      "notFound": "Ubicación no encontrada",
+      "updated": "Ubicación actualizada",
+      "createdMsg": "Ubicación creada",
+      "emptyState": "No se encontraron ubicaciones"
     },
     "nodes": {
       "pageTitle": "Nodos",
       "create": "Crear Nodo",
       "table": {
-        "location": "Ubicación"
+        "location": "Ubicación",
+        "url": "URL"
       },
       "deleteDialog": {
         "title": "Eliminar Nodo",
@@ -1422,7 +1538,39 @@
         "allocations": "Asignaciones",
         "wingsConfig": "Configuración de Wings",
         "allowedEggs": "Eggs Permitidos"
-      }
+      },
+      "title": "Nodo",
+      "filterShow": "Mostrar:",
+      "stats": {
+        "servers": "Servidores"
+      },
+      "fields": {
+        "url": "URL",
+        "publicIp": "IP Pública (FQDN o IP)",
+        "publicIpHint": "Se usa para conexiones SFTP y visualización",
+        "sftpAlias": "Alias SFTP",
+        "sftpAliasHint": "Dominio opcional que apunta a la IP del nodo, mostrado a los usuarios en lugar de la IP directa. Si está vacío, usa la IP Pública.",
+        "sftpPort": "Puerto SFTP",
+        "sftpLimits": "Límites SFTP",
+        "maxConnections": "Conexiones Máximas",
+        "rateLimit": "Límite de Tasa (req/s)",
+        "serverLimit": "Límite de Servidores",
+        "serverLimitHint": "Déjalo vacío para ilimitado"
+      },
+      "deleted": "Eliminado",
+      "deleteFailed": "Ha fallado",
+      "loadFailed": "No se pudo cargar",
+      "empty": "No se encontraron nodos",
+      "copyId": "Copiar ID",
+      "connected": "Conectado",
+      "disconnected": "Desconectado",
+      "copied": "Copiado",
+      "idCopied": "ID copiado",
+      "paginationTotal": "en total",
+      "paginationPrevious": "Anterior",
+      "paginationNext": "Siguiente",
+      "paginationPage": "Página",
+      "paginationOf": "de"
     },
     "products": {
       "pageTitle": "Productos",
@@ -1439,6 +1587,75 @@
         "pricingCycles": "Ciclos de Precio",
         "assignedNodes": "Nodos Asignados",
         "availableEggs": "Eggs Disponibles"
+      },
+      "filterShow": "Mostrar:",
+      "deleted": "Eliminado",
+      "deleteFailed": "Ha fallado",
+      "loadFailed": "No se pudo cargar",
+      "empty": "No se encontraron productos",
+      "yes": "Sí",
+      "no": "No",
+      "copyId": "Copiar ID",
+      "copied": "Copiado",
+      "idCopied": "ID copiado",
+      "paginationTotal": "en total",
+      "paginationPrevious": "Anterior",
+      "paginationNext": "Siguiente",
+      "paginationPage": "Página",
+      "paginationOf": "de",
+      "formTitle": "Producto",
+      "notFound": "Producto no encontrado",
+      "updated": "Producto actualizado",
+      "createdMsg": "Producto creado",
+      "fields": {
+        "none": "Ninguna",
+        "exposed": "Expuesto",
+        "daysBeforeSuspend": "Días Antes de Suspender",
+        "daysBeforeDelete": "Días Antes de Eliminar",
+        "leaveEmptyUnlimited": "Déjalo vacío para ilimitado",
+        "globalLimit": "Límite Global",
+        "unlimited": "Ilimitado",
+        "perClientLimit": "Límite por Cliente",
+        "visibilityHint": "Cuando está oculto, solo estos usuarios/roles pueden ver el producto",
+        "visibleToUsers": "Visible para Usuarios (IDs separados por coma)",
+        "visibleToRoles": "Visible para Roles (IDs separados por coma)",
+        "addCycle": "Añadir Ciclo",
+        "selectNodesHint": "Selecciona a qué nodos se puede desplegar este producto",
+        "selectEggsHint": "Selecciona qué eggs pueden elegir los usuarios al crear servidores con este producto",
+        "optional": "Opcional",
+        "minCoins": "Coins Mínimos",
+        "ramMb": "RAM (MB)",
+        "cpuPercent": "CPU (%)",
+        "diskMb": "Disco (MB)",
+        "backups": "Copias de Seguridad",
+        "databases": "Bases de Datos",
+        "proxies": "Proxies",
+        "cycleDuration": "Duración del Ciclo",
+        "oneTime": "Único pago",
+        "hourly": "Por hora",
+        "daily": "Diario",
+        "monthly": "Mensual",
+        "yearly": "Anual",
+        "chargeEvery": "Cobrar Cada",
+        "ddosProtection": "Protección DDoS",
+        "basic": "Básica",
+        "advanced": "Avanzada",
+        "gameOptimized": "Optimizada para Juegos",
+        "portsLimit": "Límite de Puertos",
+        "maxRequestsPerSecond": "Máx. Solicitudes /s",
+        "maxConnections": "Conexiones Máximas",
+        "maxBandwidthMb": "Ancho de Banda Máximo (MB)",
+        "rateLimitBurst": "Ráfaga de Límite de Tasa",
+        "default": "Predeterminado",
+        "noLocation": "Sin ubicación",
+        "noAvailableNodes": "No hay nodos disponibles",
+        "noNodesAssigned": "No hay nodos asignados",
+        "nodeRemoved": "Nodo eliminado",
+        "nodeAdded": "Nodo añadido",
+        "noAvailableEggs": "No hay eggs disponibles",
+        "noEggsAssigned": "No hay eggs asignados",
+        "eggRemoved": "Egg eliminado",
+        "eggAdded": "Egg añadido"
       }
     },
     "roles": {
@@ -1452,7 +1669,28 @@
         "title": "Eliminar Rol",
         "message": "¿Seguro que querés eliminar este rol?"
       },
-      "edit": "Editar Rol"
+      "edit": "Editar Rol",
+      "namePlaceholder": "Nombre del rol",
+      "requires2FA": "Requiere 2FA (los usuarios con este rol quedan bloqueados del panel hasta que activen el 2FA)",
+      "permissionsLoading": "Cargando permisos...",
+      "permissionsFailed": "No se pudieron cargar los permisos",
+      "nameRequired": "El nombre es obligatorio",
+      "creating": "Creando...",
+      "createSuccess": "Rol creado",
+      "createFailed": "No se pudo crear",
+      "defaultRoleBadge": "Rol Predeterminado",
+      "saving": "Guardando...",
+      "updateSuccess": "Rol actualizado",
+      "updateFailed": "No se pudo actualizar",
+      "notFound": "Rol no encontrado",
+      "loading": "Cargando...",
+      "deleteSuccess": "Rol eliminado",
+      "deleteFailed": "No se pudo eliminar",
+      "failedToLoad": "No se pudo cargar",
+      "empty": "No se encontraron roles",
+      "yes": "Sí",
+      "no": "No",
+      "permissionsCount": "{count} permisos"
     },
     "servers": {
       "pageTitle": "Servidores",
@@ -1474,7 +1712,60 @@
         "actions": "Acciones"
       },
       "changePlan": "Cambiar Plan",
-      "saveNextCharge": "Guardar Próximo Cobro"
+      "saveNextCharge": "Guardar Próximo Cobro",
+      "list": {
+        "empty": "No se encontraron servidores",
+        "deletedToast": "Servidor eliminado",
+        "suspendedToast": "Servidor suspendido",
+        "unsuspendedToast": "Servidor reactivado",
+        "suspendTitle": "Suspender",
+        "unsuspendTitle": "Reactivar"
+      },
+      "fields": {
+        "serverName": "Nombre del Servidor",
+        "userLabel": "Usuario",
+        "selectUser": "Seleccionar usuario...",
+        "productLabel": "Producto",
+        "selectProduct": "Seleccionar producto...",
+        "planCycle": "Ciclo del Plan",
+        "selectPlan": "Seleccionar plan...",
+        "eggLabel": "Egg",
+        "selectEgg": "Seleccionar egg...",
+        "nodeLabel": "Nodo",
+        "selectNode": "Seleccionar nodo...",
+        "createAsSuspended": "Crear como suspendido",
+        "startupCommand": "Comando de Inicio",
+        "dockerImage": "Imagen Docker",
+        "enterDockerImage": "Introduce la Imagen Docker",
+        "toggleCustomSelect": "Alternar Personalizado/Selección",
+        "ramMb": "RAM (MB)",
+        "cpuPercent": "CPU (%)",
+        "diskMb": "Disco (MB)",
+        "cycleLabel": "Ciclo",
+        "nextCharge": "Próximo Cobro",
+        "suspendAction": "Suspender",
+        "reinstall": "Reinstalar",
+        "deleteServer": "Eliminar Servidor"
+      },
+      "create_": {
+        "fillAllFields": "Completa todos los campos",
+        "creating": "Creando...",
+        "created": "¡Servidor creado!",
+        "createFailed": "No se pudo crear el servidor"
+      },
+      "edit_": {
+        "updated": "Servidor actualizado",
+        "nextChargeUpdated": "Próximo cobro actualizado",
+        "unsuspended": "Servidor reactivado",
+        "suspended": "Servidor suspendido",
+        "confirmReinstall": "¿Estás seguro de que quieres reinstalar? Esto borrará todos los datos.",
+        "reinstallInitiated": "Reinstalación iniciada",
+        "deleted": "Servidor eliminado",
+        "planUpdated": "Plan actualizado",
+        "notFound": "Servidor no encontrado",
+        "loading": "Cargando...",
+        "unsuspendAction": "Reactivar"
+      }
     },
     "users": {
       "pageTitle": "Usuarios",
@@ -1498,7 +1789,51 @@
       "remove": "Quitar",
       "invalidateAll": "Invalidar Todas",
       "loginAsUser": "Iniciar sesión como usuario",
-      "viewPublicProfile": "Ver Perfil Público"
+      "viewPublicProfile": "Ver Perfil Público",
+      "list": {
+        "banned": "Usuario baneado",
+        "unbanned": "Usuario desbaneado",
+        "empty": "No se encontraron usuarios",
+        "bannedBadge": "Baneado",
+        "activeBadge": "Activo",
+        "ban": "Banear",
+        "unban": "Desbanear",
+        "banReasonPlaceholder": "Motivo del baneo...",
+        "expiresLabel": "Expira"
+      },
+      "create_": {
+        "password": "Contraseña",
+        "selectRole": "Seleccionar rol...",
+        "servers": "Servidores",
+        "proxies": "Proxies",
+        "databases": "Bases de Datos",
+        "fillRequired": "Nombre, email y rol son obligatorios",
+        "created": "Usuario creado",
+        "createFailed": "No se pudo crear el usuario"
+      },
+      "edit_": {
+        "updated": "Usuario actualizado",
+        "confirmLoginAs": "¿Iniciar sesión como este usuario?",
+        "notAllowed": "No permitido",
+        "passwordChanged": "Contraseña cambiada",
+        "enterValidAmount": "Introduce una cantidad válida",
+        "coinsAdded": "Coins añadidas",
+        "coinsRemoved": "Coins eliminadas",
+        "noBadges": "Sin insignias",
+        "badgeRemoved": "Insignia eliminada",
+        "badgeRemoveFailed": "No se pudo eliminar",
+        "badgeAdded": "Insignia añadida",
+        "badgeAddFailed": "No se pudo añadir",
+        "sessionsInvalidated": "Sesiones invalidadas",
+        "noSessions": "Sin sesiones",
+        "unbanned": "Usuario desbaneado",
+        "banned": "Usuario baneado",
+        "notFound": "Usuario no encontrado",
+        "noReason": "Sin motivo",
+        "expiresLabel": "Expira",
+        "unbanUser": "Desbanear Usuario",
+        "noServers": "Sin servidores"
+      }
     },
     "proxy": {
       "pageTitle": "Rutas de Proxy",
@@ -1518,7 +1853,8 @@
       "messages": {
         "created": "Ruta creada",
         "deleted": "Ruta eliminada",
-        "failed": "Falló"
+        "failed": "Falló",
+        "loadFailed": "No se pudo cargar"
       }
     },
     "cloudflare": {
