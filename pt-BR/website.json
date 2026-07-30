@@ -1847,7 +1847,10 @@
       "table": {
         "server": "Servidor",
         "domain": "Domínio",
-        "port": "Porta Interna"
+        "port": "Porta Interna",
+        "owner": "Dono",
+        "mode": "Modo",
+        "protocol": "Protocolo"
       },
       "empty": "Ainda não há rotas de proxy registradas.",
       "messages": {
@@ -1855,7 +1858,8 @@
         "deleted": "Rota removida",
         "failed": "Falhou",
         "loadFailed": "Falha ao carregar"
-      }
+      },
+      "createHint": "Esta é uma lista de supervisão somente leitura de todas as rotas de proxy da plataforma. Para criar uma, vá até a aba Rede do servidor — é o único lugar que suporta domínios personalizados/compartilhados, seleção de protocolo e DNS automático da Cloudflare."
     },
     "cloudflare": {
       "pageTitle": "Cloudflare e Domínios",
