@@ -1244,7 +1244,14 @@
       "deletePost": "Delete post",
       "noBans": "No active bans.",
       "never": "Never",
-      "unban": "Unban"
+      "unban": "Unban",
+      "statusLabels": {
+        "in_review": "In Review",
+        "planned": "Planned",
+        "in_progress": "In Progress",
+        "completed": "Completed",
+        "rejected": "Rejected"
+      }
     },
     "badges": {
       "pageTitle": "Badges",
@@ -1302,7 +1309,24 @@
       "coins": "Coins",
       "reason": "Reason",
       "expiresOptional": "Expires (optional)",
-      "add": "Add"
+      "add": "Add",
+      "orderHint": "Lower numbers appear first",
+      "deleted": "Deleted",
+      "failedGeneric": "Failed",
+      "failedToLoad": "Failed to load",
+      "loadFailed": "Failed to load",
+      "copied": "Copied",
+      "copyId": "Copy ID",
+      "id": "ID",
+      "idCopied": "ID copied",
+      "idCopiedClipboard": "ID copied to clipboard",
+      "next": "Next",
+      "previous": "Previous",
+      "no": "No",
+      "yes": "Yes",
+      "show": "Show:",
+      "pageOf": "Page {page} of {totalPages}",
+      "totalCount": "{total} total"
     },
     "bots": {
       "reviewTitle": "Review release",
@@ -1359,7 +1383,14 @@
       "deleteDialog": {
         "title": "Delete Category",
         "message": "Are you sure you want to delete this category?"
-      }
+      },
+      "formTitle": "Category",
+      "emptyState": "No categories found",
+      "loadFailed": "Failed to load category (code {code})",
+      "updated": "Category updated",
+      "updateFailed": "Failed to update",
+      "createdMsg": "Category created",
+      "createFailed": "Failed to create"
     },
     "eggCategories": {
       "pageTitle": "Egg Categories",
@@ -1372,7 +1403,22 @@
         "message": "Are you sure you want to delete this category? Eggs in it will become uncategorized."
       },
       "viewTitle": "Category Eggs",
-      "createEgg": "Create Egg"
+      "createEgg": "Create Egg",
+      "formTitle": "Egg Category",
+      "categoryPlaceholder": "Category",
+      "emptyState": "No categories found",
+      "uncategorized": "Uncategorized",
+      "notFound": "Category not found",
+      "loadEggsFailed": "Failed to load eggs",
+      "noEggs": "No eggs in this category",
+      "confirmDeleteEgg": "Are you sure you want to delete this egg?",
+      "eggDeleted": "Egg deleted",
+      "deleteEggFailed": "Failed to delete",
+      "loadFailed": "Failed to load category (code {code})",
+      "updated": "Category updated",
+      "updateFailed": "Failed to update",
+      "createdMsg": "Category created",
+      "createFailed": "Failed to create"
     },
     "eggs": {
       "pageTitle": "Eggs",
@@ -1384,6 +1430,59 @@
         "basicInfo": "Basic Information",
         "startupConfig": "Startup Configuration",
         "variables": "Variables"
+      },
+      "notFound": "Egg not found",
+      "requiredFields": "Name, Docker Image, and Startup Command are required",
+      "updated": "Egg updated",
+      "created": "Egg created",
+      "saveFailed": "Failed",
+      "deleted": "Egg deleted",
+      "deleteFailed": "Failed to delete",
+      "loadFailed": "Failed to load eggs",
+      "empty": "No eggs found",
+      "uncategorized": "Uncategorized",
+      "confirmDelete": "Are you sure you want to delete this egg?",
+      "addVariable": "Add Variable",
+      "fields": {
+        "namePlaceholder": "Egg name",
+        "descriptionPlaceholder": "Egg description",
+        "noCategory": "No category",
+        "kind": "Kind",
+        "kindGeneric": "Generic",
+        "kindMinecraft": "Minecraft",
+        "kindBot": "Bot",
+        "kindHint": "Drives feature gating: Minecraft eggs get the plugin/mod/resourcepack installer, Bot eggs get the bot-catalog install button.",
+        "minecraftLoader": "Minecraft Loader",
+        "minecraftLoaderHint": "Modrinth category slug used to filter compatible plugins/mods/resourcepacks.",
+        "minecraftVersion": "Minecraft Version",
+        "dockerImages": "Docker Image(s)",
+        "dockerImagesHintOnePerLine": "One per line. Format:",
+        "dockerImagesHintOr": "or",
+        "startupCommand": "Startup Command",
+        "startupCommandHint": "Use $VARIABLE_NAME for variable substitution",
+        "stopCommand": "Stop Command",
+        "installScript": "Install Script"
+      },
+      "variables": {
+        "empty": "No variables configured",
+        "name": "Name",
+        "namePlaceholder": "Variable Name",
+        "envVariable": "Environment Variable",
+        "defaultValue": "Default Value",
+        "defaultValuePlaceholder": "Default value",
+        "true": "True",
+        "false": "False",
+        "type": "Type",
+        "typeString": "String",
+        "typeNumber": "Number",
+        "typeBoolean": "Boolean",
+        "typeOptions": "Options",
+        "required": "Required",
+        "min": "Min",
+        "max": "Max",
+        "userViewable": "User Viewable",
+        "userEditable": "User Editable",
+        "secret": "Secret (encrypted, masked in UI)"
       }
     },
     "limits": {
@@ -1397,7 +1496,17 @@
         "title": "Delete Limit",
         "message": "Are you sure you want to delete this limit?"
       },
-      "priceCoins": "Price (coins)"
+      "priceCoins": "Price (coins)",
+      "formTitle": "Limit",
+      "notFound": "Limit not found",
+      "editTitle": "Edit Limit",
+      "updated": "Limit updated",
+      "createdMsg": "Limit created",
+      "types": {
+        "servers": "Servers",
+        "databases": "Databases",
+        "proxies": "Proxies"
+      }
     },
     "locations": {
       "pageTitle": "Locations",
@@ -1405,13 +1514,20 @@
       "deleteDialog": {
         "title": "Delete Location",
         "message": "Are you sure? This will also affect associated nodes."
-      }
+      },
+      "formTitle": "Location",
+      "showLabel": "Show:",
+      "notFound": "Location not found",
+      "updated": "Location updated",
+      "createdMsg": "Location created",
+      "emptyState": "No locations found"
     },
     "nodes": {
       "pageTitle": "Nodes",
       "create": "Create Node",
       "table": {
-        "location": "Location"
+        "location": "Location",
+        "url": "URL"
       },
       "deleteDialog": {
         "title": "Delete Node",
@@ -1422,7 +1538,39 @@
         "allocations": "Allocations",
         "wingsConfig": "Wings Configuration",
         "allowedEggs": "Allowed Eggs"
-      }
+      },
+      "title": "Node",
+      "filterShow": "Show:",
+      "stats": {
+        "servers": "Servers"
+      },
+      "fields": {
+        "url": "URL",
+        "publicIp": "Public IP (FQDN or IP)",
+        "publicIpHint": "Used for SFTP connections and display",
+        "sftpAlias": "SFTP Alias",
+        "sftpAliasHint": "Optional domain pointing at the node's IP, shown to users instead of the raw IP. Falls back to the Public IP when empty.",
+        "sftpPort": "SFTP Port",
+        "sftpLimits": "SFTP Limits",
+        "maxConnections": "Max Connections",
+        "rateLimit": "Rate Limit (req/s)",
+        "serverLimit": "Server Limit",
+        "serverLimitHint": "Leave empty for unlimited"
+      },
+      "deleted": "Deleted",
+      "deleteFailed": "Failed",
+      "loadFailed": "Failed to load",
+      "empty": "No nodes found",
+      "copyId": "Copy ID",
+      "connected": "Connected",
+      "disconnected": "Disconnected",
+      "copied": "Copied",
+      "idCopied": "ID copied",
+      "paginationTotal": "total",
+      "paginationPrevious": "Previous",
+      "paginationNext": "Next",
+      "paginationPage": "Page",
+      "paginationOf": "of"
     },
     "products": {
       "pageTitle": "Products",
@@ -1439,6 +1587,75 @@
         "pricingCycles": "Pricing Cycles",
         "assignedNodes": "Assigned Nodes",
         "availableEggs": "Available Eggs"
+      },
+      "filterShow": "Show:",
+      "deleted": "Deleted",
+      "deleteFailed": "Failed",
+      "loadFailed": "Failed to load",
+      "empty": "No products found",
+      "yes": "Yes",
+      "no": "No",
+      "copyId": "Copy ID",
+      "copied": "Copied",
+      "idCopied": "ID copied",
+      "paginationTotal": "total",
+      "paginationPrevious": "Previous",
+      "paginationNext": "Next",
+      "paginationPage": "Page",
+      "paginationOf": "of",
+      "formTitle": "Product",
+      "notFound": "Product not found",
+      "updated": "Product updated",
+      "createdMsg": "Product created",
+      "fields": {
+        "none": "None",
+        "exposed": "Exposed",
+        "daysBeforeSuspend": "Days Before Suspend",
+        "daysBeforeDelete": "Days Before Delete",
+        "leaveEmptyUnlimited": "Leave empty for unlimited",
+        "globalLimit": "Global Limit",
+        "unlimited": "Unlimited",
+        "perClientLimit": "Per Client Limit",
+        "visibilityHint": "When hidden, only these users/roles can see the product",
+        "visibleToUsers": "Visible to Users (comma-separated IDs)",
+        "visibleToRoles": "Visible to Roles (comma-separated IDs)",
+        "addCycle": "Add Cycle",
+        "selectNodesHint": "Select which nodes this product can be deployed to",
+        "selectEggsHint": "Select which eggs users can choose when creating servers with this product",
+        "optional": "Optional",
+        "minCoins": "Min Coins",
+        "ramMb": "RAM (MB)",
+        "cpuPercent": "CPU (%)",
+        "diskMb": "Disk (MB)",
+        "backups": "Backups",
+        "databases": "Databases",
+        "proxies": "Proxies",
+        "cycleDuration": "Cycle Duration",
+        "oneTime": "One-time",
+        "hourly": "Hourly",
+        "daily": "Daily",
+        "monthly": "Monthly",
+        "yearly": "Yearly",
+        "chargeEvery": "Charge Every",
+        "ddosProtection": "DDoS Protection",
+        "basic": "Basic",
+        "advanced": "Advanced",
+        "gameOptimized": "Game Optimized",
+        "portsLimit": "Ports Limit",
+        "maxRequestsPerSecond": "Max Body (Requests) /s",
+        "maxConnections": "Max Connections",
+        "maxBandwidthMb": "Max Bandwidth (MB)",
+        "rateLimitBurst": "Rate Limit Burst",
+        "default": "Default",
+        "noLocation": "No location",
+        "noAvailableNodes": "No available nodes",
+        "noNodesAssigned": "No nodes assigned",
+        "nodeRemoved": "Node removed",
+        "nodeAdded": "Node added",
+        "noAvailableEggs": "No available eggs",
+        "noEggsAssigned": "No eggs assigned",
+        "eggRemoved": "Egg removed",
+        "eggAdded": "Egg added"
       }
     },
     "roles": {
@@ -1452,7 +1669,28 @@
         "title": "Delete Role",
         "message": "Are you sure you want to delete this role?"
       },
-      "edit": "Edit Role"
+      "edit": "Edit Role",
+      "namePlaceholder": "Role name",
+      "requires2FA": "Requires 2FA (users with this role are locked out of the panel until they enable 2FA)",
+      "permissionsLoading": "Loading permissions...",
+      "permissionsFailed": "Failed to load permissions",
+      "nameRequired": "Name is required",
+      "creating": "Creating...",
+      "createSuccess": "Role created",
+      "createFailed": "Failed to create",
+      "defaultRoleBadge": "Default Role",
+      "saving": "Saving...",
+      "updateSuccess": "Role updated",
+      "updateFailed": "Failed to update",
+      "notFound": "Role not found",
+      "loading": "Loading...",
+      "deleteSuccess": "Role deleted",
+      "deleteFailed": "Failed to delete",
+      "failedToLoad": "Failed to load",
+      "empty": "No roles found",
+      "yes": "Yes",
+      "no": "No",
+      "permissionsCount": "{count} permissions"
     },
     "servers": {
       "pageTitle": "Servers",
@@ -1474,7 +1712,60 @@
         "actions": "Actions"
       },
       "changePlan": "Change Plan",
-      "saveNextCharge": "Save Next Charge"
+      "saveNextCharge": "Save Next Charge",
+      "list": {
+        "empty": "No servers found",
+        "deletedToast": "Server deleted",
+        "suspendedToast": "Server suspended",
+        "unsuspendedToast": "Server unsuspended",
+        "suspendTitle": "Suspend",
+        "unsuspendTitle": "Unsuspend"
+      },
+      "fields": {
+        "serverName": "Server Name",
+        "userLabel": "User",
+        "selectUser": "Select user...",
+        "productLabel": "Product",
+        "selectProduct": "Select product...",
+        "planCycle": "Plan Cycle",
+        "selectPlan": "Select plan...",
+        "eggLabel": "Egg",
+        "selectEgg": "Select egg...",
+        "nodeLabel": "Node",
+        "selectNode": "Select node...",
+        "createAsSuspended": "Create as suspended",
+        "startupCommand": "Startup Command",
+        "dockerImage": "Docker Image",
+        "enterDockerImage": "Enter Docker Image",
+        "toggleCustomSelect": "Toggle Custom/Select",
+        "ramMb": "RAM (MB)",
+        "cpuPercent": "CPU (%)",
+        "diskMb": "Disk (MB)",
+        "cycleLabel": "Cycle",
+        "nextCharge": "Next Charge",
+        "suspendAction": "Suspend",
+        "reinstall": "Reinstall",
+        "deleteServer": "Delete Server"
+      },
+      "create_": {
+        "fillAllFields": "Please fill all fields",
+        "creating": "Creating...",
+        "created": "Server created!",
+        "createFailed": "Failed to create server"
+      },
+      "edit_": {
+        "updated": "Server updated",
+        "nextChargeUpdated": "Next charge updated",
+        "unsuspended": "Server unsuspended",
+        "suspended": "Server suspended",
+        "confirmReinstall": "Are you sure you want to reinstall? This will wipe all data.",
+        "reinstallInitiated": "Reinstall initiated",
+        "deleted": "Server deleted",
+        "planUpdated": "Plan updated",
+        "notFound": "Server not found",
+        "loading": "Loading...",
+        "unsuspendAction": "Unsuspend"
+      }
     },
     "users": {
       "pageTitle": "Users",
@@ -1498,7 +1789,51 @@
       "remove": "Remove",
       "invalidateAll": "Invalidate All",
       "loginAsUser": "Login as user",
-      "viewPublicProfile": "View Public Profile"
+      "viewPublicProfile": "View Public Profile",
+      "list": {
+        "banned": "User banned",
+        "unbanned": "User unbanned",
+        "empty": "No users found",
+        "bannedBadge": "Banned",
+        "activeBadge": "Active",
+        "ban": "Ban",
+        "unban": "Unban",
+        "banReasonPlaceholder": "Ban reason...",
+        "expiresLabel": "Expires"
+      },
+      "create_": {
+        "password": "Password",
+        "selectRole": "Select role...",
+        "servers": "Servers",
+        "proxies": "Proxies",
+        "databases": "Databases",
+        "fillRequired": "Name, email and role are required",
+        "created": "User created",
+        "createFailed": "Failed to create user"
+      },
+      "edit_": {
+        "updated": "User updated",
+        "confirmLoginAs": "Sign in as this user?",
+        "notAllowed": "Not allowed",
+        "passwordChanged": "Password changed",
+        "enterValidAmount": "Enter a valid amount",
+        "coinsAdded": "Coins added",
+        "coinsRemoved": "Coins removed",
+        "noBadges": "No badges",
+        "badgeRemoved": "Badge removed",
+        "badgeRemoveFailed": "Failed to remove",
+        "badgeAdded": "Badge added",
+        "badgeAddFailed": "Failed to add",
+        "sessionsInvalidated": "Sessions invalidated",
+        "noSessions": "No sessions",
+        "unbanned": "User unbanned",
+        "banned": "User banned",
+        "notFound": "User not found",
+        "noReason": "No reason",
+        "expiresLabel": "Expires",
+        "unbanUser": "Unban User",
+        "noServers": "No servers"
+      }
     },
     "proxy": {
       "pageTitle": "Proxy Routes",
@@ -1518,7 +1853,8 @@
       "messages": {
         "created": "Route created",
         "deleted": "Route removed",
-        "failed": "Failed"
+        "failed": "Failed",
+        "loadFailed": "Failed to load"
       }
     },
     "cloudflare": {
