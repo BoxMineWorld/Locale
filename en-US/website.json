@@ -1847,7 +1847,10 @@
       "table": {
         "server": "Server",
         "domain": "Domain",
-        "port": "Internal Port"
+        "port": "Internal Port",
+        "owner": "Owner",
+        "mode": "Mode",
+        "protocol": "Protocol"
       },
       "empty": "No proxy routes registered yet.",
       "messages": {
@@ -1855,7 +1858,8 @@
         "deleted": "Route removed",
         "failed": "Failed",
         "loadFailed": "Failed to load"
-      }
+      },
+      "createHint": "This is a read-only oversight list of every proxy route on the platform. To create one, go to the server's Network tab — that's the only place that supports custom/shared domain modes, protocol selection, and automatic Cloudflare DNS."
     },
     "cloudflare": {
       "pageTitle": "Cloudflare & Domains",

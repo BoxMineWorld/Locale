@@ -1847,7 +1847,10 @@
       "table": {
         "server": "Servidor",
         "domain": "Dominio",
-        "port": "Puerto Interno"
+        "port": "Puerto Interno",
+        "owner": "Propietario",
+        "mode": "Modo",
+        "protocol": "Protocolo"
       },
       "empty": "Todavía no hay rutas de proxy registradas.",
       "messages": {
@@ -1855,7 +1858,8 @@
         "deleted": "Ruta eliminada",
         "failed": "Falló",
         "loadFailed": "No se pudo cargar"
-      }
+      },
+      "createHint": "Esta es una lista de solo lectura de supervisión de todas las rutas de proxy de la plataforma. Para crear una, ve a la pestaña Red del servidor — es el único lugar que admite dominios personalizados/compartidos, selección de protocolo y DNS automático de Cloudflare."
     },
     "cloudflare": {
       "pageTitle": "Cloudflare y Dominios",
