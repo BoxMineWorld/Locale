@@ -1173,7 +1173,8 @@
           "label": "GitHub sincronizado",
           "hint": "Quando um usuário vincula seu GitHub"
         }
-      }
+      },
+      "pageTitle": "Recompensas de moedas"
     },
     "databaseHosts": {
       "denied": "Você não tem permissão para ver os hosts de banco de dados.",
@@ -1208,7 +1209,8 @@
         "testFailed": "Falha no teste",
         "deleted": "Host excluído",
         "deleteFailed": "Não foi possível excluir"
-      }
+      },
+      "pageTitle": "Hosts de banco de dados"
     },
     "features": {
       "tabs": {
@@ -1251,7 +1253,8 @@
         "in_progress": "Em andamento",
         "completed": "Concluído",
         "rejected": "Rejeitado"
-      }
+      },
+      "pageTitle": "Pedidos de recursos"
     },
     "badges": {
       "pageTitle": "Emblemas",
@@ -1881,6 +1884,52 @@
         "domainAdded": "Domínio compartilhado adicionado",
         "failed": "Falhou"
       }
+    },
+    "overview": {
+      "pageTitle": "Visão geral",
+      "subtitle": "Visão geral do sistema",
+      "cards": {
+        "users": "Usuários",
+        "servers": "Servidores",
+        "nodes": "Nós",
+        "locations": "Locais",
+        "ports": "Portas",
+        "products": "Produtos",
+        "roles": "Cargos",
+        "running": "Online",
+        "suspended": "Suspensos",
+        "usedPorts": "Em uso",
+        "freePorts": "Livre"
+      },
+      "recentUsers": "Cadastros recentes",
+      "recentServers": "Servidores recentes",
+      "loadFailed": "Não foi possível carregar a visão geral"
+    },
+    "ports": {
+      "pageTitle": "Portas",
+      "selectNode": "Selecione um nó",
+      "noNodes": "Nenhum nó disponível",
+      "selectNodeHint": "Escolha um nó para gerenciar suas portas",
+      "port": "Porta",
+      "cost": "Custo",
+      "status": "Status",
+      "assigned": "Atribuída",
+      "free": "Livre",
+      "server": "Servidor",
+      "addRange": "Adicionar faixa de portas",
+      "startPort": "Porta inicial",
+      "endPort": "Porta final",
+      "add": "Adicionar portas",
+      "added": "{count} portas adicionadas",
+      "costUpdated": "Porta atualizada",
+      "deleted": "Porta excluída",
+      "deleteDialog": {
+        "title": "Excluir porta",
+        "message": "Esta porta será removida permanentemente do nó."
+      },
+      "loadFailed": "Não foi possível carregar as portas",
+      "empty": "Ainda não há portas neste nó",
+      "invalidRange": "A porta inicial deve ser menor ou igual à porta final"
     }
   },
   "titles": {
@@ -1898,7 +1947,8 @@
     "bots": "Bots",
     "social": "SOCIAL",
     "friends": "Amigos",
-    "adminFeatures": "Solicitações de recursos"
+    "adminFeatures": "Solicitações de recursos",
+    "admin": "Administração"
   },
   "global": {
     "contact": "Fale conosco",
