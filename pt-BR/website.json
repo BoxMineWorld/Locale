@@ -2092,8 +2092,6 @@
       "plans": {
         "add": "Novo plano",
         "name": "Nome",
-        "slug": "Id do plano no daemon",
-        "slugHint": "Precisa coincidir com um plano do config do nó (nano, start, pro...)",
         "vcpu": "vCPU",
         "ram": "RAM (MiB)",
         "disk": "Disco (GiB)",
