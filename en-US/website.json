@@ -1207,7 +1207,8 @@
         "manualDone": "Order created",
         "manualHint": "Your MVPS is created once we confirm the payment.",
         "tax": "Tax",
-        "noMethods": "No payment methods are enabled right now"
+        "noMethods": "No payment methods are enabled right now",
+        "licenceLater": "No key in stock: it gets activated as soon as we load one."
       },
       "manage": {
         "back": "Back to MVPS",
@@ -1256,7 +1257,18 @@
         "cancelWarn": "It keeps running until the end of the period you already paid. Continue?",
         "cancelled": "Cancelled, runs until",
         "specs": "Specs",
-        "provisioning": "Your MVPS is being created. This takes about a minute."
+        "provisioning": "Your MVPS is being created. This takes about a minute.",
+        "licensePending": "Waiting for its licence. It works, but Windows is not activated yet."
+      },
+      "stats": {
+        "services": "Services",
+        "active": "Online",
+        "monthly": "Monthly",
+        "nextRenewal": "Next renewal",
+        "none": "None",
+        "copy": "Copy",
+        "copied": "Copied",
+        "connection": "Connection"
       }
     }
   },
@@ -2099,7 +2111,13 @@
         "featured": "Featured",
         "visible": "Visible",
         "enabled": "On sale",
-        "none": "No plans yet"
+        "none": "No plans yet",
+        "storage": "Disk",
+        "storageAuto": "Node default",
+        "storageHint": "Where this plan’s disks are created. Only disks that support snapshots are listed.",
+        "backupStorage": "Backup disk",
+        "noSnapshots": "no snapshots",
+        "free": "free"
       },
       "os": {
         "add": "New system",
@@ -2140,7 +2158,41 @@
         "suspend": "Suspend",
         "unsuspend": "Restore",
         "reason": "Reason",
-        "none": "No subscriptions yet"
+        "none": "No subscriptions yet",
+        "create": "Create MVPS",
+        "createTitle": "Hand a MVPS to a user",
+        "createHint": "No checkout, no payment. For a client who paid elsewhere, or to make up for a failed order.",
+        "user": "User",
+        "userSearch": "Search by name or email",
+        "userNoResults": "No users match that",
+        "userPick": "Pick a user",
+        "name": "Server name",
+        "os": "System",
+        "nodeAuto": "Whichever has room",
+        "cycle": "Billing cycle",
+        "cycleMonthly": "Monthly",
+        "cycleQuarterly": "Quarterly",
+        "cycleSemiannual": "Every 6 months",
+        "cycleAnnual": "Yearly",
+        "payMode": "Payment",
+        "payAuto": "Automatic",
+        "payAutoHint": "Charged through the configured gateway, like a normal purchase.",
+        "payManual": "Manual",
+        "payManualHint": "An admin confirms each period here. Unconfirmed after 3 days past due, it gets suspended.",
+        "priceOverride": "Monthly price (USD)",
+        "priceOverrideHint": "Leave empty to use the plan price. 0 hands it over free.",
+        "sshKey": "SSH public key",
+        "note": "Internal note",
+        "notePlaceholder": "Paid by transfer, order #123 failed...",
+        "submit": "Create and provision",
+        "creating": "Creating...",
+        "created": "MVPS created",
+        "markPaid": "Mark as paid",
+        "markedPaid": "Period marked as paid",
+        "dueOn": "Due",
+        "overdue": "Overdue",
+        "manual": "Manual",
+        "auto": "Gateway"
       },
       "licenses": {
         "title": "Licence pool",
@@ -2151,7 +2203,13 @@
         "total": "Total",
         "free": "Free",
         "none": "No licences loaded",
-        "hint": "OEM keys handed out on order and returned to the pool on cancellation."
+        "hint": "OEM keys handed out on order and returned to the pool on cancellation.",
+        "pending": "Waiting for a licence",
+        "pendingHint": "Ordered before we had a key. Load one and it gets activated.",
+        "assign": "Assign key",
+        "assignKey": "Product key",
+        "assigned": "Key assigned and activated",
+        "noPending": "Nothing waiting for a licence"
       },
       "saved": "Saved",
       "deleted": "Deleted",
@@ -2181,7 +2239,8 @@
         "none": "No orders yet",
         "status": "Status",
         "total": "Total"
-      }
+      },
+      "pageTitle": "MVPS"
     }
   },
   "titles": {
