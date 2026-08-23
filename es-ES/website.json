@@ -1207,7 +1207,8 @@
         "manualDone": "Pedido creado",
         "manualHint": "Tu MVPS se crea en cuanto confirmemos el pago.",
         "tax": "Impuesto",
-        "noMethods": "No hay métodos de pago habilitados en este momento"
+        "noMethods": "No hay métodos de pago habilitados en este momento",
+        "licenceLater": "Sin clave en stock: se activa apenas carguemos una."
       },
       "manage": {
         "back": "Volver a MVPS",
@@ -1256,7 +1257,18 @@
         "cancelWarn": "Sigue funcionando hasta que termine el período que ya pagaste. ¿Seguimos?",
         "cancelled": "Cancelada, funciona hasta",
         "specs": "Recursos",
-        "provisioning": "Tu MVPS se está creando. Tarda alrededor de un minuto."
+        "provisioning": "Tu MVPS se está creando. Tarda alrededor de un minuto.",
+        "licensePending": "Esperando su licencia. Funciona, pero Windows todavía no está activado."
+      },
+      "stats": {
+        "services": "Servicios",
+        "active": "En línea",
+        "monthly": "Mensual",
+        "nextRenewal": "Próxima renovación",
+        "none": "Ninguna",
+        "copy": "Copiar",
+        "copied": "Copiado",
+        "connection": "Conexión"
       }
     }
   },
@@ -2099,7 +2111,13 @@
         "featured": "Destacado",
         "visible": "Visible",
         "enabled": "A la venta",
-        "none": "Todavía no hay planes"
+        "none": "Todavía no hay planes",
+        "storage": "Disco",
+        "storageAuto": "El del nodo",
+        "storageHint": "Dónde se crean los discos de este plan. Solo se listan los que soportan snapshots.",
+        "backupStorage": "Disco de backups",
+        "noSnapshots": "sin snapshots",
+        "free": "libres"
       },
       "os": {
         "add": "Nuevo sistema",
@@ -2140,7 +2158,41 @@
         "suspend": "Suspender",
         "unsuspend": "Restablecer",
         "reason": "Motivo",
-        "none": "Todavía no hay suscripciones"
+        "none": "Todavía no hay suscripciones",
+        "create": "Crear MVPS",
+        "createTitle": "Entregar una MVPS a un usuario",
+        "createHint": "Sin checkout ni cobro. Para un cliente que pagó por fuera, o para compensar un alta que falló.",
+        "user": "Usuario",
+        "userSearch": "Buscar por nombre o email",
+        "userNoResults": "Ningún usuario coincide",
+        "userPick": "Elegí un usuario",
+        "name": "Nombre del servidor",
+        "os": "Sistema",
+        "nodeAuto": "El que tenga lugar",
+        "cycle": "Ciclo de cobro",
+        "cycleMonthly": "Mensual",
+        "cycleQuarterly": "Trimestral",
+        "cycleSemiannual": "Semestral",
+        "cycleAnnual": "Anual",
+        "payMode": "Pago",
+        "payAuto": "Automático",
+        "payAutoHint": "Se cobra por la pasarela configurada, como una compra normal.",
+        "payManual": "Manual",
+        "payManualHint": "Un admin confirma cada período acá. Si pasan 3 días del vencimiento sin confirmar, se suspende.",
+        "priceOverride": "Precio mensual (USD)",
+        "priceOverrideHint": "Vacío usa el precio del plan. 0 la entrega gratis.",
+        "sshKey": "Clave pública SSH",
+        "note": "Nota interna",
+        "notePlaceholder": "Pagó por transferencia, falló la orden #123...",
+        "submit": "Crear y aprovisionar",
+        "creating": "Creando...",
+        "created": "MVPS creada",
+        "markPaid": "Marcar pagada",
+        "markedPaid": "Período marcado como pagado",
+        "dueOn": "Vence",
+        "overdue": "Vencida",
+        "manual": "Manual",
+        "auto": "Pasarela"
       },
       "licenses": {
         "title": "Pool de licencias",
@@ -2151,7 +2203,13 @@
         "total": "Total",
         "free": "Libres",
         "none": "No hay licencias cargadas",
-        "hint": "Claves OEM que se entregan al dar de alta y vuelven al pool cuando el cliente da de baja."
+        "hint": "Claves OEM que se entregan al dar de alta y vuelven al pool cuando el cliente da de baja.",
+        "pending": "Esperando licencia",
+        "pendingHint": "Se pidieron antes de que tuviéramos clave. Cardá una y se activan.",
+        "assign": "Asignar clave",
+        "assignKey": "Clave de producto",
+        "assigned": "Clave asignada y activada",
+        "noPending": "Nada esperando licencia"
       },
       "saved": "Guardado",
       "deleted": "Eliminado",
@@ -2181,7 +2239,8 @@
         "none": "Todavía no hay órdenes",
         "status": "Estado",
         "total": "Total"
-      }
+      },
+      "pageTitle": "MVPS"
     }
   },
   "titles": {
