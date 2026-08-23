@@ -2092,8 +2092,6 @@
       "plans": {
         "add": "New plan",
         "name": "Name",
-        "slug": "Daemon plan id",
-        "slugHint": "Must match a plan in the node config (nano, start, pro...)",
         "vcpu": "vCPU",
         "ram": "RAM (MiB)",
         "disk": "Disk (GiB)",
