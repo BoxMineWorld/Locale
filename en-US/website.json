@@ -1287,7 +1287,8 @@
           "label": "GitHub synced",
           "hint": "When a user links their GitHub"
         }
-      }
+      },
+      "pageTitle": "Coin Rewards"
     },
     "databaseHosts": {
       "denied": "You don't have permission to view database hosts.",
@@ -1322,7 +1323,8 @@
         "testFailed": "Test failed",
         "deleted": "Host deleted",
         "deleteFailed": "Failed to delete"
-      }
+      },
+      "pageTitle": "Database Hosts"
     },
     "features": {
       "tabs": {
@@ -1365,7 +1367,8 @@
         "in_progress": "In Progress",
         "completed": "Completed",
         "rejected": "Rejected"
-      }
+      },
+      "pageTitle": "Feature Requests"
     },
     "badges": {
       "pageTitle": "Badges",
@@ -1996,6 +1999,52 @@
         "failed": "Failed"
       }
     },
+    "overview": {
+      "pageTitle": "Overview",
+      "subtitle": "System overview",
+      "cards": {
+        "users": "Users",
+        "servers": "Servers",
+        "nodes": "Nodes",
+        "locations": "Locations",
+        "ports": "Ports",
+        "products": "Products",
+        "roles": "Roles",
+        "running": "Running",
+        "suspended": "Suspended",
+        "usedPorts": "In use",
+        "freePorts": "Free"
+      },
+      "recentUsers": "Recent registrations",
+      "recentServers": "Recent servers",
+      "loadFailed": "Could not load the overview"
+    },
+    "ports": {
+      "pageTitle": "Ports",
+      "selectNode": "Select a node",
+      "noNodes": "No nodes available",
+      "selectNodeHint": "Choose a node to manage its ports",
+      "port": "Port",
+      "cost": "Cost",
+      "status": "Status",
+      "assigned": "Assigned",
+      "free": "Free",
+      "server": "Server",
+      "addRange": "Add port range",
+      "startPort": "Start port",
+      "endPort": "End port",
+      "add": "Add ports",
+      "added": "{count} ports added",
+      "costUpdated": "Port updated",
+      "deleted": "Port deleted",
+      "deleteDialog": {
+        "title": "Delete port",
+        "message": "This port will be permanently removed from the node."
+      },
+      "loadFailed": "Could not load ports",
+      "empty": "No ports on this node yet",
+      "invalidRange": "The start port must be lower than or equal to the end port"
+    },
     "mvps": {
       "title": "MVPS",
       "subtitle": "Nodes, plans, systems and add-ons for the VPS service",
@@ -2151,6 +2200,7 @@
     "social": "SOCIAL",
     "friends": "Friends",
     "adminFeatures": "Feature Requests",
+    "admin": "Admin",
     "mvps": "MVPS",
     "mvpsBuy": "Buy a MVPS",
     "mvpsManage": "Manage MVPS",
