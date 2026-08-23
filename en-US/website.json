@@ -1200,7 +1200,14 @@
         "disk": "NVMe",
         "portsIncluded": "ports",
         "traffic": "Traffic",
-        "creating": "Creating your order..."
+        "creating": "Creating your order...",
+        "payMethod": "Payment method",
+        "payWith": "Pay with",
+        "manualTitle": "How to pay",
+        "manualDone": "Order created",
+        "manualHint": "Your MVPS is created once we confirm the payment.",
+        "tax": "Tax",
+        "noMethods": "No payment methods are enabled right now"
       },
       "manage": {
         "back": "Back to MVPS",
@@ -1998,7 +2005,8 @@
         "os": "Systems",
         "addons": "Add-ons",
         "subscriptions": "Subscriptions",
-        "licenses": "Licences"
+        "licenses": "Licences",
+        "payments": "Payments"
       },
       "nodes": {
         "add": "Add node",
@@ -2102,7 +2110,29 @@
       "cancel": "Cancel",
       "edit": "Edit",
       "delete": "Delete",
-      "confirmDelete": "Delete this permanently?"
+      "confirmDelete": "Delete this permanently?",
+      "payments": {
+        "title": "Payment methods",
+        "hint": "What the customer can pay with. Prices are always in the currency below.",
+        "card": "Card (Creem)",
+        "cardHint": "Automatic checkout. Each plan needs its Creem product id.",
+        "manual": "Manual (transfer, crypto)",
+        "manualHint": "The order waits until someone marks it paid from the orders list.",
+        "label": "Button label",
+        "instructions": "Payment instructions",
+        "instructionsHint": "Bank details, wallet address — whatever the customer needs.",
+        "currency": "Currency",
+        "tax": "Tax (%)",
+        "enabled": "Enabled"
+      },
+      "orders": {
+        "title": "Orders",
+        "markPaid": "Mark as paid",
+        "markPaidConfirm": "Confirm the payment and create the MVPS?",
+        "none": "No orders yet",
+        "status": "Status",
+        "total": "Total"
+      }
     }
   },
   "titles": {

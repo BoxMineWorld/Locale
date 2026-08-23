@@ -1200,7 +1200,14 @@
         "disk": "NVMe",
         "portsIncluded": "portas",
         "traffic": "Tráfego",
-        "creating": "Criando seu pedido..."
+        "creating": "Criando seu pedido...",
+        "payMethod": "Forma de pagamento",
+        "payWith": "Pagar com",
+        "manualTitle": "Como pagar",
+        "manualDone": "Pedido criado",
+        "manualHint": "Sua MVPS é criada assim que confirmarmos o pagamento.",
+        "tax": "Imposto",
+        "noMethods": "Nenhuma forma de pagamento habilitada no momento"
       },
       "manage": {
         "back": "Voltar para MVPS",
@@ -1998,7 +2005,8 @@
         "os": "Sistemas",
         "addons": "Extras",
         "subscriptions": "Assinaturas",
-        "licenses": "Licenças"
+        "licenses": "Licenças",
+        "payments": "Pagamentos"
       },
       "nodes": {
         "add": "Adicionar nó",
@@ -2102,7 +2110,29 @@
       "cancel": "Cancelar",
       "edit": "Editar",
       "delete": "Excluir",
-      "confirmDelete": "Excluir isto para sempre?"
+      "confirmDelete": "Excluir isto para sempre?",
+      "payments": {
+        "title": "Formas de pagamento",
+        "hint": "Com o que o cliente pode pagar. Os preços sempre saem na moeda abaixo.",
+        "card": "Cartão (Creem)",
+        "cardHint": "Checkout automático. Cada plano precisa do seu id de produto na Creem.",
+        "manual": "Manual (transferência, cripto)",
+        "manualHint": "O pedido espera até alguém marcar como pago na lista de ordens.",
+        "label": "Texto do botão",
+        "instructions": "Instruções de pagamento",
+        "instructionsHint": "Dados bancários, endereço da carteira — o que o cliente precisar.",
+        "currency": "Moeda",
+        "tax": "Imposto (%)",
+        "enabled": "Habilitado"
+      },
+      "orders": {
+        "title": "Ordens",
+        "markPaid": "Marcar como paga",
+        "markPaidConfirm": "Confirmar o pagamento e criar a MVPS?",
+        "none": "Ainda não há ordens",
+        "status": "Estado",
+        "total": "Total"
+      }
     }
   },
   "titles": {

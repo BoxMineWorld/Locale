@@ -1200,7 +1200,14 @@
         "disk": "NVMe",
         "portsIncluded": "puertos",
         "traffic": "Tráfico",
-        "creating": "Creando tu pedido..."
+        "creating": "Creando tu pedido...",
+        "payMethod": "Método de pago",
+        "payWith": "Pagar con",
+        "manualTitle": "Cómo pagar",
+        "manualDone": "Pedido creado",
+        "manualHint": "Tu MVPS se crea en cuanto confirmemos el pago.",
+        "tax": "Impuesto",
+        "noMethods": "No hay métodos de pago habilitados en este momento"
       },
       "manage": {
         "back": "Volver a MVPS",
@@ -1998,7 +2005,8 @@
         "os": "Sistemas",
         "addons": "Extras",
         "subscriptions": "Suscripciones",
-        "licenses": "Licencias"
+        "licenses": "Licencias",
+        "payments": "Pagos"
       },
       "nodes": {
         "add": "Agregar nodo",
@@ -2102,7 +2110,29 @@
       "cancel": "Cancelar",
       "edit": "Editar",
       "delete": "Eliminar",
-      "confirmDelete": "¿Eliminar esto para siempre?"
+      "confirmDelete": "¿Eliminar esto para siempre?",
+      "payments": {
+        "title": "Métodos de pago",
+        "hint": "Con qué puede pagar el cliente. Los precios siempre van en la moneda de abajo.",
+        "card": "Tarjeta (Creem)",
+        "cardHint": "Checkout automático. Cada plan necesita su id de producto en Creem.",
+        "manual": "Manual (transferencia, cripto)",
+        "manualHint": "El pedido espera hasta que alguien lo marque como pagado en la lista de órdenes.",
+        "label": "Texto del botón",
+        "instructions": "Instrucciones de pago",
+        "instructionsHint": "Datos bancarios, dirección de wallet, lo que el cliente necesite.",
+        "currency": "Moneda",
+        "tax": "Impuesto (%)",
+        "enabled": "Habilitado"
+      },
+      "orders": {
+        "title": "Órdenes",
+        "markPaid": "Marcar como pagada",
+        "markPaidConfirm": "¿Confirmar el pago y crear la MVPS?",
+        "none": "Todavía no hay órdenes",
+        "status": "Estado",
+        "total": "Total"
+      }
     }
   },
   "titles": {
