@@ -1287,7 +1287,8 @@
           "label": "GitHub sincronizado",
           "hint": "Cuando un usuario vincula su GitHub"
         }
-      }
+      },
+      "pageTitle": "Recompensas de monedas"
     },
     "databaseHosts": {
       "denied": "No tienes permiso para ver los hosts de bases de datos.",
@@ -1322,7 +1323,8 @@
         "testFailed": "Falló la prueba",
         "deleted": "Host eliminado",
         "deleteFailed": "No se pudo eliminar"
-      }
+      },
+      "pageTitle": "Hosts de bases de datos"
     },
     "features": {
       "tabs": {
@@ -1365,7 +1367,8 @@
         "in_progress": "En progreso",
         "completed": "Completado",
         "rejected": "Rechazado"
-      }
+      },
+      "pageTitle": "Solicitudes de funciones"
     },
     "badges": {
       "pageTitle": "Insignias",
@@ -1996,6 +1999,52 @@
         "failed": "Falló"
       }
     },
+    "overview": {
+      "pageTitle": "Resumen",
+      "subtitle": "Resumen del sistema",
+      "cards": {
+        "users": "Usuarios",
+        "servers": "Servidores",
+        "nodes": "Nodos",
+        "locations": "Ubicaciones",
+        "ports": "Puertos",
+        "products": "Productos",
+        "roles": "Roles",
+        "running": "En línea",
+        "suspended": "Suspendidos",
+        "usedPorts": "En uso",
+        "freePorts": "Libres"
+      },
+      "recentUsers": "Registros recientes",
+      "recentServers": "Servidores recientes",
+      "loadFailed": "No se pudo cargar el resumen"
+    },
+    "ports": {
+      "pageTitle": "Puertos",
+      "selectNode": "Selecciona un nodo",
+      "noNodes": "No hay nodos disponibles",
+      "selectNodeHint": "Elige un nodo para administrar sus puertos",
+      "port": "Puerto",
+      "cost": "Costo",
+      "status": "Estado",
+      "assigned": "Asignado",
+      "free": "Libre",
+      "server": "Servidor",
+      "addRange": "Agregar rango de puertos",
+      "startPort": "Puerto inicial",
+      "endPort": "Puerto final",
+      "add": "Agregar puertos",
+      "added": "{count} puertos agregados",
+      "costUpdated": "Puerto actualizado",
+      "deleted": "Puerto eliminado",
+      "deleteDialog": {
+        "title": "Eliminar puerto",
+        "message": "Este puerto se eliminará permanentemente del nodo."
+      },
+      "loadFailed": "No se pudieron cargar los puertos",
+      "empty": "Aún no hay puertos en este nodo",
+      "invalidRange": "El puerto inicial debe ser menor o igual que el puerto final"
+    },
     "mvps": {
       "title": "MVPS",
       "subtitle": "Nodos, planes, sistemas y extras del servicio de VPS",
@@ -2151,6 +2200,7 @@
     "social": "SOCIAL",
     "friends": "Amigos",
     "adminFeatures": "Solicitudes de funciones",
+    "admin": "Administración",
     "mvps": "MVPS",
     "mvpsBuy": "Contratar MVPS",
     "mvpsManage": "Gestionar MVPS",
