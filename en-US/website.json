@@ -81,6 +81,8 @@
         "backupDone": "I saved them",
         "disableTitle": "Disable two-factor",
         "disablePrompt": "Enter a code from your app (or a backup code) to disable 2FA.",
+        "force2faTitle": "Your role requires two-factor authentication.",
+        "force2faMessage": "Enable 2FA below to continue using the panel — the rest of the site stays locked until you do.",
         "failed": "Something went wrong"
       },
       "badges": {
@@ -143,7 +145,11 @@
       "welcome": "Welcome back to BoxMine",
       "coins": "Account Coins",
       "servers": "Active Servers",
-      "invoices": "Pending Invoices"
+      "invoices": "Pending Invoices",
+      "migration": {
+        "title": "Your account was migrated. For security, your password was not transferred: set a new password on your account. You can also log in with Discord.",
+        "cta": "Set password →"
+      }
     },
     "features": {
       "subtitle": "Track our roadmap and submit feature requests",
@@ -263,6 +269,8 @@
       "sessionCoins": "Session Coins Earned",
       "nextCoinProgress": "Next Coin Progress",
       "nextCoinText": "Next coin in",
+      "limitReached": "Daily limit reached!",
+      "farmingElsewhere": "Farming in another session",
       "stats": {
         "coinsPerHour": "Coins per Hour",
         "todaysEarnings": "Today's Earnings",
