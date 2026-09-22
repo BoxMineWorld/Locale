@@ -1276,6 +1276,75 @@
         "copied": "Copiado",
         "connection": "Conexión"
       }
+    },
+    "mineshop": {
+      "title": "MineShop",
+      "subtitle": "Compra coins para los servidores de Minecraft de la red",
+      "loading": "Cargando servidores...",
+      "empty": "Todavía no hay servidores con tienda",
+      "emptyHint": "Cuando se habilite alguno va a aparecer acá.",
+      "online": "En línea",
+      "offline": "Sin conexión",
+      "players": "jugadores",
+      "from": "Desde",
+      "packages": "paquetes",
+      "view": "Ver paquetes",
+      "unavailable": "No disponible",
+      "back": "Volver a MineShop",
+      "notFound": "No encontramos ese servidor",
+      "java": "IP Java",
+      "bedrock": "IP Bedrock",
+      "version": "Versión",
+      "copied": "Copiado al portapapeles",
+      "packagesTitle": "Elegí tu paquete",
+      "popular": "Más elegido",
+      "bonus": "de regalo",
+      "perCoin": "por coin",
+      "buy": "Comprar",
+      "processing": "Creando el pago...",
+      "method": "Método de pago",
+      "loginRequired": "Iniciá sesión para comprar coins",
+      "nick": {
+        "label": "Tu nick de Minecraft",
+        "placeholder": "Steve",
+        "invalid": "El nick tiene que tener entre 3 y 16 caracteres (letras, números y _)",
+        "checking": "Verificando...",
+        "found": "Jugador encontrado",
+        "online": "Está conectado ahora",
+        "notFound": "Este nick nunca entró al servidor. Igual podés comprar: las coins se entregan cuando entres.",
+        "unchecked": "No se pudo verificar ahora, pero podés seguir."
+      },
+      "confirm": {
+        "title": "Confirmar compra",
+        "text": "Vas a comprar {coins} {currency} para {player} en {server}.",
+        "warning": "Revisá bien el nick: las coins se acreditan en esa cuenta y no se pueden mover después.",
+        "cancel": "Cancelar",
+        "pay": "Ir a pagar",
+        "manual": "Registrar la orden"
+      },
+      "manual": {
+        "title": "Cómo pagar",
+        "created": "La orden quedó registrada. Seguí las instrucciones para pagarla."
+      },
+      "errors": {
+        "noNick": "Escribí tu nick de Minecraft",
+        "failed": "No se pudo iniciar el pago",
+        "connection": "No se pudo conectar con el servidor"
+      },
+      "orders": {
+        "title": "Tus compras",
+        "empty": "Todavía no compraste coins",
+        "player": "Jugador",
+        "pay": "Pagar",
+        "status": {
+          "pending": "Esperando pago",
+          "paid": "Pagada",
+          "delivered": "Entregada",
+          "queued": "Se entrega al entrar",
+          "failed": "Falló la entrega",
+          "expired": "Vencida"
+        }
+      }
     }
   },
   "admin": {
@@ -2245,6 +2314,105 @@
         "total": "Total"
       },
       "pageTitle": "MVPS"
+    },
+    "mineshop": {
+      "pageTitle": "MineShop",
+      "subtitle": "Servidores de Minecraft, paquetes de coins y órdenes",
+      "tabs": {
+        "servers": "Servidores",
+        "orders": "Órdenes",
+        "payments": "Pagos"
+      },
+      "servers": {
+        "title": "Servidores",
+        "add": "Agregar servidor",
+        "edit": "Editar",
+        "delete": "Borrar",
+        "test": "Probar conexión",
+        "testing": "Probando...",
+        "testOk": "Conexión correcta",
+        "testFail": "No se pudo conectar",
+        "empty": "Todavía no hay servidores",
+        "name": "Nombre",
+        "slug": "Slug",
+        "apiUrl": "URL del plugin",
+        "apiToken": "Token del plugin",
+        "tokenHint": "Se guarda cifrado. Dejalo vacío para no cambiarlo.",
+        "currency": "Moneda de CoinsEngine",
+        "currencyLabel": "Nombre visible de la moneda",
+        "javaAddress": "IP Java",
+        "bedrockAddress": "IP Bedrock",
+        "version": "Versión",
+        "description": "Descripción",
+        "icon": "Icono (URL)",
+        "banner": "Banner (URL)",
+        "accentColor": "Color de acento",
+        "enabled": "Vendiendo",
+        "visible": "Visible",
+        "order": "Orden",
+        "save": "Guardar",
+        "saving": "Guardando...",
+        "saved": "Guardado",
+        "deleted": "Servidor borrado",
+        "confirmDelete": "¿Borrar este servidor?",
+        "status": "Estado",
+        "lastCheck": "Último sondeo",
+        "never": "Nunca",
+        "newTitle": "Nuevo servidor",
+        "editTitle": "Editar servidor"
+      },
+      "packages": {
+        "title": "Paquetes",
+        "add": "Agregar paquete",
+        "empty": "Este servidor no tiene paquetes",
+        "coins": "Coins",
+        "bonus": "Bonus",
+        "price": "Precio (USD)",
+        "creemProduct": "Producto de Creem",
+        "creemHint": "Sin esto el paquete solo se puede pagar de forma manual.",
+        "label": "Nombre",
+        "popular": "Destacado",
+        "enabled": "Activo",
+        "order": "Orden",
+        "save": "Guardar",
+        "saved": "Guardado",
+        "deleted": "Paquete borrado",
+        "confirmDelete": "¿Borrar este paquete?",
+        "newTitle": "Nuevo paquete",
+        "editTitle": "Editar paquete"
+      },
+      "orders": {
+        "title": "Órdenes",
+        "empty": "Todavía no hay compras",
+        "search": "Buscar por nick o id",
+        "user": "Usuario",
+        "player": "Jugador",
+        "server": "Servidor",
+        "coins": "Coins",
+        "total": "Total",
+        "method": "Método",
+        "status": "Estado",
+        "date": "Fecha",
+        "attempts": "Intentos",
+        "deliver": "Acreditar",
+        "delivering": "Acreditando...",
+        "delivered": "Acreditada",
+        "deliverFailed": "No se pudo acreditar",
+        "error": "Error",
+        "all": "Todas"
+      },
+      "payments": {
+        "title": "Métodos de pago",
+        "creem": "Tarjeta (Creem)",
+        "manual": "Pago manual",
+        "label": "Etiqueta",
+        "instructions": "Instrucciones",
+        "currency": "Moneda",
+        "tax": "Impuesto (%)",
+        "enabled": "Habilitado",
+        "save": "Guardar",
+        "saved": "Guardado"
+      }
     }
   },
   "titles": {
@@ -2267,7 +2435,10 @@
     "mvps": "MVPS",
     "mvpsBuy": "Contratar MVPS",
     "mvpsManage": "Gestionar MVPS",
-    "adminMvps": "MVPS"
+    "adminMvps": "MVPS",
+    "mineshop": "MineShop",
+    "mineshopServer": "Comprar coins",
+    "adminMineshop": "MineShop"
   },
   "global": {
     "contact": "Contáctanos",
