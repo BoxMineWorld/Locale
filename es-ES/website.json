@@ -48,7 +48,11 @@
       "welcome": "Bienvenido de nuevo a BoxMine",
       "coins": "Monedas de la cuenta",
       "servers": "Servidores activos",
-      "invoices": "Facturas pendientes"
+      "invoices": "Facturas pendientes",
+      "migration": {
+        "title": "Tu cuenta fue migrada. Por seguridad, tu contraseña no se transfirió: establece una contraseña nueva en tu cuenta. También puedes entrar con Discord.",
+        "cta": "Establecer contraseña →"
+      }
     },
     "features": {
       "subtitle": "Sigue nuestra hoja de ruta y envía solicitudes de funciones",
@@ -168,6 +172,8 @@
       "sessionCoins": "Monedas ganadas en la sesión",
       "nextCoinProgress": "Progreso hacia la siguiente moneda",
       "nextCoinText": "Siguiente moneda en",
+      "limitReached": "¡Límite diario alcanzado!",
+      "farmingElsewhere": "Generando en otra sesión",
       "stats": {
         "coinsPerHour": "Monedas por hora",
         "todaysEarnings": "Ganancias de hoy",
