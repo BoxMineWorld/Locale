@@ -1270,6 +1270,75 @@
         "copied": "Copied",
         "connection": "Connection"
       }
+    },
+    "mineshop": {
+      "title": "MineShop",
+      "subtitle": "Buy coins for the network's Minecraft servers",
+      "loading": "Loading servers...",
+      "empty": "No servers have a shop yet",
+      "emptyHint": "As soon as one is enabled it will show up here.",
+      "online": "Online",
+      "offline": "Offline",
+      "players": "players",
+      "from": "From",
+      "packages": "packages",
+      "view": "View packages",
+      "unavailable": "Unavailable",
+      "back": "Back to MineShop",
+      "notFound": "We couldn't find that server",
+      "java": "Java IP",
+      "bedrock": "Bedrock IP",
+      "version": "Version",
+      "copied": "Copied to clipboard",
+      "packagesTitle": "Pick your package",
+      "popular": "Most popular",
+      "bonus": "bonus",
+      "perCoin": "per coin",
+      "buy": "Buy",
+      "processing": "Creating the payment...",
+      "method": "Payment method",
+      "loginRequired": "Sign in to buy coins",
+      "nick": {
+        "label": "Your Minecraft username",
+        "placeholder": "Steve",
+        "invalid": "The username must be 3-16 characters (letters, numbers and _)",
+        "checking": "Checking...",
+        "found": "Player found",
+        "online": "Currently online",
+        "notFound": "This username has never joined the server. You can still buy: the coins are delivered when you join.",
+        "unchecked": "We couldn't check right now, but you can continue."
+      },
+      "confirm": {
+        "title": "Confirm purchase",
+        "text": "You're buying {coins} {currency} for {player} on {server}.",
+        "warning": "Double-check the username: coins go to that account and can't be moved afterwards.",
+        "cancel": "Cancel",
+        "pay": "Go to payment",
+        "manual": "Place the order"
+      },
+      "manual": {
+        "title": "How to pay",
+        "created": "Your order was placed. Follow the instructions to pay for it."
+      },
+      "errors": {
+        "noNick": "Enter your Minecraft username",
+        "failed": "We couldn't start the payment",
+        "connection": "We couldn't reach the server"
+      },
+      "orders": {
+        "title": "Your purchases",
+        "empty": "You haven't bought coins yet",
+        "player": "Player",
+        "pay": "Pay",
+        "status": {
+          "pending": "Awaiting payment",
+          "paid": "Paid",
+          "delivered": "Delivered",
+          "queued": "Delivered on join",
+          "failed": "Delivery failed",
+          "expired": "Expired"
+        }
+      }
     }
   },
   "admin": {
@@ -2239,6 +2308,105 @@
         "total": "Total"
       },
       "pageTitle": "MVPS"
+    },
+    "mineshop": {
+      "pageTitle": "MineShop",
+      "subtitle": "Minecraft servers, coin packages and orders",
+      "tabs": {
+        "servers": "Servers",
+        "orders": "Orders",
+        "payments": "Payments"
+      },
+      "servers": {
+        "title": "Servers",
+        "add": "Add server",
+        "edit": "Edit",
+        "delete": "Delete",
+        "test": "Test connection",
+        "testing": "Testing...",
+        "testOk": "Connection OK",
+        "testFail": "Couldn't connect",
+        "empty": "No servers yet",
+        "name": "Name",
+        "slug": "Slug",
+        "apiUrl": "Plugin URL",
+        "apiToken": "Plugin token",
+        "tokenHint": "Stored encrypted. Leave empty to keep the current one.",
+        "currency": "CoinsEngine currency",
+        "currencyLabel": "Display name of the currency",
+        "javaAddress": "Java IP",
+        "bedrockAddress": "Bedrock IP",
+        "version": "Version",
+        "description": "Description",
+        "icon": "Icon (URL)",
+        "banner": "Banner (URL)",
+        "accentColor": "Accent color",
+        "enabled": "Selling",
+        "visible": "Visible",
+        "order": "Order",
+        "save": "Save",
+        "saving": "Saving...",
+        "saved": "Saved",
+        "deleted": "Server deleted",
+        "confirmDelete": "Delete this server?",
+        "status": "Status",
+        "lastCheck": "Last check",
+        "never": "Never",
+        "newTitle": "New server",
+        "editTitle": "Edit server"
+      },
+      "packages": {
+        "title": "Packages",
+        "add": "Add package",
+        "empty": "This server has no packages",
+        "coins": "Coins",
+        "bonus": "Bonus",
+        "price": "Price (USD)",
+        "creemProduct": "Creem product",
+        "creemHint": "Without it the package can only be paid manually.",
+        "label": "Name",
+        "popular": "Featured",
+        "enabled": "Active",
+        "order": "Order",
+        "save": "Save",
+        "saved": "Saved",
+        "deleted": "Package deleted",
+        "confirmDelete": "Delete this package?",
+        "newTitle": "New package",
+        "editTitle": "Edit package"
+      },
+      "orders": {
+        "title": "Orders",
+        "empty": "No purchases yet",
+        "search": "Search by username or id",
+        "user": "User",
+        "player": "Player",
+        "server": "Server",
+        "coins": "Coins",
+        "total": "Total",
+        "method": "Method",
+        "status": "Status",
+        "date": "Date",
+        "attempts": "Attempts",
+        "deliver": "Credit",
+        "delivering": "Crediting...",
+        "delivered": "Credited",
+        "deliverFailed": "Couldn't credit",
+        "error": "Error",
+        "all": "All"
+      },
+      "payments": {
+        "title": "Payment methods",
+        "creem": "Card (Creem)",
+        "manual": "Manual payment",
+        "label": "Label",
+        "instructions": "Instructions",
+        "currency": "Currency",
+        "tax": "Tax (%)",
+        "enabled": "Enabled",
+        "save": "Save",
+        "saved": "Saved"
+      }
     }
   },
   "titles": {
@@ -2261,7 +2429,10 @@
     "mvps": "MVPS",
     "mvpsBuy": "Buy a MVPS",
     "mvpsManage": "Manage MVPS",
-    "adminMvps": "MVPS"
+    "adminMvps": "MVPS",
+    "mineshop": "MineShop",
+    "mineshopServer": "Buy coins",
+    "adminMineshop": "MineShop"
   },
   "global": {
     "contact": "Contact us",
