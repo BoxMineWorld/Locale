@@ -2361,7 +2361,8 @@
         "lastCheck": "Last check",
         "never": "Never",
         "newTitle": "New server",
-        "editTitle": "Edit server"
+        "editTitle": "Edit server",
+        "untested": "Not tested"
       },
       "packages": {
         "title": "Packages",
