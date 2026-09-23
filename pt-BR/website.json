@@ -2359,7 +2359,8 @@
         "lastCheck": "Última checagem",
         "never": "Nunca",
         "newTitle": "Novo servidor",
-        "editTitle": "Editar servidor"
+        "editTitle": "Editar servidor",
+        "untested": "Não testado"
       },
       "packages": {
         "title": "Pacotes",
