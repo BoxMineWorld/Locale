@@ -2549,16 +2549,16 @@
           "buttonText": "Get Started"
         },
         {
-          "title": "Cloud VPS",
-          "description": "Virtual servers with full root access",
+          "title": "MVPS (VPS in Miami)",
+          "description": "VPS with a shared IP and published ports, up to 16 GB of RAM",
           "features": [
-            "KVM Virtualization",
-            "IPv4/IPv6",
-            "Control Panel",
-            "Snapshots"
+            "Miami, low latency to LATAM",
+            "Up to 16 GB RAM / 20 vCPU",
+            "5 to 25 published ports",
+            "Full root access"
           ],
-          "price": "From $10/mo",
-          "buttonText": "Unavailable"
+          "price": "From $3.50/mo",
+          "buttonText": "Get an MVPS"
         }
       ],
       "ctaTitle": "Need something custom?",
