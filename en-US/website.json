@@ -2441,7 +2441,9 @@
     "adminMvps": "MVPS",
     "mineshop": "MineShop",
     "mineshopServer": "Buy coins",
-    "adminMineshop": "MineShop"
+    "adminMineshop": "MineShop",
+    "games": "Game servers",
+    "adminGames": "Game servers"
   },
   "global": {
     "contact": "Contact us",

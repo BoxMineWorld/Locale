@@ -2439,7 +2439,9 @@
     "adminMvps": "MVPS",
     "mineshop": "MineShop",
     "mineshopServer": "Comprar coins",
-    "adminMineshop": "MineShop"
+    "adminMineshop": "MineShop",
+    "games": "Servidores de juego",
+    "adminGames": "Servidores de juego"
   },
   "global": {
     "contact": "Contáctanos",
