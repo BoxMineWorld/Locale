@@ -2483,11 +2483,11 @@
           "buttonText2": "Comenzar Ahora"
         },
         {
-          "title": "Cloud VPS",
-          "subtitle": "Total Control y Flexibilidad",
-          "description": "VPS completamente administrados con root access. Elige tu sistema operativo y configura a tu gusto.",
-          "buttonText": "Configurar VPS (No disponible)",
-          "buttonText2": "Más Información"
+          "title": "MVPS en Miami",
+          "subtitle": "Tu VPS desde $3.50/mes",
+          "description": "VPS con root, IP compartida y puertos publicados, hasta 16 GB de RAM y 20 vCPU. Baja latencia hacia Latinoamérica y sin permanencia.",
+          "buttonText": "Ver planes MVPS",
+          "buttonText2": "Obtener MVPS"
         }
       ],
       "features": [
