@@ -2547,16 +2547,16 @@
           "buttonText": "Contratar"
         },
         {
-          "title": "VPS Cloud",
-          "description": "Servidores virtuais com acesso root completo",
+          "title": "MVPS (VPS em Miami)",
+          "description": "VPS com IP compartilhado e portas publicadas, até 16 GB de RAM",
           "features": [
-            "Virtualização KVM",
-            "IPv4/IPv6",
-            "Painel de Controle",
-            "Snapshots"
+            "Miami, baixa latência para a LATAM",
+            "Até 16 GB RAM / 20 vCPU",
+            "5 a 25 portas publicadas",
+            "Acesso root completo"
           ],
-          "price": "A partir de $10/mês",
-          "buttonText": "Indisponível"
+          "price": "A partir de $3.50/mês",
+          "buttonText": "Contratar MVPS"
         }
       ],
       "ctaTitle": "Precisa de algo personalizado?",
